@@ -84,7 +84,7 @@ ________________________________________
 3. Open a new terminal tab by clicking the "+" icon in the tab bar.
 4. In the new tab, run the following command to start an Ubuntu shell:
    ```
-   ubuntu
+   wsl -d Ubuntu
    ```
 5. Return to the first tab (where the terminal is within your UI folder).
 
