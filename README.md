@@ -112,7 +112,7 @@ You need to open your port 3000 if you want to access your LLM via the internet.
 
 1. Open both port 3000 and 11434 in TCP.
 - Port 11434 in TCP is used for the Ollama API.
-- Port 3000 in TCP is used for the UI.)
+- Port 3000 in TCP is used for the UI.
 
 If you need to provide API documentation, you can use the following link:
 
@@ -121,6 +121,6 @@ If you need to provide API documentation, you can use the following link:
 
 -This tutorial was written by WeConnected from CtrlAIdel with the help with Subie(Developper)
 
-Writer: https://www.youtube.com/@ctrl_ai_del , with the help of Llama & ChatGPT
+Writer: https://www.youtube.com/@ctrl_ai_del  (With the help of Llama & ChatGPT)
 
-Developer: https://github.com/Subie1
+Developer: https://github.com/Subie1  (He teached me how to install Mixtral, and made some corrections to my guide!)
