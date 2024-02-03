@@ -122,4 +122,4 @@ If you need to provide API documentation, you can use the following link:
 -This tutorial was written by WeConnected from CtrlAIdel with the help with Subie(Developper)
 
 Writer: https://www.youtube.com/@ctrl_ai_del , with the help of Llama & ChatGPT
-Developer: https://github.com/Subie1
+& Developer: https://github.com/Subie1
