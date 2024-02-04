@@ -1,7 +1,8 @@
 # WSL Installation and Setting Up Ollama
 ## Install Windows Subsystem for Linux (WSL)
 
-1. **Check if WSL is Installed:**
+1. **Installation process for WSL:**
+   
    - Open PowerShell as an administrator (Win + S > PowerShell > Run as administrator).
    - Run the command:
      ```powershell
