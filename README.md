@@ -54,89 +54,17 @@ Configure WSL for Ollama by following these steps:
    wsl -d Ubuntu
    ```
 
-## 4. Initialize Ollama UI
+## 4. Initialize ollama-webui
 
-Prepare the Ollama User Interface (UI) for use with the following instructions:
 
-### 4.1. Create UI Folder:
 
-1. Create a folder, e.g., "Ollama UI."
-2. Right-click inside the folder and select "Open in terminal."
 
-### 4.2. Clone Ollama UI Repository:
+THIS STEP NEEDS TO BE UPDATED. SORRY
 
-1. Clone the GitHub repository with this command:
 
-   ```shell
-   git clone https://github.com/ivanfioravanti/chatbot-ollama.git .
-   ```
 
-2. Install dependencies:
 
-   ```shell
-   npm ci
-   ```
 
-### 4.3. Setup and Serve Ollama:
-
-1. Open a new terminal tab by clicking the "+" icon and switch to Ubuntu:
-
-   ```shell
-   wsl -d Ubuntu
-   ```
-
-2. Serve Ollama:
-
-   ```shell
-   ollama serve
-   ```
-
-## 5. Launch Ollama UI
-
-Run the Ollama UI with these instructions:
-
-### 5.1. Start Development Server:
-
-1. In the first terminal tab, run:
-
-   ```shell
-   npm run dev
-   ```
-
-2. Allow network access if prompted.
-
-### 5.2. Access UI:
-
-Ctrl + click the link displayed in the terminal to open the Ollama UI.
-
-## Start Your Mixtral Server
-
-Here's how to start the local Mistral server on your PC:
-
-1. Navigate to the "UI folder" where you have your Ollama UI files.
-2. Right-click inside the folder to open a terminal within the folder.
-3. Open a new terminal tab by clicking the "+" icon in the tab bar.
-4. In the new tab, run the following command to start an Ubuntu shell:
-
-   ```
-   wsl -d Ubuntu
-   ```
-
-5. Return to the first tab (where the terminal is within your UI folder).
-
-To initialize the application:
-
-6. In the first tab, if needed (usually not required), install the necessary Node.js dependencies by running:
-
-   ```
-   npm i
-   ```
-
-7. Start the development server with the following command:
-
-   ```
-   npm run dev
-   ```
 
 ## How to Access Your LLM (Mistral)
 
