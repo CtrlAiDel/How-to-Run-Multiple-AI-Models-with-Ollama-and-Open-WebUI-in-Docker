@@ -80,6 +80,8 @@ ________________________________________
 
 10. **How to Open:**
 
+How to start the local mistral server on your pc.
+
 1. Navigate to the "UI folder" where you have your Ollama UI files.
 2. Right-click inside the folder to open a terminal within the folder.
 3. Open a new terminal tab by clicking the "+" icon in the tab bar.
@@ -99,6 +101,12 @@ To initialize the application:
    ```
    npm run dev
    ```
+
+________________________________________
+
+11. **How to access your local LLM (mistral):**
+
+http://localhost:3000/
 
 **Using Voice-to-Text on Windows:**
 
