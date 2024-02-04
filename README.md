@@ -106,10 +106,21 @@ To utilize voice-to-text functionality, simply press Win+H to access the menu, a
 
 **How to Close a Node:**
 
-If you encounter issues with the LLM (Language Model) not connecting on port 3000 and switching to ports like 3001 or 3002:
+If you receive the following message while encountering issues with the LLM (Language Model) not connecting on port 3000 and switching to ports like 3001 or 3002:
 
-1. Open your task manager.
-2. Locate and terminate any processes that start with "node."
+```
+⚠ Port 3000 is in use, trying 3001 instead.
+[Error: EPERM: operation not permitted, open 'C:\Users\Utilisateur\Desktop\WhitelistNothers\Ollama UI\.next\trace'] {
+  errno: -4048,
+  code: 'EPERM',
+  syscall: 'open',
+  path: 'C:\\Users\\Utilisateur\\Desktop\\WhitelistNothers\\Ollama UI\\.next\\trace'
+}
+▲ Next.js 13.5.4
+- Local:        http://localhost:3001
+```
+
+It means that port 3000 is already in use, so the system is attempting to use ports 3001 or 3002 as an alternative. 
 
 **Port Forwarding:**
 
