@@ -99,6 +99,10 @@ To initialize the application:
    npm run dev
    ```
 
+**Using Voice-to-Text on Windows:**
+
+To utilize voice-to-text functionality, simply press Win+H to access the menu, and press Win+H again to initiate voice recording, converting your spoken words into text for direct input into the AI system.
+
 **How to Close a Node:**
 
 If you encounter issues with the LLM (Language Model) not connecting on port 3000 and switching to ports like 3001 or 3002:
