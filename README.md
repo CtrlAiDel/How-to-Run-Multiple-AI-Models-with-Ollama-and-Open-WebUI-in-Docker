@@ -78,7 +78,7 @@
 The numbering is now consistent and accurate for each set of instructions.
 ________________________________________
 
-**How to Open:**
+10. **How to Open:**
 
 1. Navigate to the "UI folder" where you have your Ollama UI files.
 2. Right-click inside the folder to open a terminal within the folder.
@@ -104,9 +104,11 @@ To initialize the application:
 
 To utilize voice-to-text functionality, simply press Win+H to access the menu, and press Win+H again to initiate voice recording, converting your spoken words into text for direct input into the AI system.
 
-**How to Close a Node:**
+**How to Close a Node / server openening on port 3001, 3002:**
 
-If you receive the following message while encountering issues with the LLM (Language Model) not connecting on port 3000 and switching to ports like 3001 or 3002:
+During the startup process, if you encounter an error message stating that it cannot establish a connection on port 3000 and consequently switches to ports like 3001 or 3002, this behavior is undesirable. To resolve this issue, you will need to access the task manager and terminate all instances of Node.js JavaScript Runtime. Afterward, you can restart the server by running the command "npm run dev."
+
+During the startup process, if you encounter an error message like the following, this is an undersirable situation(Continue to read above the error):
 
 ```
 ⚠ Port 3000 is in use, trying 3001 instead.
@@ -120,7 +122,7 @@ If you receive the following message while encountering issues with the LLM (Lan
 - Local:        http://localhost:3001
 ```
 
-It means that port 3000 is already in use, so the system is attempting to use ports 3001 or 3002 as an alternative. 
+To resolve this issue, you will need to access the task manager and terminate all instances of Node.js JavaScript Runtime. Afterward, you can restart the server by replicating the instruction of step 10.
 
 **Port Forwarding:**
 
