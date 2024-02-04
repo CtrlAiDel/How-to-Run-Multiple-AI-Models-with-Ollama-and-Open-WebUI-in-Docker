@@ -78,7 +78,7 @@
 The numbering is now consistent and accurate for each set of instructions.
 ________________________________________
 
-10. **How to Open:**
+## **Start your mixtral server**
 
 How to start the local mistral server on your pc.
 
@@ -104,9 +104,27 @@ To initialize the application:
 
 ________________________________________
 
-11. **How to access your local LLM (mistral):**
+## **How to access your LLM (mistral) in local :**
 
-http://localhost:3000/
+Visit: http://localhost:3000/
+
+________________________________________
+
+## **How to access your LLM (mistral) online :**
+
+**Port Forwarding:**
+
+You need to open your port 3000 if you want to access your LLM via the internet. (Your ip:3000 will connect you to your LLM)
+
+1. Open both port 3000 and 11434 in TCP.
+- Port 11434 in TCP is used for the Ollama API.
+- Port 3000 in TCP is used for the UI.
+
+Visit: http://"Your ip":3000 (This is probably not secure at all, don't share this too much either cause people will use computing power of your PC for their request to the LLM.
+
+________________________________________
+
+## **Others :**
 
 **Using Voice-to-Text on Windows:**
 
@@ -131,16 +149,6 @@ During the startup process, if you encounter an error message like the following
 ```
 
 To resolve this issue, you will need to access the task manager and terminate all instances of Node.js JavaScript Runtime. Afterward, you can restart the server by replicating the instruction of step 10.
-
-**Port Forwarding:**
-
-You need to open your port 3000 if you want to access your LLM via the internet. (Your ip:3000 will connect you to your LLM)
-
-1. Open both port 3000 and 11434 in TCP.
-- Port 11434 in TCP is used for the Ollama API.
-- Port 3000 in TCP is used for the UI.
-
-If you need to provide API documentation, you can use the following link:
 
 [Ollama API Documentation](https://github.com/ollama/ollama/blob/main/docs/api.md)
 
