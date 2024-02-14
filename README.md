@@ -1,102 +1,76 @@
-# WSL Installation and Ollama Setup Guide
+These steps might be deleted: 
+'ollama run mistral'
+'ollama run llava'
 
-## 1. Install Windows Subsystem for Linux (WSL)
+Mixtral is the AI
+Mistral is a fork of the AI
+nothing from ollama is internet compatible
+(Note for self:I'm not sure about those two line, this installs them manually via CLI - Powershell, but can I skip this step and go directly for the docker destop and the cmds..) 
 
-To set up the Windows Subsystem for Linux (WSL), follow these steps:
+## Comprehensive Guide to Installing WSL, Ollama, and Using Docker with Enhanced Hardware Advisory
 
-### 1.1. Installation Process for WSL:
+To ensure a seamless experience in setting up WSL, deploying Docker, and utilizing Ollama for AI-driven image generation and analysis, it's essential to operate on a powerful PC. Adequate system resources are crucial for the smooth operation and optimal performance of these tasks. We advise users to confirm their systems are well-equipped to handle these processes efficiently before proceeding with the following steps.
 
-1. Open PowerShell as an administrator (Win + S > PowerShell > Run as administrator).
-2. Run the following command:
-   
+### **Enabling WSL and Docker Setup**
+
+1. **Enable Windows Subsystem for Linux (WSL)**:
+   - Open PowerShell as Administrator (`Win + S`, search for PowerShell, right-click to run as administrator).
+   - Execute: `wsl --install`.
+   - Restart your computer if required.
+
+2. **Install Docker Desktop**:
+   - Download and install from the official Docker website.
+
+3. **Verify Docker Desktop**:
+   - Ensure Docker Desktop is running correctly on your system.
+
+### **Deploying Ollama and Ollama UI**
+
+1. **Launch PowerShell**:
+   - Access by pressing `Win + R`, typing `powershell`, and pressing Enter.
+
+2. **Deploy Ollama UI**:
    ```powershell
-   wsl --install
+   docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v ollama-webui:/app/backend/data --name ollama-webui --restart always ghcr.io/ollama-webui/ollama-webui:main
    ```
 
-## 2. Install Ollama
-
-Install Ollama on your system using these instructions:
-
-### 2.1. Ollama Installation:
-
-1. In the same PowerShell window, execute the following command:
-
-   ```shell
-   curl https://ollama.ai/install.sh | sh
+3. **Start Ollama**:
+   ```powershell
+   docker run -d --restart always --gpus all -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
    ```
 
-### 2.2. Update Ollama Command (Fix Version):
+4. **Initialization Pause**:
+   - Allow a short period for Docker containers to set up before proceeding.
 
-Replace the example command with the correct version as needed.
+### **Accessing and Using Ollama UI**
 
-## 3. Set Up WSL for Ollama
+1. **Open Web Browser**:
+   - Navigate to `http://localhost:3000/` to access the Ollama UI.
 
-Configure WSL for Ollama by following these steps:
+2. **Interacting with Ollama UI**:
+   - Choose a model from the dropdown, e.g., "llava".
+   - Upload images or input commands for AI to analyze or generate content.
 
-### 3.1. Access WSL:
+### **Advanced Configuration for Stable Diffusion**
 
-1. Open PowerShell (administrator privileges not required).
-2. Enter the command:
+For those looking to delve deeper with Stable Diffusion for AI image generation, note that this requires an even more powerful PC setup. The computational demands are significantly higher, necessitating a high-performance CPU, ample RAM, and a robust GPU. For a comprehensive guide on setting up Stable Diffusion, including hardware specifications, refer to this [YouTube Guide](https://www.youtube.com/watch?v=A0xUnf5302k&pp=ygUXbG9jYWwgaW1hZ2UgIHVuY2Vuc29yZWQ%3D).
 
-   ```shell
-   wsl
-   ```
+### **LLM (Mistral) Access and Tips**
 
-3. Check installed WSL distributions:
+- **Local LLM Access**: Navigate to `http://localhost:3000/`.
+- **Online LLM Access via Port Forwarding**:
+   - Open both port 3000 and 11434 in TCP for UI and API respectively.
+   - Access via `http://"Your IP":3000`.
 
-   ```shell
-   wsl -l -v
-   ```
+### **Voice-to-Text on Windows**
 
-4. Start Ubuntu:
+- **Use** `Win+H` for voice-to-text functionality.
 
-   ```shell
-   wsl -d Ubuntu
-   ```
+### **Resources and Credits**
 
-## 4. Initialize ollama-webui
+- **API Documentation**: [Ollama API Documentation](https://github.com/ollama/ollama/blob/main/docs/api.md).
+- **Tutorial Creators**: WeConnected from CtrlAIdel, with assistance from Subie (Developer).
+- **Writer's YouTube**: [CtrlAI Del](https://www.youtube.com/@ctrl_ai_del).
+- **Developer's GitHub**: [Subie1](https://github.com/Subie1).
 
-
-
-
-THIS STEP NEEDS TO BE UPDATED. SORRY
-
-
-
-
-
-
-## How to Access Your LLM (Mistral)
-
-To access your LLM (Mistral) locally, visit: http://localhost:3000/
-
-For online access, follow these steps for port forwarding:
-
-### Port Forwarding:
-
-To access your LLM via the internet, open port 3000 and 11434 in TCP:
-
-1. Open both port 3000 and 11434 in TCP. Port 11434 in TCP is used for the Ollama API, while port 3000 in TCP is used for the UI.
-   
-   Visit: http://"Your IP":3000 (Please note that this may not be secure; avoid sharing it extensively as it may allow others to use your PC's computing power for their requests to the LLM).
-
-## Other Tips:
-
-### Using Voice-to-Text on Windows:
-
-To utilize voice-to-text functionality, press Win+H to access the menu, and press Win+H again to initiate voice recording, converting your spoken words into text for direct input into the AI system.
-
-### How to Close a Node/Server on Port 3001 or 3002:
-
-If you encounter an error during startup that switches to ports like 3001 or 3002, follow these steps:
-
-1. Access the task manager and terminate all instances of Node.js JavaScript Runtime.
-2. Restart the server by running the command "npm run dev."
-
-For detailed API documentation, visit the [Ollama API Documentation](https://github.com/ollama/ollama/blob/main/docs/api.md).
-
-This tutorial was created by WeConnected from CtrlAIdel, with assistance from Subie (Developer).
-
-Writer's YouTube channel: [CtrlAI Del](https://www.youtube.com/@ctrl_ai_del)
-
-Developer's GitHub(The friend who helped me installed al of this, and made this tutorial possible: [Subie1](https://github.com/Subie1)
+This guide aims to consolidate all necessary steps for efficiently setting up WSL, Docker, Ollama, and navigating various functionalities. It emphasizes the importance of a powerful computing environment for a smooth and productive experience in leveraging AI models for image generation and analysis.
