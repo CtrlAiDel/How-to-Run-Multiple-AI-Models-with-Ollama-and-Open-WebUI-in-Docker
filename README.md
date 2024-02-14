@@ -64,7 +64,7 @@ For those looking to delve deeper with Stable Diffusion for AI image generation,
 
 ### **Voice-to-Text on Windows**
 
-- **Use** `Win+H` for voice-to-text functionality.
+- **Use** `Win+H` for **voice-to-text** functionality.
 
 ### **Resources and Credits**
 
@@ -73,4 +73,7 @@ For those looking to delve deeper with Stable Diffusion for AI image generation,
 - **Writer's YouTube**: [CtrlAI Del](https://www.youtube.com/@ctrl_ai_del).
 - **Developer's GitHub**: [Subie1](https://github.com/Subie1).
 
-This guide aims to consolidate all necessary steps for efficiently setting up WSL, Docker, Ollama, and navigating various functionalities. It emphasizes the importance of a powerful computing environment for a smooth and productive experience in leveraging AI models for image generation and analysis.
+This guide aims to consolidate all necessary steps for efficiently setting up **WSL, Docker, Ollama**, and navigating various functionalities. It emphasizes the importance of a powerful computing environment for a smooth and productive experience in leveraging AI models for image generation and analysis.
+
+
+-WeConnected aka FreakingClowning
