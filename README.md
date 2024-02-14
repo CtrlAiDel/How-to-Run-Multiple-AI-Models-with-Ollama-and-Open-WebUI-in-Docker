@@ -1,12 +1,3 @@
-These steps might be deleted: 
-'ollama run mistral'
-'ollama run llava'
-
-Mixtral is the AI
-Mistral is a fork of the AI
-nothing from ollama is internet compatible
-(Note for self:I'm not sure about those two line, this installs them manually via CLI - Powershell, but can I skip this step and go directly for the docker destop and the cmds..) 
-
 ## Comprehensive Guide to Installing WSL, Ollama, and Using Docker with Enhanced Hardware Advisory
 
 To ensure a seamless experience in setting up WSL, deploying Docker, and utilizing Ollama for AI-driven image generation and analysis, it's essential to operate on a powerful PC. Adequate system resources are crucial for the smooth operation and optimal performance of these tasks. We advise users to confirm their systems are well-equipped to handle these processes efficiently before proceeding with the following steps.
