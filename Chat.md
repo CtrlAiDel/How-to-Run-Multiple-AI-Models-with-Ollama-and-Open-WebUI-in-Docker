@@ -31,7 +31,7 @@ Check that Docker Desktop is running before you proceed.
 
 2. **Deploy Ollama:** Then, start the Ollama container with this command, enabling it to use all available GPUs:
    ```powershell
-   docker run -d --gpus=all -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
+   docker run -d --restart always --gpus all -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
    ```
 
 #### **Step 3.5: Allow Time for Installation**
