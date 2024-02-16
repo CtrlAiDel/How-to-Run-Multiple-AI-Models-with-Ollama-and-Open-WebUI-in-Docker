@@ -1,8 +1,3 @@
-ollama run mistral
-These steps might be deleted: 
-'ollama run mistral'
-'ollama run llava'
-
 Mixtral is the AI
 Mistral is a fork of the AI
 nothing from ollama is internet compatible
