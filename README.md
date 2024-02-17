@@ -1,4 +1,4 @@
-## Comprehensive Guide to Installing WSL, Ollama, and Using Docker
+## Comprehensive Guide to Installing WSL, Ollama, and Using Docker with Enhanced Hardware Advisory
 
 To ensure a seamless experience in setting up WSL, deploying Docker, and utilizing Ollama for AI-driven image generation and analysis, it's essential to operate on a powerful PC. Adequate system resources are crucial for the smooth operation and optimal performance of these tasks. We advise users to confirm their systems are well-equipped to handle these processes efficiently before proceeding with the following steps.
 
@@ -10,7 +10,7 @@ To ensure a seamless experience in setting up WSL, deploying Docker, and utilizi
    - Restart your computer if required.
 
 2. **Install Docker Desktop**:
-   - Download and install from the official Docker website. `https://www.docker.com/products/docker-desktop/`
+   - Download and install from the official Docker website.
 
 3. **Verify Docker Desktop**:
    - Ensure Docker Desktop is running correctly on your system.
@@ -60,6 +60,7 @@ For those looking to delve deeper with Stable Diffusion for AI image generation,
 ### **Resources and Credits**
 
 - **API Documentation**: [Ollama API Documentation](https://github.com/ollama/ollama/blob/main/docs/api.md).
+- **Web-User-Interface Documentation**: [Ollama WebUI Documentation](https://github.com/open-webui/open-webui).
 - **Tutorial Creators**: WeConnected from CtrlAIdel, with assistance from Subie (Developer).
 - **Writer's YouTube**: [CtrlAI Del](https://www.youtube.com/@ctrl_ai_del).
 - **Developer's GitHub**: [Subie1](https://github.com/Subie1).
