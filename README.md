@@ -44,7 +44,9 @@ To ensure a seamless experience in setting up WSL, deploying Docker, and utilizi
 
 ### **Advanced Configuration for Stable Diffusion**
 
-For those looking to delve deeper with Stable Diffusion for AI image generation, note that this requires an even more powerful PC setup. The computational demands are significantly higher, necessitating a high-performance CPU, ample RAM, and a robust GPU. For a comprehensive guide on setting up Stable Diffusion, including hardware specifications, refer to this [YouTube Guide](https://www.youtube.com/watch?v=A0xUnf5302k&pp=ygUXbG9jYWwgaW1hZ2UgIHVuY2Vuc29yZWQ%3D).
+For those looking to delve deeper with Stable Diffusion for AI image generation, note that this requires an even more powerful PC setup. The computational demands are significantly higher, necessitating a high-performance CPU, ample RAM, and a robust GPU. A minimum of 12GB of VRAM on the GPU is recommended.
+
+For a comprehensive guide on setting up Stable Diffusion, including hardware specifications, refer to this: [YouTube Guide](https://www.youtube.com/watch?v=A0xUnf5302k&pp=ygUXbG9jYWwgaW1hZ2UgIHVuY2Vuc29yZWQ%3D).
 
 ### **LLM (Mistral) Access and Tips**
 
