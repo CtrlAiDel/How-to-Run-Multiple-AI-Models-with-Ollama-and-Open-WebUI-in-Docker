@@ -42,7 +42,7 @@ To ensure a seamless experience in setting up WSL, deploying Docker, and utilizi
    - Choose a model from the dropdown, e.g., "llava".
    - Upload images or input commands for AI to analyze or generate content.
 
-#### Deleting Containers
+### Deleting Containers
 1. **Access Docker Desktop:** Open the Docker Desktop application and navigate to the **Containers** tab.
 2. **Delete Specific Containers:** To clean your setup, remove the following containers:
    - `ollama-web-ui`
