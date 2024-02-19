@@ -98,7 +98,7 @@ To ensure a seamless experience in setting up WSL, deploying Docker, and utilizi
 
 
 
-### Locating Ollama Model Files
+### Locating Ollama Model Files in local, if you need to delete them
 
 - **Accessing Model Files:** Press `Win + R`, type `\\wsl$\docker-desktop-data\data\docker\volumes`, and press Enter to open the location in File Explorer where Docker volumes, including those for Ollama, are stored.
 
