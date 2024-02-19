@@ -59,6 +59,7 @@ To ensure a seamless experience in setting up WSL, deploying Docker, and utilizi
 
 
 
+
 ### Steps for Updating Ollama and Ollama Web UI
 
 1. **Ensure Essential Images Are Retained**:
