@@ -41,28 +41,40 @@ To ensure a seamless experience in setting up WSL, deploying Docker, and utilizi
 2. **Interacting with Ollama UI**:
    - Choose a model from the dropdown, e.g., "llava".
    - Upload images or input commands for AI to analyze or generate content.
+   - 
+(THE POINT 2.0 needs to be rewriten)
 
-### Deleting Containers
-1. **Access Docker Desktop:** Open the Docker Desktop application and navigate to the **Containers** tab.
-2. **Delete Specific Containers:** To clean your setup, remove the following containers:
-   - `ollama-web-ui`
-   - `ollama`
-   Inside the Docker Desktop application, under the **Containers** tab, you can delete these containers using the interface provided. Alternatively, for a manual approach, open PowerShell by pressing `Win + R`, typing `powershell`, and hitting Enter. Then, execute:
-   ```powershell
-   docker rm -f <container_name_or_id>
-   ```
+3. **Online LLM Access via Port Forwarding**:
+   - Open both port 3000 and 11434 in TCP for UI and API respectively.
+   - Access via `http://"Your IP":3000`.
+
+### Updating Ollama and Ollabe Web UI: Docker Desktop Guide
+
+To update the Ollama and Ollabe web UI, follow these consolidated steps for managing Docker containers and images:
+
+### Accessing and Managing Containers:
+1. **Open Docker Desktop** and navigate to the **Containers** tab.
+2. To prepare for updates, delete the `ollama-web-ui` and `ollama` containers. This can be done within the Docker Desktop interface under the **Containers** tab. For those preferring a manual approach:
+   - Open PowerShell by pressing `Win + R`, typing `powershell`, and hitting Enter.
+   - Execute the command: 
+     ```powershell
+     docker rm -f <container_name_or_id>
+     ```
    Replace `<container_name_or_id>` with the actual name or ID of the container you wish to delete.
 
-### Managing Docker Images
-1. **Switch to Images Tab:** Inside the Docker Desktop application, select the **Images** tab.
-2. **Keep Certain Images:** Make sure the following images are not deleted:
+### Managing Docker Images:
+1. Switch to the **Images** tab in Docker Desktop.
+2. Ensure the following images remain untouched, as they're essential for the updated environment:
    - `ghcr.io/ollama-webui/ollama-webui:main`
    - `ollama/ollama:latest`
-3. **Remove Untagged Images:** Locate any `ollama-webui` or `ollama` images tagged with `<none>` in the **Images** tab of Docker Desktop. These can be removed for housekeeping. To delete them manually, open PowerShell (via `Win + R`, then `powershell`) and run:
-   ```powershell
-   docker rmi <image_id>
-   ```
-   Substitute `<image_id>` with the ID of the image you aim to remove.
+3. Remove any `ollama-webui` or `ollama` images tagged with `<none>` for a cleaner setup. To manually delete these images:
+   - Use PowerShell (accessed via `Win + R` then typing `powershell`) and run:
+     ```powershell
+     docker rmi <image_id>
+     ```
+   Substitute `<image_id>` with the ID of the untagged image you wish to remove.
+
+This streamlined guide ensures your Docker environment is optimally prepared for installing updates to the Ollama and Ollabe web UI components.
 
 ### Reinstalling Ollama UI and Ollama
 1. **Ollama UI Installation:** Open PowerShell (shortcut `Win + R` followed by typing `powershell`) and enter the following command to set up the Ollama UI container:
@@ -86,13 +98,6 @@ This guide simplifies the management of Docker resources for the Ollama applicat
 For those looking to delve deeper with Stable Diffusion for AI image generation, note that this requires an even more powerful PC setup. The computational demands are significantly higher, necessitating a high-performance CPU, ample RAM, and a robust GPU. A minimum of 12GB of VRAM on the GPU is recommended.
 
 For a comprehensive guide on setting up Stable Diffusion, refer to this: [YouTube Guide](https://www.youtube.com/watch?v=A0xUnf5302k&pp=ygUXbG9jYWwgaW1hZ2UgIHVuY2Vuc29yZWQ%3D).
-
-### **LLM (Mistral) Access and Tips**
-
-- **Local LLM Access**: Navigate to `http://localhost:3000/`.
-- **Online LLM Access via Port Forwarding**:
-   - Open both port 3000 and 11434 in TCP for UI and API respectively.
-   - Access via `http://"Your IP":3000`.
 
 ### **Voice-to-Text on Windows**
 
