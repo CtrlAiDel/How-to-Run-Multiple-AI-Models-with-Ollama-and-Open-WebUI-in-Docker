@@ -49,8 +49,9 @@ To ensure a seamless experience in setting up WSL, deploying Docker, and utilizi
    - By following the explanation from step 0 or 1 depending if you want to access in local, online or both(like me).
 
 3. **Discovering Model Files**:
-   - To initiate AI analysis or content creation, go to the left-side menu, choose "Modelfiles", and then click on "Discover a Modelfile" to proceed.
-   - Then select a desired model from the dropdown menu at the top of the page, such as "llava".
+   - To initiate AI analysis or content creation, go to the left-side menu, choose "Modelfiles", and then click on "Discover a Modelfile" to proceed. This is the link to the: [Models link in local](http://localhost:3000/modelfiles/). 
+   - At the bottom of last link, you can access: [Openwebui aka Ollama Web UI](https://openwebui.com/). And from there you can download new AI models for a bunch of funs!
+   - Then select a desired model from the dropdown menu at the top of the main page, such as "llava".
    - Upload images or input commands for AI to analyze or generate content.
 
 4. **Important Consideration for Sharing Your Link**:
@@ -85,6 +86,7 @@ To ensure a seamless experience in setting up WSL, deploying Docker, and utilizi
 
 
 ### Reinstalling Ollama UI and Ollama
+
 1. **Ollama UI Installation:** Open PowerShell (shortcut `Win + R` followed by typing `powershell`) and enter the following command to set up the Ollama UI container:
    ```powershell
    docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v ollama-webui:/app/backend/data --name ollama-webui --restart always ghcr.io/ollama-webui/ollama-webui:main
@@ -107,6 +109,8 @@ This guide simplifies the management of Docker resources for the Ollama applicat
 For those looking to delve deeper with Stable Diffusion for AI image generation, note that this requires an even more powerful PC setup. The computational demands are significantly higher, necessitating a high-performance CPU, ample RAM, and a robust GPU. A minimum of 12GB of VRAM on the GPU is recommended.
 
 For a comprehensive guide on setting up Stable Diffusion, refer to this: [YouTube Guide](https://www.youtube.com/watch?v=A0xUnf5302k&pp=ygUXbG9jYWwgaW1hZ2UgIHVuY2Vuc29yZWQ%3D).
+
+
 
 ### **Resources and Credits**
 
