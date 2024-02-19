@@ -44,12 +44,13 @@ To ensure a seamless experience in setting up WSL, deploying Docker, and utilizi
    
 The process to engage with the OpenWebUI/Ollama UI is straightforward and user-centric:
 
-1. From the dropdown menu, pick a model that suits your needs, such as "llava".
-2. To initiate AI analysis or content creation, navigate to the left-side menu and opt for "Modelfiles". Following this, click on "Discover a Modelfile" to proceed.
-
-3. **Online LLM Access via Port Forwarding**:
+1. **Online LLM Access via Port Forwarding**:
    - Open both port 3000 and 11434 in TCP for UI and API respectively.
    - Access via `http://"Your IP":3000`.
+
+2. From the dropdown menu at the top of the page, pick a model that suits your needs, such as "llava".
+
+3. To initiate AI analysis or content creation, navigate to the left-side menu and opt for "Modelfiles". Following this, click on "Discover a Modelfile" to proceed.
 
 ### Updating Ollama and Ollabe Web UI: Docker Desktop Guide
 
