@@ -53,7 +53,7 @@ To ensure a seamless experience in setting up WSL, deploying Docker, and utilizi
    ```
    Replace `<container_name_or_id>` with the actual name or ID of the container you wish to delete.
 
-#### Managing Docker Images
+### Managing Docker Images
 1. **Switch to Images Tab:** Inside the Docker Desktop application, select the **Images** tab.
 2. **Keep Certain Images:** Make sure the following images are not deleted:
    - `ghcr.io/ollama-webui/ollama-webui:main`
@@ -64,7 +64,7 @@ To ensure a seamless experience in setting up WSL, deploying Docker, and utilizi
    ```
    Substitute `<image_id>` with the ID of the image you aim to remove.
 
-#### Reinstalling Ollama UI and Ollama
+### Reinstalling Ollama UI and Ollama
 1. **Ollama UI Installation:** Open PowerShell (shortcut `Win + R` followed by typing `powershell`) and enter the following command to set up the Ollama UI container:
    ```powershell
    docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v ollama-webui:/app/backend/data --name ollama-webui --restart always ghcr.io/ollama-webui/ollama-webui:main
@@ -74,7 +74,7 @@ To ensure a seamless experience in setting up WSL, deploying Docker, and utilizi
    docker run -d --restart always --gpus all -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
    ```
 
-#### Locating Ollama Model Files
+### Locating Ollama Model Files
 
 - **Accessing Model Files:** Press `Win + R`, type `\\wsl$\docker-desktop-data\data\docker\volumes`, and press Enter to open the location in File Explorer where Docker volumes, including those for Ollama, are stored.
 
