@@ -10,7 +10,7 @@ To ensure a seamless experience in setting up WSL, deploying Docker, and utilizi
    - Restart your computer if required.
 
 2. **Install Docker Desktop**:
-   - Download and install Docker Desktop from the following: [Website link](https://www.docker.com/products/docker-desktop/).
+   - Download and install Docker Desktop from the following link: [Docker Desktop](https://www.docker.com/products/docker-desktop/).
 
 3. **Verify Docker Desktop**:
    - Ensure Docker Desktop is running correctly on your system.
