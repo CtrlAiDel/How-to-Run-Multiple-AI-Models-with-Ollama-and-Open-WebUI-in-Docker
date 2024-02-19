@@ -35,22 +35,16 @@ To ensure a seamless experience in setting up WSL, deploying Docker, and utilizi
 
 ### **Accessing and Using Ollama UI**
 
-1. **Open Web Browser**:
-   - Navigate to `http://localhost:3000/` to access the Ollama UI.
-
-2. **Navigating the OpenWebUI (also known as Ollama UI)**:
-   - Begin by selecting a desired model from the dropdown options, for example, "llava".
-   - For AI to analyze or create content, either upload images or enter commands.
-   
-The process to engage with the OpenWebUI/Ollama UI is straightforward and user-centric:
-
 1. **Online LLM Access via Port Forwarding**:
    - Open both port 3000 and 11434 in TCP for UI and API respectively.
    - Access via `http://"Your IP":3000`.
 
-2. From the dropdown menu at the top of the page, pick a model that suits your needs, such as "llava".
+2. **Navigating the OpenWebUI (also known as Ollama UI)**:
+   - From the dropdown menu at the top of the page, pick a model that suits your needs, such as "llava".
+   - For AI to analyze or create content, either upload images or enter commands.
 
-3. To initiate AI analysis or content creation, navigate to the left-side menu and opt for "Modelfiles". Following this, click on "Discover a Modelfile" to proceed.
+3. **Discovering Model Files**:
+   - Navigate to the left-side menu and opt for "Modelfiles". Click on "Discover a Modelfile" to proceed.
 
 ### Updating Ollama and Ollabe Web UI: Docker Desktop Guide
 
@@ -83,12 +77,7 @@ This streamlined guide ensures your Docker environment is optimally prepared for
 ### Reinstalling Ollama UI and Ollama
 1. **Ollama UI Installation:** Open PowerShell (shortcut `Win + R` followed by typing `powershell`) and enter the following command to set up the Ollama UI container:
    ```powershell
-   docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v ollama-webui:/app/backend/data --name ollama-webui --restart always ghcr.io/ollama-webui/ollama-webui:main
-   ```
-2. **Ollama Installation:** In the same PowerShell session, install and start the Ollama container with:
-   ```powershell
-   docker run -d --restart always --gpus all -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
-   ```
+   docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v ollama-webui:/app/backend/data --name oll
 
 ### Locating Ollama Model Files
 
@@ -103,10 +92,6 @@ For those looking to delve deeper with Stable Diffusion for AI image generation,
 
 For a comprehensive guide on setting up Stable Diffusion, refer to this: [YouTube Guide](https://www.youtube.com/watch?v=A0xUnf5302k&pp=ygUXbG9jYWwgaW1hZ2UgIHVuY2Vuc29yZWQ%3D).
 
-### **Voice-to-Text on Windows**
-
-- **Use** `Win+H` for **voice-to-text** functionality.
-
 ### **Resources and Credits**
 
 - **API Documentation**: [Ollama API Documentation](https://github.com/ollama/ollama/blob/main/docs/api.md).
@@ -118,4 +103,4 @@ For a comprehensive guide on setting up Stable Diffusion, refer to this: [YouTub
 This guide aims to consolidate all necessary steps for efficiently setting up **WSL, Docker, Ollama**, and navigating various functionalities. It emphasizes the importance of a powerful computing environment for a smooth and productive experience in leveraging AI models for image generation and analysis.
 
 
--WeConnected aka FreakingClowning
+**-WeConnected aka FreakingClowning**
