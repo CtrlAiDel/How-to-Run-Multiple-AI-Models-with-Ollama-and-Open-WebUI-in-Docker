@@ -15,6 +15,7 @@ To ensure a seamless experience in setting up WSL, deploying Docker, and utilizi
 3. **Verify Docker Desktop**:
    - Ensure Docker Desktop is running correctly on your system.
 
+
 ### **Deploying Ollama and Ollama UI**
 
 1. **Launch PowerShell**:
@@ -33,18 +34,26 @@ To ensure a seamless experience in setting up WSL, deploying Docker, and utilizi
 4. **Initialization Pause**:
    - Allow a short period for Docker containers to set up before proceeding.
 
+
 ### **Accessing and Using Ollama UI**
+
+0. **Local Access**:
+   - For local access, navigate to `http://localhost:3000` in your web browser.
 
 1. **Online LLM Access via Port Forwarding**:
    - Open both port 3000 and 11434 in TCP for UI and API respectively.
-   - Access via `http://"Your IP":3000`.
+   - For remote or external access, such as on a mobile device or from another location, use `http://"Your IP":3000` after you have opened the ports as described.
 
 2. **Navigating the OpenWebUI (also known as Ollama UI)**:
-   - From the dropdown menu at the top of the page, pick a model that suits your needs, such as "llava".
-   - For AI to analyze or create content, either upload images or enter commands.
+   - Select a desired model from the dropdown menu at the top of the page, such as "llava".
+   - Upload images or input commands for AI to analyze or generate content.
 
-3. **Discovering Model Files**:
-   - Navigate to the left-side menu and opt for "Modelfiles". Click on "Discover a Modelfile" to proceed.
+3. **Important Consideration for Sharing Your Link**:
+   - While you can share this link with others for access, be mindful that doing so exposes your direct IP address, which could pose security risks. Additionally, because the service runs on your machine, excessive access by multiple users can strain your system resources, potentially leading to performance issues or lag.
+
+4. **Discovering Model Files**:
+   - To initiate AI analysis or content creation, go to the left-side menu, choose "Modelfiles", and then click on "Discover a Modelfile" to proceed.
+
 
 ### Updating Ollama and Ollabe Web UI: Docker Desktop Guide
 
@@ -74,17 +83,22 @@ To update the Ollama and Ollabe web UI, follow these consolidated steps for mana
 
 This streamlined guide ensures your Docker environment is optimally prepared for installing updates to the Ollama and Ollabe web UI components.
 
+
 ### Reinstalling Ollama UI and Ollama
 1. **Ollama UI Installation:** Open PowerShell (shortcut `Win + R` followed by typing `powershell`) and enter the following command to set up the Ollama UI container:
    ```powershell
-   docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v ollama-webui:/app/backend/data --name oll
+   docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v ollama-webui:/app/backend/data --name ollama-webui --restart always ghcr.io/ollama-webui/ollama-webui:main
+   ```
+2. **Ollama Installation:** In the same PowerShell session, install and start the Ollama container with:
+   ```powershell
+   docker run -d --restart always --gpus all -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
+   ```
 
 ### Locating Ollama Model Files
 
 - **Accessing Model Files:** Press `Win + R`, type `\\wsl$\docker-desktop-data\data\docker\volumes`, and press Enter to open the location in File Explorer where Docker volumes, including those for Ollama, are stored.
 
 This guide simplifies the management of Docker resources for the Ollama application, detailing the process for clearing, setting up, and accessing essential components, with clear instructions for using the Docker Desktop interface and PowerShell for manual commands.
-
 
 ### **Advanced Configuration for Stable Diffusion**
 
