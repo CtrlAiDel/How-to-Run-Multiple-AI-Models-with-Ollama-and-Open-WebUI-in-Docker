@@ -45,14 +45,16 @@ To ensure a seamless experience in setting up WSL, deploying Docker, and utilizi
    - For remote or external access, such as on a mobile device or from another location, use `http://"Your IP":3000` after you have opened the ports as described.
 
 2. **Navigating the OpenWebUI (also known as Ollama UI)**:
-   - Select a desired model from the dropdown menu at the top of the page, such as "llava".
+   - By following the explanation from step 0 or 1 depending if you want to access in local, online or both(like me).
+
+3. **Discovering Model Files**:
+   - To initiate AI analysis or content creation, go to the left-side menu, choose "Modelfiles", and then click on "Discover a Modelfile" to proceed.
+   - Then select a desired model from the dropdown menu at the top of the page, such as "llava".
    - Upload images or input commands for AI to analyze or generate content.
 
-3. **Important Consideration for Sharing Your Link**:
+4. **Important Consideration for Sharing Your Link**:
    - While you can share this link with others for access, be mindful that doing so exposes your direct IP address, which could pose security risks. Additionally, because the service runs on your machine, excessive access by multiple users can strain your system resources, potentially leading to performance issues or lag.
 
-4. **Discovering Model Files**:
-   - To initiate AI analysis or content creation, go to the left-side menu, choose "Modelfiles", and then click on "Discover a Modelfile" to proceed.
 
 
 ### Updating Ollama and Ollabe Web UI: Docker Desktop Guide
