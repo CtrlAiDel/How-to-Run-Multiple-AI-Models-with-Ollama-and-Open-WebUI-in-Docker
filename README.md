@@ -73,10 +73,16 @@ To ensure a seamless experience in setting up WSL, deploying Docker, and utilizi
    - Repeat for the `ghcr.io/ollama-webui/ollama-webui:main` image, if listed.
    - Note: Updating images this way may create duplicate images, which we'll address next.
 
-3. **Eliminate Duplicates and Untagged Images**:
+3. **Delete Both Containers Before Eliminating Duplicate Images**:
+   - Before proceeding with the deletion of any images, it's essential to first delete the containers that are using these images to avoid potential conflicts.
+   - Open a terminal or PowerShell and run the following commands to stop and remove the containers:
+     - `docker stop <container_id_or_name>` and `docker rm <container_id_or_name>` for both `ollama/ollama` and `ghcr.io/ollama-webui/ollama-webui`.
+   - You can find the container ID or name by using `docker ps` or `docker container ls` to list all running containers. Replace `<container_id_or_name>` with the actual ID or name of the containers you wish to remove.
+
+4. **Eliminate Duplicates and Untagged Images**:
 
    **Easy Mode**:
-   - After the update, you might notice duplicates of the `ollama/ollama` and `ghcr.io/ollama-webui/ollama-webui:main` images, or images tagged with `<none>`.
+   - After updating the images and deleting the containers, you might notice duplicates of the `ollama/ollama` and `ghcr.io/ollama-webui/ollama-webui:main` images, or images tagged with `<none>`.
    - To begin the cleanup, open PowerShell by pressing `Win + R`, typing `powershell`, and pressing Enter.
 
    **Expert Mode**:
