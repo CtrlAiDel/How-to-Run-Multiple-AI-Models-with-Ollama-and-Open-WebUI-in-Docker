@@ -38,11 +38,14 @@ To ensure a seamless experience in setting up WSL, deploying Docker, and utilizi
 1. **Open Web Browser**:
    - Navigate to `http://localhost:3000/` to access the Ollama UI.
 
-2. **Interacting with Ollama UI**:
-   - Choose a model from the dropdown, e.g., "llava".
-   - Upload images or input commands for AI to analyze or generate content.
-   - 
-(THE POINT 2.0 needs to be rewriten)
+2. **Navigating the OpenWebUI (also known as Ollama UI)**:
+   - Begin by selecting a desired model from the dropdown options, for example, "llava".
+   - For AI to analyze or create content, either upload images or enter commands.
+   
+The process to engage with the OpenWebUI/Ollama UI is straightforward and user-centric:
+
+1. From the dropdown menu, pick a model that suits your needs, such as "llava".
+2. To initiate AI analysis or content creation, navigate to the left-side menu and opt for "Modelfiles". Following this, click on "Discover a Modelfile" to proceed.
 
 3. **Online LLM Access via Port Forwarding**:
    - Open both port 3000 and 11434 in TCP for UI and API respectively.
