@@ -35,6 +35,7 @@ To ensure a seamless experience in setting up WSL, deploying Docker, and utilizi
    - Allow a short period for Docker containers to set up before proceeding.
 
 
+
 ### **Accessing and Using Ollama UI**
 
 0. **Local Access**:
@@ -57,33 +58,30 @@ To ensure a seamless experience in setting up WSL, deploying Docker, and utilizi
 
 
 
-### Updating Ollama and Ollabe Web UI: Docker Desktop Guide
+### Steps for Updating Ollama and Ollama Web UI
 
-To update the Ollama and Ollabe web UI, follow these consolidated steps for managing Docker containers and images:
+1. **Ensure Essential Images Are Retained**:
+   - Open Docker Desktop and navigate to the **Images** tab to see your Docker images.
+   - Important: Do not delete the following essential images as they're necessary for the update:
+     - `ghcr.io/ollama-webui/ollama-webui:main`
+     - `ollama/ollama:latest`
 
-### Accessing and Managing Containers:
-1. **Open Docker Desktop** and navigate to the **Containers** tab.
-2. To prepare for updates, delete the `ollama-web-ui` and `ollama` containers. This can be done within the Docker Desktop interface under the **Containers** tab. For those preferring a manual approach:
-   - Open PowerShell by pressing `Win + R`, typing `powershell`, and hitting Enter.
-   - Execute the command: 
-     ```powershell
-     docker rm -f <container_name_or_id>
-     ```
-   Replace `<container_name_or_id>` with the actual name or ID of the container you wish to delete.
+2. **Manually Update Images via Docker Desktop**:
+   - To update your images to the latest version, manually pull them from the Docker Desktop interface.
+   - Find the `ollama/ollama` image, click the three-dot menu beside it, and select **Pull** to update the image.
+   - Repeat for the `ghcr.io/ollama-webui/ollama-webui:main` image, if listed.
+   - Note: Updating images this way may create duplicate images, which we'll address next.
 
-### Managing Docker Images:
-1. Switch to the **Images** tab in Docker Desktop.
-2. Ensure the following images remain untouched, as they're essential for the updated environment:
-   - `ghcr.io/ollama-webui/ollama-webui:main`
-   - `ollama/ollama:latest`
-3. Remove any `ollama-webui` or `ollama` images tagged with `<none>` for a cleaner setup. To manually delete these images:
-   - Use PowerShell (accessed via `Win + R` then typing `powershell`) and run:
-     ```powershell
-     docker rmi <image_id>
-     ```
-   Substitute `<image_id>` with the ID of the untagged image you wish to remove.
+3. **Eliminate Duplicates and Untagged Images**:
 
-This streamlined guide ensures your Docker environment is optimally prepared for installing updates to the Ollama and Ollabe web UI components.
+   **Easy Mode**:
+   - After the update, you might notice duplicates of the `ollama/ollama` and `ghcr.io/ollama-webui/ollama-webui:main` images, or images tagged with `<none>`.
+   - To begin the cleanup, open PowerShell by pressing `Win + R`, typing `powershell`, and pressing Enter.
+
+   **Expert Mode**:
+   - In PowerShell, use the `docker images` command to list all images. This helps identify any duplicates or untagged images that need removal.
+   - To remove an identified image, execute `docker rmi <image_id>`, replacing `<image_id>` with the actual ID of the image you wish to delete. This step is geared towards users comfortable with navigating Docker and command-line interfaces, offering a more hands-on approach to managing Docker images.
+
 
 
 ### Reinstalling Ollama UI and Ollama
@@ -95,6 +93,8 @@ This streamlined guide ensures your Docker environment is optimally prepared for
    ```powershell
    docker run -d --restart always --gpus all -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
    ```
+
+
 
 ### Locating Ollama Model Files
 
