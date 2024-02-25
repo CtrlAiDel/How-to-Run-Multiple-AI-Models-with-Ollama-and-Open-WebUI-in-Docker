@@ -23,7 +23,7 @@ To ensure a seamless experience in setting up WSL, deploying Docker, and utilizi
 
 2. **Deploy Open Web-UI**:
    ```powershell
-   docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/ollama-webui/ollama-webui:main
+   docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
    ```
 
 3. **Start Ollama**:
@@ -71,7 +71,7 @@ To ensure a seamless experience in setting up WSL, deploying Docker, and utilizi
 2. **Manually Update Images via Docker Desktop**:
    - To update your images to the latest version, manually pull them from the Docker Desktop interface.
    - Find the `ollama/ollama` image, click the three-dot menu beside it, and select **Pull** to update the image.
-   - Repeat for the `ghcr.io/ollama-webui/ollama-webui:main` image, if listed.
+   - Repeat for the `ghcr.io/open-webui/open-webui:main` image, if listed.
    - Note: Updating images this way may create duplicate images, which we'll address next.
 
 3. **How to reinstalling Ollama and open Web-UI**
@@ -122,7 +122,7 @@ With the old containers removed and images updated, you're now ready to reinstal
 - **Ollama UI Installation**:
    Open PowerShell and run the command to set up the Ollama Open Web-UI container:
    ```powershell
-   docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/ollama-webui/ollama-webui:main
+   docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
    ```
 
 - **Ollama Installation**:
