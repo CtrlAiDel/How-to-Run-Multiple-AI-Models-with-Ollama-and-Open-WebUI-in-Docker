@@ -1,4 +1,4 @@
-## Comprehensive Guide to Installing WSL, Ollama, Open Web-UI ,and Using Docker
+## Comprehensive Guide to Installing WSL, Ollama, Open Web-UI, and Using Docker
 
 To ensure a seamless experience in setting up WSL, deploying Docker, and utilizing Ollama for AI-driven image generation and analysis, it's essential to operate on a powerful PC. Adequate system resources are crucial for the smooth operation and optimal performance of these tasks. We advise users to confirm their systems are well-equipped to handle these processes efficiently before proceeding with the following steps.
 
