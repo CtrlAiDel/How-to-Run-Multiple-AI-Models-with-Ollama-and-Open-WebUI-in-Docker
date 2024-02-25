@@ -110,7 +110,7 @@ After safely removing the containers, you can proceed to update your Docker imag
 - **Pull Latest Images**: Update to the latest versions of Ollama and the Open Web-UI by pulling the images:
    ```powershell
    docker pull ollama/ollama
-   docker pull ghcr.io/ollama-webui/ollama-webui:main
+   docker pull ghcr.io/open-webui/open-webui:main
    ```
 
 - **Delete Unused Images**: Post-update, remove any duplicate or unused images, especially those tagged as `<none>`, to free up space.
