@@ -34,7 +34,12 @@ To ensure a seamless experience in setting up WSL, deploying Docker, and utilizi
 4. **Initialization Pause**:
    - Allow a short period for Docker containers to set up before proceeding.
 
-
+5. **Downloading and Running LLMs with Ollama:**:
+   - Access https://ollama.com/library and choose the desired LLM (e.g., llama2).
+   - Click on "ollama run.." located in the top right corner to copy the command provided.
+   - Open cmd.exe and enter "ubuntu" to access the Ubuntu environment.
+   - Paste the copied command into the terminal and execute it to download the LLM.
+   - The downloaded LLM enables the execution of AI models, as it is essential for their operation.
 
 ### **Accessing and Using Open Web-UI**
 
