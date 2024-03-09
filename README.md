@@ -162,4 +162,4 @@ For a comprehensive guide on setting up Stable Diffusion, refer to this: [YouTub
 This guide aims to consolidate all necessary steps for efficiently setting up **WSL, Docker, Ollama, and Open Web-UI**, and navigating various functionalities. It emphasizes the importance of a powerful computing environment for a smooth and productive experience in leveraging AI models for image generation and analysis.
 
 
-**-WeConnected aka FreakingClowning**
+**-WeConnected aka CtrlAiDel**
