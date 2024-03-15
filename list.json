@@ -1,975 +1,907 @@
 {
- "academic": {
-  "name": "hub/academic-researcher:latest",
-  "id": 1,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "accountant": {
-  "name": "hub/accountant:latest",
-  "id": 2,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "acoustic-engineer": {
-  "name": "hub/acoustic-engineer:latest",
-  "id": 3,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "advertising-manager": {
-  "name": "hub/advertising-manager:latest",
-  "id": 4,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "affiliate-marketer": {
-  "name": "hub/affiliate-marketer:latest",
-  "id": 5,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "business-analyst": {
-  "name": "hub/ai-business-analyst:latest",
-  "id": 6,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "data-scientist": {
-  "name": "hub/ai-data-scientist:latest",
-  "id": 7,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "developer": {
-  "name": "hub/ai-developer:latest",
-  "id": 8,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "engineer": {
-  "name": "hub/ai-engineer:latest",
-  "id": 9,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "entrepreneur": {
-  "name": "hub/ai-entrepreneur:latest",
-  "id": 10,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "ethicist": {
-  "name": "hub/ai-ethicist:latest",
-  "id": 11,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "expert": {
-  "name": "hub/ai-expert:latest",
-  "id": 12,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "investor": {
-  "name": "hub/ai-investor:latest",
-  "id": 13,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "lawyer": {
-  "name": "hub/ai-lawyer:latest",
-  "id": 14,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "marketer": {
-  "name": "hub/ai-marketer:latest",
-  "id": 15,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "medic": {
-  "name": "hub/ai-medical-specialist:latest",
-  "id": 16,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "researcher": {
-  "name": "hub/ai-researcher:latest",
-  "id": 17,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "scientist": {
-  "name": "hub/ai-scientist:latest",
-  "id": 18,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "specialist": {
-  "name": "hub/ai-specialist:latest",
-  "id": 19,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "strategist": {
-  "name": "hub/ai-strategist:latest",
-  "id": 20,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "trader": {
-  "name": "hub/ai-trader:latest",
-  "id": 21,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "tutor": {
-  "name": "hub/ai-tutor:latest",
-  "id": 22,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "aircraft-maintenance-technician": {
-  "name": "hub/aircraft-maintenance-technician:latest",
-  "id": 23,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "airline-pilot": {
-  "name": "hub/airline-pilot:latest",
-  "id": 24,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "airport-security-officer": {
-  "name": "hub/airport-security-officer:latest",
-  "id": 25,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "alarm-technician": {
-  "name": "hub/alarm-technician:latest",
-  "id": 26,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "alcohol-and-drug-counselor": {
-  "name": "hub/alcohol-and-drug-counselor:latest",
-  "id": 27,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "algorithm-engineer": {
-  "name": "hub/algorithm-engineer:latest",
-  "id": 28,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "algorithmic-trader": {
-  "name": "hub/algorithmic-trader:latest",
-  "id": 29,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "alternative-energy-engineer": {
-  "name": "hub/alternative-energy-engineer:latest",
-  "id": 30,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "ambulance-dispatcher": {
-  "name": "hub/ambulance-dispatcher:latest",
-  "id": 31,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "ambulatory-care-nurse": {
-  "name": "hub/ambulatory-care-nurse:latest",
-  "id": 32,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "amusement-park-manager": {
-  "name": "hub/amusement-park-manager:latest",
-  "id": 33,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "android-dev": {
-  "name": "hub/android-developer:latest",
-  "id": 34,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "anesthesiologist": {
-  "name": "hub/anesthesiologist:latest",
-  "id": 35,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "animal-control-worker": {
-  "name": "hub/animal-control-worker:latest",
-  "id": 36,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "animal-scientist": {
-  "name": "hub/animal-scientist:latest",
-  "id": 37,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "animation-director": {
-  "name": "hub/animation-director:latest",
-  "id": 38,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "animation-producer": {
-  "name": "hub/animation-producer:latest",
-  "id": 39,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "anime-artist": {
-  "name": "hub/anime-artist:latest",
-  "id": 40,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "animator": {
-  "name": "hub/animator:latest",
-  "id": 41,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "anthropologist": {
-  "name": "hub/anthropologist:latest",
-  "id": 42,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "apartment-manager": {
-  "name": "hub/apartment-manager:latest",
-  "id": 43,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "appliance-repair": {
-  "name": "hub/appliance-repair-technician:latest",
-  "id": 44,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "apprentice-electrician": {
-  "name": "hub/apprentice-electrician:latest",
-  "id": 45,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "aquaculturist": {
-  "name": "hub/aquaculturist:latest",
-  "id": 46,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "aquarium-attendant": {
-  "name": "hub/aquarium-attendant:latest",
-  "id": 47,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "aquatic-biologist": {
-  "name": "hub/aquatic-biologist:latest",
-  "id": 48,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "aquatic-scientist": {
-  "name": "hub/aquatic-scientist:latest",
-  "id": 49,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "arborist": {
-  "name": "hub/arborist:latest",
-  "id": 50,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "archaeologist": {
-  "name": "hub/archaeologist:latest",
-  "id": 51,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "architect": {
-  "name": "hub/architect:latest",
-  "id": 52,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "architectural-draftsman": {
-  "name": "hub/architectural-draftsman:latest",
-  "id": 53,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "architectural-technologist": {
-  "name": "hub/architectural-technologist:latest",
-  "id": 54,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "architecture-professor": {
-  "name": "hub/architecture-professor:latest",
-  "id": 55,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "armored-car-guard": {
-  "name": "hub/armored-car-guard:latest",
-  "id": 56,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "art-teacher": {
-  "name": "hub/art-teacher:latest",
-  "id": 57,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "art-therapist": {
-  "name": "hub/art-therapist:latest",
-  "id": 58,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "engineer": {
-  "name": "hub/artificial-intelligence-engineer:latest",
-  "id": 59,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "artist": {
-  "name": "hub/artist:latest",
-  "id": 60,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "ethicist": {
-  "name": "hub/artificial-intelligence-ethicist:latest",
-  "id": 61,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "researcher": {
-  "name": "hub/artificial-intelligence-researcher:latest",
-  "id": 62,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "scientist": {
-  "name": "hub/artificial-intelligence-scientist:latest",
-  "id": 63,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "asbestos-worker": {
-  "name": "hub/asbestos-worker:latest",
-  "id": 64,
-  "description":"",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "astronaut": {
-  "name": "hub/astronaut:latest",
-  "id": 65,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "astronomer": {
-  "name": "hub/astronomer:latest",
-  "id": 66,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "athlete": {
-  "name": "hub/athelete:latest",
-  "id": 67,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "athletic-coach": {
-  "name": "hub/athletic-coach:latest",
-  "id": 68,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "athletic-trainer": {
-  "name": "hub/athletic-trainer:latest",
-  "id": 69,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "atmospheric-scientist": {
-  "name": "hub/atmospheric-scientist:latest",
-  "id": 70,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "audiologist": {
-  "name": "hub/audiologist:latest",
-  "id": 71,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "audio-engineer": {
-  "name": "hub/audio-engineer:latest",
-  "id": 72,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "audio-visual-technician": {
-  "name": "hub/audio-visual-technician:latest",
-  "id": 73,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "audiometric": {
-  "name": "hub/audiometric-technician:latest",
-  "id": 74,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "audit-manager": {
-  "name": "hub/audit-manager:latest",
-  "id": 75,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "auditor": {
-  "name": "hub/auditor:latest",
-  "id": 76,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "auto-body-repair": {
-  "name": "hub/auto-body-repair-technician:latest",
-  "id": 77,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "auto-detailer": {
-  "name": "hub/auto-detailer:latest",
-  "id": 78,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "auto-electrician": {
-  "name": "hub/auto-electrician:latest",
-  "id": 79,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "auto-glass": {
-  "name": "hub/auto-glass-technician:latest",
-  "id": 80,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "auto-insurance-adjuster": {
-  "name": "hub/auto-insurance-adjuster:latest",
-  "id": 81,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "auto-mechanic": {
-  "name": "hub/auto-mechanic:latest",
-  "id": 82,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "auto-parts-specialist": {
-  "name": "hub/auto-parts-specialist:latest",
-  "id": 83,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "auto-service-manager": {
-  "name": "hub/auto-service-manager:latest",
-  "id": 84,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "auto-upholsterer": {
-  "name": "hub/auto-upholsterer:latest",
-  "id": 85,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "automobile-designer": {
-  "name": "hub/automobile-designer:latest",
-  "id": 86,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "automotive-engineer": {
-  "name": "hub/automotive-engineer:latest",
-  "id": 87,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "automotive-paint": {
-  "name": "hub/automotive-paint-technician:latest",
-  "id": 88,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "automotive-service": {
-  "name": "hub/automotive-service-technician:latest",
-  "id": 89,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "aviation-electronics": {
-  "name": "hub/aviation-electronics-technician:latest",
-  "id": 90,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "aviation-maintenance": {
-  "name": "hub/aviation-maintenance-technician:latest",
-  "id": 91,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "aviation-manager": {
-  "name": "hub/aviation-manager:latest",
-  "id": 92,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "aviation-safety-inspector": {
-  "name": "hub/aviation-safety-inspector:latest",
-  "id": 93,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "aviation-security-specialist": {
-  "name": "hub/aviation-security-specialist:latest",
-  "id": 94,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "aviation": {
-  "name": "hub/aviation-technician:latest",
-  "id": 95,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "aviation-welder": {
-  "name": "hub/aviation-welder:latest",
-  "id": 96,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "avionics-technician": {
-  "name": "hub/avionics-technician:latest",
-  "id": 97,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "award-coordinator": {
-  "name": "hub/award-coordinator:latest",
-  "id": 98,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "baker": {
-  "name": "hub/baker:latest",
-  "id": 99,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "ballistics-expert": {
-  "name": "hub/ballistics-expert:latest",
-  "id": 100,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "bank-teller": {
-  "name": "hub/bank-teller:latest",
-  "id": 101,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "bankruptcy-lawyer": {
-  "name": "hub/bankruptcy-lawyer:latest",
-  "id": 102,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "bar-manager": {
-  "name": "hub/bar-manager:latest",
-  "id": 103,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "barber": {
-  "name": "hub/barber:latest",
-  "id": 104,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "barista": {
-  "name": "hub/barista:latest",
-  "id": 105,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "bartender": {
-  "name": "hub/bartender:latest",
-  "id": 106,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "bartender-manager": {
-  "name": "hub/bartender-manager:latest",
-  "id": 107,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "baseball-coach": {
-  "name": "hub/baseball-coach:latest",
-  "id": 108,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "basketball-coach": {
-  "name": "hub/basketball-coach:latest",
-  "id": 109,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "beauty-advisor": {
-  "name": "hub/beauty-advisor:latest",
-  "id": 110,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "beauty-editor": {
-  "name": "hub/beauty-editor:latest",
-  "id": 111,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "beauty-therapist": {
-  "name": "hub/beauty-therapist:latest",
-  "id": 112,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "bellman": {
-  "name": "hub/bellman:latest",
-  "id": 113,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "bicycle-mechanic": {
-  "name": "hub/bicycle-mechanic:latest",
-  "id": 114,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "bilingual-teacher": {
-  "name": "hub/bilingual-teacher:latest",
-  "id": 115,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "biochemical-engineer": {
-  "name": "hub/biochemical-engineer:latest",
-  "id": 116,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "biochemist": {
-  "name": "hub/biochemist:latest",
-  "id": 117,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "bioinformatics-engineer": {
-  "name": "hub/bioinformatics-engineer:latest",
-  "id": 118,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "biological-engineer": {
-  "name": "hub/biological-engineer:latest",
-  "id": 119,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "biological": {
-  "name": "hub/biological-technician:latest",
-  "id": 120,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "biologist": {
-  "name": "hub/biologist:latest",
-  "id": 121,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "biology-teacher": {
-  "name": "hub/biology-teacher:latest",
-  "id": 122,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "biomedical-engineer": {
-  "name": "hub/biomedical-engineer:latest",
-  "id": 123,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "biomedical-ethicist": {
-  "name": "hub/biomedical-ethicist:latest",
-  "id": 124,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "biomedical": {
-  "name": "hub/biomedical-technician:latest",
-  "id": 125,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "biostatistician": {
-  "name": "hub/biostatistician:latest",
-  "id": 126,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "biosystem-engineer": {
-  "name": "hub/biosystem-engineer:latest",
-  "id": 127,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "biosystems-engineer": {
-  "name": "hub/biosystems-engineer:latest",
-  "id": 128,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "biotechnologist": {
-  "name": "hub/biotechnologist:latest",
-  "id": 129,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "blockchain-engineer": {
-  "name": "hub/blockchain-engineer:latest",
-  "id": 130,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "blockchain-specialist": {
-  "name": "hub/blockchain-specialist:latest",
-  "id": 131,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "boat-captain": {
-  "name": "hub/boat-captain:latest",
-  "id": 132,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "bodyguard": {
-  "name": "hub/bodyguard:latest",
-  "id": 133,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "book-editor": {
-  "name": "hub/book-editor:latest",
-  "id": 134,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "bookkeeper": {
-  "name": "hub/bookkeeper:latest",
-  "id": 135,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "border-patrol-agent": {
-  "name": "hub/border-patrol-agent:latest",
-  "id": 136,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "botanist": {
-  "name": "hub/botanist:latest",
-  "id": 137,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "bounty-hunter": {
-  "name": "hub/bounty-hunter:latest",
-  "id": 138,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- },
- "brand-ambassador": {
-  "name": "hub/brand-ambassador:latest",
-  "id": 139,
-  "description": "",
-  "Latency": "",
-  "Working / To delete": ""
- }
+
+    "bakllava": {
+        "name": "bakllava:latest",
+        "id": 1,
+        "description": "",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "gemma": {
+        "name": "c2p/gemma-ai:latest",
+        "id": 2,
+        "description": "",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "codellama_7b": {
+        "name": "codellama:7b",
+        "id": 3,
+        "description": "",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "codellama": {
+        "name": "codellama:latest",
+        "id": 4,
+        "description": "",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "deepseek_coder": {
+        "name": "deepseek-coder:6.7b",
+        "id": 5,
+        "description": "",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "dolphin_2_6_phi": {
+        "name": "dolphin-2_6-phi-2.Q6_K.gguf:latest",
+        "id": 6,
+        "description": "",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "dolphin_mistral_7b_v2.6_dpo_laser": {
+        "name": "dolphin-mistral:7b-v2.6-dpo-laser-q8_0",
+        "id": 7,
+        "description": "",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "dolphin_mistral_7b_fp16": {
+        "name": "dolphin-mistral:7b-v2.6-fp16",
+        "id": 8,
+        "description": "",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "dolphin_mistral_7b_q4": {
+        "name": "dolphin-mistral:7b-v2.6-q4_K_M",
+        "id": 9,
+        "description": "",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "dolphin_mistral": {
+        "name": "dolphin-mistral:latest",
+        "id": 10,
+        "description": "",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "dolphin_mixtral_8x7b": {
+        "name": "dolphin-mixtral:8x7b-v2.6-q3_K_L",
+        "id": 11,
+        "description": "",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "dolphin_mixtral": {
+        "name": "dolphin-mixtral:latest",
+        "id": 12,
+        "description": "",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "dolphin_phi_latest": {
+        "name": "dolphin-phi:latest",
+        "id": 13,
+        "description": "",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "eas_nous_hermes_2_solar_10.7b": {
+        "name": "eas/nous-hermes-2-solar-10.7b:latest",
+        "id": 14,
+        "description": "",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "emily_friendly_programming_assistant": {
+        "name": "emily---a-friendly-programming-assistant:latest",
+        "id": 15,
+        "description": "",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "en2ch": {
+        "name": "english-to-chinese---翻译专家:latest",
+        "id": 16,
+        "description": "",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "gemma2b": {
+        "name": "gemma:2b",
+        "id": 17,
+        "description": "",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "gemma7b": {
+        "name": "gemma:7b",
+        "id": 18,
+        "description": "",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "writing_tutor": {
+        "name": "hub/111mars/ai-writing-tutor:latest",
+        "id": 19,
+        "description": "",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "chatgpt_4_uncensored": {
+        "name": "hub/111mars/chatgpt-4-uncensored:latest",
+        "id": 20,
+        "description": "",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "steve_jobs": {
+        "name": "hub/aaartist/steve-jobs:latest",
+        "id": 21,
+        "description": "",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "homoeopath": {
+        "name": "hub/aadesh89/homoeopath:latest",
+        "id": 22,
+        "description": "",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "accountant": {
+        "name": "hub/accountant:latest",
+        "id": 23,
+        "description": "",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "advertiser": {
+        "name": "hub/advertiser:latest",
+        "id": 24,
+        "description": "",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "assisted_doctor": {
+        "name": "hub/ai-assisted-doctor:latest",
+        "id": 25,
+        "description": "",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "writing_tutor": {
+        "name": "hub/ai-writing-tutor:latest",
+        "id": 26,
+        "description": "",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "artist_advisor": {
+        "name": "hub/andrew/artist-advisor:latest",
+        "id": 27,
+        "description": "",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "artist": {
+        "name": "hub/artist:latest",
+        "id": 28,
+        "description": "",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "awacs_v7b": {
+        "name": "hub/awacs/v7b:latest",
+        "id": 29,
+        "description": "",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "awacs": {
+        "name": "hub/awacs:latest",
+        "id": 30,
+        "description": "",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "computer_science_blog_editor": {
+        "name": "hub/computer-science-blog-editor:latest",
+        "id": 31,
+        "description": "",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "dr_evelyn": {
+        "name": "hub/dr.-evelyn:latest",
+        "id": 32,
+        "description": "",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "foto_forge": {
+        "name": "hub/foto-forge:latest",
+        "id": 33,
+        "description": "",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "elon_musk": {
+        "name": "hub/elon-musk:latest",
+        "id": 34,
+        "description": "",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "contract_analyzer": {
+        "name": "hub/elonmusk/contract-analyzer-:latest",
+        "id": 82,
+        "description": "",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "artteacher": {
+        "name": "hub/emclinux/artteacher:latest",
+        "id": 83,
+        "description": "",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "history-narrator": {
+        "name": "hub/axel/history-narrator:latest",
+        "id": 102,
+        "description": "",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "studybuddy": {
+        "name": "hub/bacx/studybuddy:latest",
+        "id": 103,
+        "description": "",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "dnd": {
+        "name": "hub/bagellama/d&d-dungeon-master-assistant:latest",
+        "id": 104,
+        "description": "",
+        "Latency": "",
+        "Working / To delete": ""
+    }
+    "dolphin-mixtral": {
+     "name": "hub/based-dolphin-mixtral:latest",
+     "id": 105,
+     "description": "",
+     "Latency": "",
+     "Working / To delete": ""
+    },
+    "lawx": {
+     "name": "hub/bitbinge/lawx:latest",
+     "id": 106,
+     "description": "",
+     "Latency": "",
+     "Working / To delete": ""
+    },
+    "phi2dolphin": {
+     "name": "hub/c00100011/microsoft-phi-2-dolphin:latest",
+     "id": 107,
+     "description": "",
+     "Latency": "",
+     "Working / To delete": ""
+    },
+    "deepseek-coder:6.7b": {
+     "name": "hub/cadebug/deepseek-coder:6.7b",
+     "id": 108,
+     "description": "",
+     "Latency": "",
+     "Working / To delete": ""
+    },
+    "deustchlehrer": {
+     "name": "hub/captain2mac/deustchlehrer:latest",
+     "id": 109,
+     "description": "",
+     "Latency": "",
+     "Working / To delete": ""
+    },
+    "gemma2b": {
+     "name": "hub/captain2mac/gemmaai-2b:latest",
+     "id": 110,
+     "description": "",
+     "Latency": "",
+     "Working / To delete": ""
+    },
+    "mechagodzilla": {
+     "name": "hub/cardoza1991/mechagodzilla:latest",
+     "id": 111,
+     "description": "",
+     "Latency": "",
+     "Working / To delete": ""
+    },
+    "career-counselor": {
+     "name": "hub/career-counselor:latest",
+     "id": 112,
+     "description": "",
+     "Latency": "",
+     "Working / To delete": ""
+    },
+    "security-specialist-mistral": {
+     "name": "hub/ch0ks/security-risk-specialist-and-strategist-mistral:latest",
+     "id": 113,
+     "description": "",
+     "Latency": "",
+     "Working / To delete": ""
+    },
+    "chef": {
+     "name": "hub/chef:latest",
+     "id": 114,
+     "description": "",
+     "Latency": "",
+     "Working / To delete": ""
+    },
+    "sarah-caring-girlfriend": {
+     "name": "hub/chmurli/sarah-lovely-caring-girlfriend:latest",
+     "id": 115,
+     "description": "",
+     "Latency": "",
+     "Working / To delete": ""
+    },
+    "eulabot": {
+     "name": "hub/claragreen/eulabot:latest",
+     "id": 116,
+     "description": "",
+     "Latency": "",
+     "Working / To delete": ""
+    },
+    "commentariat": {
+     "name": "hub/commentariat:latest",
+     "id": 117,
+     "description": "",
+     "Latency": "",
+     "Working / To delete": ""
+    },
+    "composer": {
+     "name": "hub/composer:latest",
+     "id": 118,
+     "description": "",
+     "Latency": "",
+     "Working / To delete": ""
+    },
+    "resume-reviewer": {
+     "name": "hub/crackmac/resume-reviewer:latest",
+     "id": 119,
+     "description": "",
+     "Latency": "",
+     "Working / To delete": ""
+    },
+    "walt-disney": {
+     "name": "hub/crackmac/walt-disney:latest",
+     "id": 120,
+     "description": "",
+     "Latency": "",
+     "Working / To delete": ""
+    },
+    "computer-science-blog-editor": {
+     "name": "hub/crixodia/computer-science-blog-editor:latest",
+     "id": 121,
+     "description": "",
+     "Latency": "",
+     "Working / To delete": ""
+    },
+    "cyber-security-specialist": {
+     "name": "hub/cyber-security-specialist:latest",
+     "id": 122,
+     "description": "",
+     "Latency": "",
+     "Working / To delete": ""
+    },
+    "dad": {
+     "name": "hub/dad:latest",
+     "id": 123,
+     "description": "",
+     "Latency": "",
+     "Working / To delete": ""
+    },
+    "90s-CPP-Programmer": {
+     "name": "hub/darkstorm2150/90s-CPP-Programmer:latest",
+     "id": 124,
+     "description": "",
+     "Latency": "",
+     "Working / To delete": ""
+    },
+    "attorney": {
+     "name": "hub/darkstorm2150/attorney:latest",
+     "id": 125,
+     "description": "",
+     "Latency": "",
+     "Working / To delete": ""
+    },
+    "Data-Archivist": {
+     "name": "hub/darkstorm2150/Data-Archivist:latest",
+     "id": 126,
+     "description": "",
+     "Latency": "",
+     "Working / To delete": ""
+    },
+    "hub/darkstorm2150/Data-Hoarder": {
+     "name": "hub/darkstorm2150/Data-Hoarder:latest",
+     "id": 127,
+     "description": "",
+     "Latency": "",
+     "Working / To delete": ""
+    },
+        "recruiter": {
+    "name": "hub/recruiter:latest",
+    "id": 128,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "relationship_coach": {
+    "name": "hub/relationship-coach:latest",
+    "id": 129,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "rlust_code_companion": {
+    "name": "hub/rlust/code-companion:latest",
+    "id": 130,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "ry4not4_ry4n": {
+    "name": "hub/ry4not4/ry4n:latest",
+    "id": 131,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "samm_code_companion": {
+    "name": "hub/samm/code-companion:latest",
+    "id": 132,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "sayantanenator_llamamodel": {
+    "name": "hub/sayantanenator/llamamodel:latest",
+    "id": 133,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "schlenkenberger23_qwen_english_translator_and_improver": {
+    "name": "hub/schlenkenberger23/qwen-english-translator-and-improver:latest",
+    "id": 134,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "screenwriter": {
+    "name": "hub/screenwriter:latest",
+    "id": 135,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "slashed_socrates_ai": {
+    "name": "hub/slashed/socrates.ai:latest",
+    "id": 136,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "stand_up_comedian": {
+    "name": "hub/stand-up-comedian:latest",
+    "id": 137,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "storyteller": {
+    "name": "hub/storyteller:latest",
+    "id": 138,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "stroben_websitescreenshot_to_text": {
+    "name": "hub/stroben/websitescreenshot_to_text:latest",
+    "id": 139,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "ten_tweets": {
+    "name": "hub/ten-tweets:latest",
+    "id": 140,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "theory_jungian_dream_interpreter": {
+    "name": "hub/theory/jungian-dream-interpreter:latest",
+    "id": 141,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "threadabort_expert_old_man_dave": {
+    "name": "hub/threadabort/expert-old-man-dave:latest",
+    "id": 142,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "titus_doomsday_survivalist": {
+    "name": "hub/titus/doomsday-survivalist:latest",
+    "id": 143,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "travel_guide": {
+    "name": "hub/travel-guide:latest",
+    "id": 144,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "uaquax_anonymous_chat": {
+    "name": "hub/uaquax/anonymous-chat:latest",
+    "id": 145,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "uaquax_chatgpt": {
+    "name": "hub/uaquax/chatgpt:latest",
+    "id": 146,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "uaquax_enhancer": {
+    "name": "hub/uaquax/enhancer:latest",
+    "id": 147,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "uaquax_moly": {
+    "name": "hub/uaquax/moly:latest",
+    "id": 148,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "unkillable_sdexpert": {
+    "name": "hub/unkillable/sdexpert:latest",
+    "id": 149,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "username_based_dolphin_mixtral": {
+    "name": "hub/username/based-dolphin-mixtral:latest",
+    "id": 150,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "uxoxo_ux_assistant": {
+    "name": "hub/uxoxo/ux-assistant:latest",
+    "id": 151,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "uxui_developer": {
+    "name": "hub/uxui-developer:latest",
+    "id": 152,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "automated_onlyfans_sales_bot": {
+    "name": "hub/vpb11/Automated OnlyFans Sales BOT V1.0.0:latest",
+    "id": 153,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "web_design_consultant": {
+    "name": "hub/web-design-consultant:latest",
+    "id": 154,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "william_shakespeare": {
+    "name": "hub/william-shakespeare:latest",
+    "id": 155,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "williamhill_nba_expert": {
+    "name": "hub/williamhill/nba-expert:latest",
+    "id": 156,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "novelist": {
+    "name": "hub/novelist:latest",
+    "id": 157,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "jessica_dominatricks_nsfw": {
+    "name": "hub/opencreator/jessica---strict-dominatrix---(nsfw):latest",
+    "id": 158,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "peppe_shelldon": {
+    "name": "hub/peppe/shelldon:latest",
+    "id": 159,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "personal_trainer": {
+    "name": "hub/personal-trainer:latest",
+    "id": 160,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "pet_behaviorist": {
+    "name": "hub/pet-behaviorist:latest",
+    "id": 161,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "philosopher": {
+    "name": "hub/philosopher:latest",
+    "id": 162,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "philosophy_teacher": {
+    "name": "hub/philosophy-teacher:latest",
+    "id": 163,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "plagiarism_checker": {
+    "name": "hub/plagiarism-checker:latest",
+    "id": 164,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "poet": {
+    "name": "hub/poet:latest",
+    "id": 165,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "rapper": {
+    "name": "hub/rapper:latest",
+    "id": 166,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "recipe_maker": {
+    "name": "hub/recipe-maker:latest",
+    "id": 167,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "recruiter": {
+    "name": "hub/recruiter:latest",
+    "id": 168,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "relationship_coach": {
+    "name": "hub/relationship-coach:latest",
+    "id": 169,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "rlust_code_companion": {
+    "name": "hub/rlust/code-companion:latest",
+    "id": 170,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "ry4n": {
+    "name": "hub/ry4not4/ry4n:latest",
+    "id": 171,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "samm_code_companion": {
+    "name": "hub/samm/code-companion:latest",
+    "id": 172,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "sayantanenator_llamamodel": {
+    "name": "hub/sayantanenator/llamamodel:latest",
+    "id": 173,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "english_translator_and_improver": {
+    "name": "hub/schlenkenberger23/qwen-english-translator-and-improver:latest",
+    "id": 174,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "screenwriter": {
+    "name": "hub/screenwriter:latest",
+    "id": 175,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "slashed_socrates.ai": {
+    "name": "hub/slashed/socrates.ai:latest",
+    "id": 176,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "stand_up_comedian": {
+    "name": "hub/stand-up-comedian:latest",
+    "id": 177,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "storyteller": {
+    "name": "hub/storyteller:latest",
+    "id": 178,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "stroben_websitescreenshot_to_text": {
+    "name": "hub/stroben/websitescreenshot_to_text:latest",
+    "id": 179,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "ten_tweets": {
+    "name": "hub/ten-tweets:latest",
+    "id": 180,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "theory_jungian_dream_interpreter": {
+    "name": "hub/theory/jungian-dream-interpreter:latest",
+    "id": 181,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "expert_old_man_dave": {
+    "name": "hub/threadabort/expert-old-man-dave:latest",
+    "id": 182,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "doomsday_survivalist": {
+    "name": "hub/titus/doomsday-survivalist:latest",
+    "id": 183,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "travel_guide": {
+    "name": "hub/travel-guide:latest",
+    "id": 184,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "uaquax_anonymous_chat": {
+    "name": "hub/uaquax/anonymous-chat:latest",
+    "id": 185,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "uaquax_chatgpt": {
+    "name": "hub/uaquax/chatgpt:latest",
+    "id": 186,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "uaquax_enhancer": {
+    "name": "hub/uaquax/enhancer:latest",
+    "id": 187,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "uaquax_moly": {
+    "name": "hub/uaquax/moly:latest",
+    "id": 188,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "unkillable_sdexpert": {
+    "name": "hub/unkillable/sdexpert:latest",
+    "id": 189,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "username_based_dolphin_mixtral": {
+    "name": "hub/username/based-dolphin-mixtral:latest",
+    "id": 190,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "uxoxo_ux_assistant": {
+    "name": "hub/uxoxo/ux-assistant:latest",
+    "id": 191,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "uxui_developer": {
+    "name": "hub/uxui-developer:latest",
+    "id": 192,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "automated_onlyfans_sales_bot": {
+    "name": "hub/vpb11/Automated OnlyFans Sales BOT V1.0.0:latest",
+    "id": 193,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    },
+    "web_design_consultant": {
+    "name": "hub/web-design-consultant:latest",
+    "id": 194,
+    "description": "",
+    "Latency": "",
+    "Working / To delete": ""
+    }
+ 
 }
