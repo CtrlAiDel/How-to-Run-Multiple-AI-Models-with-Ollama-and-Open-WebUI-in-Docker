@@ -1,5 +1,3 @@
-Sure, here's the updated list with the descriptions added:
-
 1) bakllava:latest
    - No description yet
 
