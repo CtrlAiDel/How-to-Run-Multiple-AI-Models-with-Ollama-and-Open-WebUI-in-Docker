@@ -1,8 +1,4 @@
-```json
 {
-
-
-
     "bakllava": {
         "name": "bakllava:latest",
         "id": 1,
@@ -1641,7 +1637,4 @@
         "Latency": "",
         "Working / To delete": ""
     }
-
-        
 }
-``` 
