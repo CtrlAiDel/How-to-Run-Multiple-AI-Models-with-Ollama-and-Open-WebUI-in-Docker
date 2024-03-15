@@ -451,7 +451,9 @@ Sure, here's the updated list with the descriptions added:
 149) hub/uaquax/moly:latest
      - No description yet
 
-150) hub/unkillable/sdexpert:latest
+150) hub/unkill
+
+able/sdexpert:latest
      - No description yet
 
 151) hub/username/based-dolphin-mixtral:latest
