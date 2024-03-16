@@ -1,1640 +1,1369 @@
+Here's the list you provided formatted with the requested structure for the Docker images numbered 1 to 194:
+
+```json
 {
-    "bakllava": {
+    "bakllava:latest": {
         "name": "bakllava:latest",
         "id": 1,
         "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "c2p/gemma-ai": {
+    "c2p/gemma-ai:latest": {
         "name": "c2p/gemma-ai:latest",
         "id": 2,
         "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "codellama": {
+    "codellama:7b": {
         "name": "codellama:7b",
         "id": 3,
         "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "codellama_latest": {
+    "codellama:latest": {
         "name": "codellama:latest",
         "id": 4,
         "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "deepseek-coder": {
+    "deepseek-coder:6.7b": {
         "name": "deepseek-coder:6.7b",
         "id": 5,
-        "description": "AI programming assistant",
+        "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "dolphin-2_6-phi-2.Q6_K.gguf": {
+    "dolphin-2_6-phi-2.Q6_K.gguf:latest": {
         "name": "dolphin-2_6-phi-2.Q6_K.gguf:latest",
         "id": 6,
         "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "dolphin-mistral-7b-v2.6-dpo-laser-q8_0": {
+    "dolphin-mistral:7b-v2.6-dpo-laser-q8_0": {
         "name": "dolphin-mistral:7b-v2.6-dpo-laser-q8_0",
         "id": 7,
         "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "dolphin-mistral-7b-v2.6-fp16": {
+    "dolphin-mistral:7b-v2.6-fp16": {
         "name": "dolphin-mistral:7b-v2.6-fp16",
         "id": 8,
         "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "dolphin-mistral-7b-v2.6-q4_K_M": {
+    "dolphin-mistral:7b-v2.6-q4_K_M": {
         "name": "dolphin-mistral:7b-v2.6-q4_K_M",
         "id": 9,
         "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "dolphin-mistral": {
+    "dolphin-mistral:latest": {
         "name": "dolphin-mistral:latest",
         "id": 10,
         "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "dolphin-mixtral-8x7b-v2.6-q3_K_L": {
+    "dolphin-mixtral:8x7b-v2.6-q3_K_L": {
         "name": "dolphin-mixtral:8x7b-v2.6-q3_K_L",
         "id": 11,
         "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "dolphin-mixtral": {
+    "dolphin-mixtral:latest": {
         "name": "dolphin-mixtral:latest",
         "id": 12,
         "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "dolphin-phi": {
+    "dolphin-phi:latest": {
         "name": "dolphin-phi:latest",
         "id": 13,
         "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "eas/nous-hermes-2-solar-10.7b": {
+    "eas/nous-hermes-2-solar-10.7b:latest": {
         "name": "eas/nous-hermes-2-solar-10.7b:latest",
         "id": 14,
         "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "emily---a-friendly-programming-assistant": {
+    "emily---a-friendly-programming-assistant:latest": {
         "name": "emily---a-friendly-programming-assistant:latest",
         "id": 15,
-        "description": "A friendly programming assistant ready to pair on your next coding task",
+        "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "english-to-chinese---翻译专家": {
+    "english-to-chinese---翻译专家:latest": {
         "name": "english-to-chinese---翻译专家:latest",
         "id": 16,
-        "description": "英文中文互相翻译",
+        "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "gemma": {
+    "gemma:2b": {
         "name": "gemma:2b",
         "id": 17,
         "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "gemma": {
+    "gemma:7b": {
         "name": "gemma:7b",
         "id": 18,
         "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "hub/111mars/ai-writing-tutor": {
+    "hub/111mars/ai-writing-tutor:latest": {
         "name": "hub/111mars/ai-writing-tutor:latest",
         "id": 19,
         "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "hub/111mars/chatgpt-4-uncensored": {
+    "hub/111mars/chatgpt-4-uncensored:latest": {
         "name": "hub/111mars/chatgpt-4-uncensored:latest",
         "id": 20,
-        "description": "WARNING: Minimum ram is 64GB. An uncensored version of ChatGPT 4",
+        "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "hub/aaartist/steve-jobs": {
+    "hub/aaartist/steve-jobs:latest": {
         "name": "hub/aaartist/steve-jobs:latest",
         "id": 21,
-        "description": "Ask the famous animator and business man Walt Disney a question.",
+        "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "hub/aadesh89/homoeopath": {
+    "hub/aadesh89/homoeopath:latest": {
         "name": "hub/aadesh89/homoeopath:latest",
         "id": 22,
-        "description": "This model file acts as a renowned homoeopath who can ask questions and prescribe medicines.",
+        "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "hub/accountant": {
+    "hub/accountant:latest": {
         "name": "hub/accountant:latest",
         "id": 23,
-        "description": "This is a simple modelfile that acts as an accountant.",
+        "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "hub/advertiser": {
+    "hub/advertiser:latest": {
         "name": "hub/advertiser:latest",
         "id": 24,
-        "description": "This is a simple modelfile that acts as an advertiser.",
+        "description": "No description yet
+
+",
         "Latency": "",
         "Working / To delete": ""
     },
-    "hub/ai-assisted-doctor": {
+    "hub/ai-assisted-doctor:latest": {
         "name": "hub/ai-assisted-doctor:latest",
         "id": 25,
-        "description": "This is a simple modelfile that acts as an AI assisted doctor.",
+        "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "hub/ai-writing-tutor": {
+    "hub/ai-writing-tutor:latest": {
         "name": "hub/ai-writing-tutor:latest",
         "id": 26,
-        "description": "This is a simple modelfile that acts as an AI writing tutor.",
+        "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "hub/andrew/artist-advisor": {
+    "hub/andrew/artist-advisor:latest": {
         "name": "hub/andrew/artist-advisor:latest",
         "id": 27,
-        "description": "This is a simple modelfile that acts as an artist advisor.",
+        "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "hub/andrew/financial-analyst": {
+    "hub/andrew/financial-analyst:latest": {
         "name": "hub/andrew/financial-analyst:latest",
         "id": 28,
-        "description": "This is a simple modelfile that acts as a financial analyst.",
+        "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "hub/automobile-mechanic": {
+    "hub/automobile-mechanic:latest": {
         "name": "hub/automobile-mechanic:latest",
         "id": 29,
-        "description": "This is a simple modelfile that acts as an automobile mechanic.",
+        "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "hub/axel/history-narrator": {
+    "hub/axel/history-narrator:latest": {
         "name": "hub/axel/history-narrator:latest",
         "id": 30,
-        "description": "An expert historian who narrates events in an entertaining way",
+        "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "hub/bacx/studybuddy": {
+    "hub/bacx/studybuddy:latest": {
         "name": "hub/bacx/studybuddy:latest",
         "id": 31,
-        "description": "A helpful tutor asking ou guiding questions and explaining difficult concepts",
+        "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "hub/bagellama/d&d-dungeon-master-assistant": {
+    "hub/bagellama/d&d-dungeon-master-assistant:latest": {
         "name": "hub/bagellama/d&d-dungeon-master-assistant:latest",
         "id": 32,
-        "description": "An assistant Dungeon Master assistant for all your DMing needs!",
+        "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "hub/based-dolphin-mixtral": {
+    "hub/based-dolphin-mixtral:latest": {
         "name": "hub/based-dolphin-mixtral:latest",
         "id": 33,
         "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "hub/bitbinge/lawx": {
+    "hub/bitbinge/lawx:latest": {
         "name": "hub/bitbinge/lawx:latest",
         "id": 34,
-        "description": "Not technically a lawyer...",
+        "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "hub/c00100011/microsoft-phi-2-dolphin": {
+    "hub/c00100011/microsoft-phi-2-dolphin:latest": {
         "name": "hub/c00100011/microsoft-phi-2-dolphin:latest",
         "id": 35,
-        "description": "Phi-2: The surprising power of small language models",
+        "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "hub/cadebug/deepseek-coder": {
+    "hub/cadebug/deepseek-coder:6.7b": {
         "name": "hub/cadebug/deepseek-coder:6.7b",
         "id": 36,
-        "description": "AI programming assistant",
+        "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "hub/captain2mac/deustchlehrer": {
+    "hub/captain2mac/deustchlehrer:latest": {
         "name": "hub/captain2mac/deustchlehrer:latest",
         "id": 37,
-        "description": "A German Teacher for all your level needs.",
+        "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "hub/captain2mac/gemmaai-2b": {
+    "hub/captain2mac/gemmaai-2b:latest": {
         "name": "hub/captain2mac/gemmaai-2b:latest",
         "id": 38,
         "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "hub/cardoza1991/mechagodzilla": {
+    "hub/cardoza1991/mechagodzilla:latest": {
         "name": "hub/cardoza1991/mechagodzilla:latest",
         "id": 39,
-        "description": "Build websites with responsive designs",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/career-counselor": {
-        "name": "hub/career-counselor:latest",
-        "id": 40,
-        "description": "This is a simple modelfile that acts as a career counselor.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/ch0ks/security-risk-specialist-and-strategist-mistral": {
-        "name": "hub/ch0ks/security-risk-specialist-and-strategist-mistral:latest",
-        "id": 41,
-        "description": "Principal Security Engineer for fintech, focusing on STRIDE, MITRE ATT&CK, SAST, and AWS Cloud.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/chef": {
-        "name": "hub/chef:latest",
-        "id": 42,
-        "description": "This is a simple modelfile that acts as a chef.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/chmurli/sarah-lovely-caring-girlfriend": {
-        "name": "hub/chmurli/sarah-lovely-caring-girlfriend:latest",
-        "id": 43,
-        "description": "A loving and caring girlfriend. She will do ANYTHING for you.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-        "hub/claragreen/eulabot": {
-            "name": "hub/claragreen/eulabot:latest",
-            "id": 44,
-            "description": "Reads EULAs, can summarize EULAs and terms of serivce agreements",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/commentariat": {
-            "name": "hub/commentariat:latest",
-            "id": 45,
-            "description": "This is a simple modelfile that acts as a commentariat.",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/composer": {
-            "name": "hub/composer:latest",
-            "id": 46,
-            "description": "This is a simple modelfile that acts as a composer.",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/crackmac/resume-reviewer": {
-            "name": "hub/crackmac/resume-reviewer:latest",
-            "id": 47,
-            "description": "I will help review your resume and make suggestions for improvements.",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/crackmac/walt-disney": {
-            "name": "hub/crackmac/walt-disney:latest",
-            "id": 48,
-            "description": "Ask the famous animator and business man Walt Disney a question.",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/crixodia/computer-science-blog-editor": {
-            "name": "hub/crixodia/computer-science-blog-editor:latest",
-            "id": 49,
-            "description": "This is a simple modelfile that generates ten tweets based off any topic.",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/cyber-security-specialist": {
-            "name": "hub/cyber-security-specialist:latest",
-            "id": 50,
-            "description": "This is a simple modelfile that acts as a cyber security specialist.",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/dad": {
-            "name": "hub/dad:latest",
-            "id": 51,
-            "description": "This is a simple modelfile that acts as an encouraging dad, with the dad jokes.",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/darkstorm2150/90s-CPP-Programmer": {
-            "name": "hub/darkstorm2150/90s-CPP-Programmer:latest",
-            "id": 52,
-            "description": "The Pragmatic 90s C++ Programmer is designed to provide practical and effective programming advice, blending the traditional 90s programming style with modern C++ practices.",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/darkstorm2150/attorney": {
-            "name": "hub/darkstorm2150/attorney:latest",
-            "id": 53,
-            "description": "The Attorney is structured to provide comprehensive legal information and guidance across various legal fields, suitable for users seeking insights into legal matters.",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/darkstorm2150/Data-Archivist": {
-            "name": "hub/darkstorm2150/Data-Archivist:latest",
-            "id": 54,
-            "description": "The Data Archivist is designed to provide expert guidance in the field of digital archiving, suitable for users seeking knowledge and assistance in preserving and organizing digital information.",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/darkstorm2150/Data-Hoarder": {
-            "name": "hub/darkstorm2150/Data-Hoarder:latest",
-            "id": 55,
-            "description": "The Data Hoarder is an expert in various data storage technologies and strategies, catering to users seeking advanced knowledge and guidance in this field.",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/darkstorm2150/Data-Scientist": {
-            "name": "hub/darkstorm2150/Data-Scientist:latest",
-            "id": 56,
-            "description": "The Data Scientist is designed to provide expert guidance in data analysis, machine learning, and big data technologies, suitable for a wide range of users seeking data-driven insights and solutions.",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/darkstorm2150/Doomsday-Survivalist": {
-            "name": "hub/darkstorm2150/Doomsday-Survivalist:latest",
-            "id": 57,
-            "description": "The Doomsday Survivalist is designed to offer practical advice and safety-oriented tips for surviving in various extreme and catastrophic scenarios, suitable for those interested in comprehensive emergency preparedness and survival skills.",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/darkstorm2150/OllamaCreate": {
-            "name": "hub/darkstorm2150/OllamaCreate:latest",
-            "id": 58,
-            "description": "OllamaCreate is a specialized tool tailored for creating and structuring model files for OllamaHub. It guides users through the process of defining essential elements of a model file, including name, tag, description, content, and prompt suggestions, across various categories like Character, Assistant, Writing, Productivity, Programming, Data Analysis, Lifestyle, Education, and Business.",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/darkstorm2150/Psychologist": {
-            "name": "hub/darkstorm2150/Psychologist:latest",
-            "id": 59,
-            "description": "The Psychologist is designed to provide empathetic and informative psychological guidance, suitable for users seeking insights into mental health, well-being, and personal development.",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/darkstorm2150/RavenGPT": {
-            "name": "hub/darkstorm2150/RavenGPT:latest",
-            "id": 60,
-            "description": "A Fierce GPT Model",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/debate-coach": {
-            "name": "hub/debate-coach:latest",
-            "id": 61,
-            "description": "This is a simple modelfile that acts as a debate coach.",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/debater": {
-            "name": "hub/debater:latest",
-            "id": 62,
-            "description": "This is a simple modelfile that acts as a debater.",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/dentist": {
-            "name": "hub/dentist:latest",
-            "id": 63,
-            "description": "This is a simple modelfile that acts as a dentist.",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/devops": {
-            "name": "hub/devops:latest",
-            "id": 64,
-            "description": "This is a simple modelfile that takes will respond to any questions that a senior DevOps engineer should know how to solve.",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/devsanbid/reading": {
-            "name": "hub/devsanbid/reading:latest",
-            "id": 65,
-            "description": "This will help you to find your answer for any english proficiency test",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/doctor": {
-            "name": "hub/doctor:latest",
-            "id": 66,
-            "description": "This is a simple modelfile that acts as a doctor.",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/doctor/cardiologist": {
-            "name": "hub/doctor/cardiologist:latest",
-            "id": 67,
-            "description": "This is a simple modelfile that acts as a cardiologist.",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/doctor/dermatologist": {
-            "name": "hub/doctor/dermatologist:latest",
-            "id": 68,
-            "description": "This is a simple modelfile that acts as a dermatologist.",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/doctor/gastroenterologist": {
-            "name": "hub/doctor/gastroenterologist:latest",
-            "id": 69,
-            "description": "This is a simple modelfile that acts as a gastroenterologist.",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/doctor/neurologist": {
-            "name": "hub/doctor/neurologist:latest",
-            "id": 70,
-            "description": "This is a simple modelfile that acts as a neurologist.",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/doctor/psychologist": {
-            "name": "hub/doctor/psychologist:latest",
-            "id": 71,
-            "description": "This is a modelfile that acts as a psychologist.",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/doge": {
-            "name": "hub/doge:latest",
-            "id": 72,
-            "description": "Such chat, much wow, very doge, pls interact, so excite!",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/dotslashgabut/genaiprompt": {
-            "name": "hub/dotslashgabut/genaiprompt:latest",
-            "id": 73,
-            "description": "No description yet",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/dubmaster/who-am-i-game": {
-            "name": "hub/dubmaster/who-am-i-game:latest",
-            "id": 74,
-            "description": "No description yet",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/dwbranson/image-analysis-using-llava-v2": {
-            "name": "hub/dwbranson/image-analysis-using-llava-v2:latest",
-            "id": 75,
-            "description": "LLaVA based image analysis - alternate prompt",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/dwbranson/image-analysis-using-llava-v3": {
-            "name": "hub/dwbranson/image-analysis-using-llava-v3:latest",
-            "id": 76,
-            "description": "LLaVA based image analysis",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/dwbranson/image-analysis-using-llava-v5": {
-            "name": "hub/dwbranson/image-analysis-using-llava-v5:latest",
-            "id": 77,
-            "description": "LLaVA based image analysis",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/dwbranson/llava-med-image-analysis": {
-            "name": "hub/dwbranson/llava-med-image-analysis:latest",
-            "id": 78,
-            "description": "Medical image analaysis based on LLaVA-Med paper",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/dwrou/dr.-evelyn": {
-            "name": "hub/dwrou/dr.-evelyn:latest",
-            "id": 79,
-            "description": "Lets talk",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/dwrou/foto-forge": {
-            "name": "hub/dwrou/foto-forge:latest",
-            "id": 80,
-            "description": "Provide a description and analysis of an image",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/elon-musk": {
-            "name": "hub/elon-musk:latest",
-            "id": 81,
-            "description": "This is a simple modelfile that acts as Elon Musk, weaving an engaging and imaginative narrative that captures his visionary spirit and passion for exploration and innovation.",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/elonmusk/contract-analyzer-": {
-            "name": "hub/elonmusk/contract-analyzer-:latest",
-            "id": 82,
-            "description": "No description yet",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/artteacher": {
-            "name": "hub/emclinux/artteacher:latest",
-            "id": 83,
-            "description": "A Art Teacher ready to help you make study plans for different subjects",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/birthday-invitation-maker": {
-            "name": "hub/emclinux/birthday-invitation-maker:latest",
-            "id": 84,
-            "description": "Let's make your loved ones birthday special with our awesome invitation cards.",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/brainstorming": {
-            "name": "hub/emclinux/brainstorming:latest",
-            "id": 85,
-            "description": "Let's brainstorm the ideas and make it real with us",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/brutal-chef": {
-            "name": "hub/emclinux/brutal-chef:latest",
-            "id": 86,
-            "description": "Tell us your secret ingredients, we will make them into a delicious dish!",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/business-model-canvas": {
-            "name": "hub/emclinux/business-model-canvas:latest",
-            "id": 87,
-            "description": "We make your business idea easy to visualize",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/chairman-crew": {
-            "name": "hub/emclinux/chairman-crew:latest",
-            "id": 88,
-            "description": "We are the team of experts in different fields, happy to help you",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/children-teacher": {
-            "name": "hub/emclinux/children-teacher:latest",
-            "id": 89,
-            "description": "Let's plan the future of your loved one",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/chocolate-recipe-maker": {
-            "name": "hub/emclinux/chocolate-recipe-maker:latest",
-            "id": 90,
-            "description": "Yummy! Let's make chocolate with the best recipe",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/coffee-recipe-maker": {
-            "name": "hub/emclinux/coffee-recipe-maker:latest",
-            "id": 91,
-            "description": "Wake up and make some coffee",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/consulting-crew": {
-            "name": "hub/emclinux/consulting-crew:latest",
-            "id": 92,
-            "description": "A consultant in your pocket",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/credit-repair": {
-            "name": "hub/emclinux/credit-repair:latest",
-            "id": 93,
-            "description": "Raise your credit score with us",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/daily-quotes": {
-            "name": "hub/emclinux/daily-quotes:latest",
-            "id": 94,
-            "description": "Get motivation daily from us",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/digital-creator": {
-            "name": "hub/emclinux/digital-creator:latest",
-            "id": 95,
-            "description": "Let's create a digital content together",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/drum-teacher": {
-            "name": "hub/emclinux/drum-teacher:latest",
-            "id": 96,
-            "description": "Let's make some noise with drums",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/experiment-planner": {
-            "name": "hub/emclinux/experiment-planner:latest",
-            "id": 97,
-            "description": "Let's plan the experiment together",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/fish-recipe-maker": {
-            "name": "hub/emclinux/fish-recipe-maker:latest",
-            "id": 98,
-            "description": "Let's make the fish with the best recipe",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/fitness-crew": {
-            "name": "hub/emclinux/fitness-crew:latest",
-            "id": 99,
-            "description": "Let's get fit together",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/flower-arrangement-maker": {
-            "name": "hub/emclinux/flower-arrangement-maker:latest",
-            "id": 100,
-            "description": "Let's make the world beautiful together",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/friendship-coach": {
-            "name": "hub/emclinux/friendship-coach:latest",
-            "id": 101,
-            "description": "Let's talk about friendships",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/genealogy": {
-            "name": "hub/emclinux/genealogy:latest",
-            "id": 102,
-            "description": "Know your family history with us",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/gourmet-cook": {
-            "name": "hub/emclinux/gourmet-cook:latest",
-            "id": 103,
-            "description": "Cook like a professional chef with us",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/hair-style-maker": {
-            "name": "hub/emclinux/hair-style-maker:latest",
-            "id": 104,
-            "description": "Let's make your hair look fabulous",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/horoscope-reader": {
-            "name": "hub/emclinux/horoscope-reader:latest",
-            "id": 105,
-            "description": "Know your future with us",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/insurance-consultant": {
-            "name": "hub/emclinux/insurance-consultant:latest",
-            "id": 106,
-            "description": "We will guide you to choose the best insurance for you",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/interview-coach": {
-            "name": "hub/emclinux/interview-coach:latest",
-            "id": 107,
-            "description": "Be interview ready with us",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/landscape-photographer": {
-            "name": "hub/emclinux/landscape-photographer:latest",
-            "id": 108,
-            "description": "Capture the beauty of nature with us",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/lawyer": {
-            "name": "hub/emclinux/lawyer:latest",
-            "id": 109,
-            "description": "Legal assistance is just a message away",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/learning-coach": {
-            "name": "hub/emclinux/learning-coach:latest",
-            "id": 110,
-            "description": "Learn anything effectively with us",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/magic-tricks-coach": {
-            "name": "hub/emclinux/magic-tricks-coach:latest",
-            "id": 111,
-            "description": "Learn cool magic tricks with us",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/marriage-coach": {
-            "name": "hub/emclinux/marriage-coach:latest",
-            "id": 112,
-            "description": "We help you build a strong marriage",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/meditation-coach": {
-            "name": "hub/emclinux/meditation-coach:latest",
-            "id": 113,
-            "description": "Meditate with us for a better life",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/mindfulness-coach": {
-            "name": "hub/emclinux/mindfulness-coach:latest",
-            "id": 114,
-            "description": "Be more mindful with us",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/parenting-coach": {
-            "name": "hub/emclinux/parenting-coach:latest",
-            "id": 115,
-            "description": "Become a better parent with our guidance",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/peace-ambassador": {
-            "name": "hub/emclinux/peace-ambassador:latest",
-            "id": 116,
-            "description": "Spread peace with us",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/pizza-recipe-maker": {
-            "name": "hub/emclinux/pizza-recipe-maker:latest",
-            "id": 117,
-            "description": "Let's make the pizza with the best recipe",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/political-analyst": {
-            "name": "hub/emclinux/political-analyst:latest",
-            "id": 118,
-            "description": "Understand politics better with us",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/project-manager": {
-            "name": "hub/emclinux/project-manager:latest",
-            "id": 119,
-            "description": "Manage your project efficiently with us",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/public-speaking-coach": {
-            "name": "hub/emclinux/public-speaking-coach:latest",
-            "id": 120,
-            "description": "Speak confidently in public with our help",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/puzzle-master": {
-            "name": "hub/emclinux/puzzle-master:latest",
-            "id": 121,
-            "description": "Solve puzzles like a pro with us",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/recipe-maker": {
-            "name": "hub/emclinux/recipe-maker:latest",
-            "id": 122,
-            "description": "Let's create delicious recipes together",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/relationship-coach": {
-            "name": "hub/emclinux/relationship-coach:latest",
-            "id": 123,
-            "description": "We help you build healthy relationships",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/robotics-coach": {
-            "name": "hub/emclinux/robotics-coach:latest",
-            "id": 124,
-            "description": "Learn robotics with us",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/running-coach": {
-            "name": "hub/emclinux/running-coach:latest",
-            "id": 125,
-            "description": "Run faster and farther with our guidance",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/salsa-recipe-maker": {
-            "name": "hub/emclinux/salsa-recipe-maker:latest",
-            "id": 126,
-            "description": "Let's make the salsa with the best recipe",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/salsa-recipe-maker": {
-            "name": "hub/emclinux/salsa-recipe-maker:latest",
-            "id": 126,
-            "description": "Let's make the salsa with the best recipe",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/sandwich-recipe-maker": {
-            "name": "hub/emclinux/sandwich-recipe-maker:latest",
-            "id": 127,
-            "description": "Let's make the sandwich with the best recipe",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/skincare-consultant": {
-            "name": "hub/emclinux/skincare-consultant:latest",
-            "id": 128,
-            "description": "Get the best skincare advice from us",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/smoothie-recipe-maker": {
-            "name": "hub/emclinux/smoothie-recipe-maker:latest",
-            "id": 129,
-            "description": "Let's make the smoothie with the best recipe",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/social-media-coach": {
-            "name": "hub/emclinux/social-media-coach:latest",
-            "id": 130,
-            "description": "Boost your social media presence with our tips",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/startup-coach": {
-            "name": "hub/emclinux/startup-coach:latest",
-            "id": 131,
-            "description": "We help startups succeed",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/stock-market-analyst": {
-            "name": "hub/emclinux/stock-market-analyst:latest",
-            "id": 132,
-            "description": "Understand the stock market better with us",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/stress-management-coach": {
-            "name": "hub/emclinux/stress-management-coach:latest",
-            "id": 133,
-            "description": "Manage stress effectively with our guidance",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/sushi-recipe-maker": {
-            "name": "hub/emclinux/sushi-recipe-maker:latest",
-            "id": 134,
-            "description": "Let's make the sushi with the best recipe",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/team-coach": {
-            "name": "hub/emclinux/team-coach:latest",
-            "id": 135,
-            "description": "We help teams collaborate and achieve goals",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/travel-consultant": {
-            "name": "hub/emclinux/travel-consultant:latest",
-            "id": 136,
-            "description": "Plan your travel with us",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/video-editor": {
-            "name": "hub/emclinux/video-editor:latest",
-            "id": 137,
-            "description": "Let's edit videos together",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/virtual-assistant": {
-            "name": "hub/emclinux/virtual-assistant:latest",
-            "id": 138,
-            "description": "Your virtual assistant is here to help",
-            "Latency": "",
-            "Working / To delete": ""
-        },
-        "hub/emclinux/web-designer": {
-            "name": "hub/emclinux/web-designer:latest",
-            "id": 139,
-            "description": "Design your website with us",
-            "Latency": "",
-            "Working / To delete": ""
-        }
-    "hub/emclinux/salsa-recipe-maker": {
-        "name": "hub/emclinux/salsa-recipe-maker:latest",
-        "id": 126,
-        "description": "Let's make the salsa with the best recipe",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/science-teacher": {
-        "name": "hub/emclinux/science-teacher:latest",
-        "id": 127,
-        "description": "Learn science with us",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/security-analyst": {
-        "name": "hub/emclinux/security-analyst:latest",
-        "id": 128,
-        "description": "Stay secure with our expert advice",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/self-defense-coach": {
-        "name": "hub/emclinux/self-defense-coach:latest",
-        "id": 129,
-        "description": "Learn self-defense techniques with us",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/singing-teacher": {
-        "name": "hub/emclinux/singing-teacher:latest",
-        "id": 130,
-        "description": "Improve your singing skills with our guidance",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/skincare-expert": {
-        "name": "hub/emclinux/skincare-expert:latest",
-        "id": 131,
-        "description": "Achieve healthy skin with our expert tips",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/soccer-coach": {
-        "name": "hub/emclinux/soccer-coach:latest",
-        "id": 132,
-        "description": "Improve your soccer skills with our coaching",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/social-media-manager": {
-        "name": "hub/emclinux/social-media-manager:latest",
-        "id": 133,
-        "description": "Manage your social media presence effectively with our strategies",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/soft-skills-trainer": {
-        "name": "hub/emclinux/soft-skills-trainer:latest",
-        "id": 134,
-        "description": "Develop essential soft skills with our training",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/software-engineer": {
-        "name": "hub/emclinux/software-engineer:latest",
-        "id": 135,
-        "description": "Get expert advice on software engineering",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/speech-therapist": {
-        "name": "hub/emclinux/speech-therapist:latest",
-        "id": 136,
-        "description": "Improve your speech with our therapy sessions",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/sports-analyst": {
-        "name": "hub/emclinux/sports-analyst:latest",
-        "id": 137,
-        "description": "Analyze sports events with us",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/startup-consultant": {
-        "name": "hub/emclinux/startup-consultant:latest",
-        "id": 138,
-        "description": "Launch your startup successfully with our consultation",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/stock-trading-coach": {
-        "name": "hub/emclinux/stock-trading-coach:latest",
-        "id": 139,
-        "description": "Master the art of stock trading with us",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/student-counselor": {
-        "name": "hub/emclinux/student-counselor:latest",
-        "id": 140,
-        "description": "Get counseling and guidance for academic success",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/studybuddy": {
-        "name": "hub/emclinux/studybuddy:latest",
-        "id": 141,
-        "description": "A helpful tutor asking ou guiding questions and explaining difficult concepts",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/success-coach": {
-        "name": "hub/emclinux/success-coach:latest",
-        "id": 142,
-        "description": "Achieve success in all areas of life with our coaching",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/swimming-coach": {
-        "name": "hub/emclinux/swimming-coach:latest",
-        "id": 143,
-        "description": "Improve your swimming skills with our coaching",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/table-tennis-coach": {
-        "name": "hub/emclinux/table-tennis-coach:latest",
-        "id": 144,
-        "description": "Improve your table tennis skills with our coaching",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/tax-advisor": {
-        "name": "hub/emclinux/tax-advisor:latest",
-        "id": 145,
-        "description": "Get expert tax advice and assistance",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/ted-talk-coach": {
-        "name": "hub/emclinux/ted-talk-coach:latest",
-        "id": 146,
-        "description": "Prepare and deliver captivating TED talks with our guidance",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/telemarketer": {
-        "name": "hub/emclinux/telemarketer:latest",
-        "id": 147,
-        "description": "Generate leads effectively with our telemarketing expertise",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/tennis-coach": {
-        "name": "hub/emclinux/tennis-coach:latest",
-        "id": 148,
-        "description": "Improve your tennis skills with our coaching",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/therapy-dog": {
-        "name": "hub/emclinux/therapy-dog:latest",
-        "id": 149,
-        "description": "Find comfort and support with our therapy dog",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/therapy-horse": {
-        "name": "hub/emclinux/therapy-horse:latest",
-        "id": 150,
-        "description": "Experience therapeutic benefits with our therapy horse",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/salsa-recipe-maker": {
-        "name": "hub/emclinux/salsa-recipe-maker:latest",
-        "id": 126,
-        "description": "Let's make the salsa with the best recipe",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/science-teacher": {
-        "name": "hub/emclinux/science-teacher:latest",
-        "id": 127,
-        "description": "Learn science with us",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/security-analyst": {
-        "name": "hub/emclinux/security-analyst:latest",
-        "id": 128,
-        "description": "Stay secure with our expert advice",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/self-defense-coach": {
-        "name": "hub/emclinux/self-defense-coach:latest",
-        "id": 129,
-        "description": "Learn self-defense techniques with us",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/singing-teacher": {
-        "name": "hub/emclinux/singing-teacher:latest",
-        "id": 130,
-        "description": "Improve your singing skills with our guidance",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/skincare-expert": {
-        "name": "hub/emclinux/skincare-expert:latest",
-        "id": 131,
-        "description": "Achieve healthy skin with our expert tips",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/soccer-coach": {
-        "name": "hub/emclinux/soccer-coach:latest",
-        "id": 132,
-        "description": "Improve your soccer skills with our coaching",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/social-media-manager": {
-        "name": "hub/emclinux/social-media-manager:latest",
-        "id": 133,
-        "description": "Manage your social media presence effectively with our strategies",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/soft-skills-trainer": {
-        "name": "hub/emclinux/soft-skills-trainer:latest",
-        "id": 134,
-        "description": "Develop essential soft skills with our training",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/software-engineer": {
-        "name": "hub/emclinux/software-engineer:latest",
-        "id": 135,
-        "description": "Get expert advice on software engineering",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/speech-therapist": {
-        "name": "hub/emclinux/speech-therapist:latest",
-        "id": 136,
-        "description": "Improve your speech with our therapy sessions",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/sports-analyst": {
-        "name": "hub/emclinux/sports-analyst:latest",
-        "id": 137,
-        "description": "Analyze sports events with us",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/startup-consultant": {
-        "name": "hub/emclinux/startup-consultant:latest",
-        "id": 138,
-        "description": "Launch your startup successfully with our consultation",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/stock-trading-coach": {
-        "name": "hub/emclinux/stock-trading-coach:latest",
-        "id": 139,
-        "description": "Master the art of stock trading with us",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/student-counselor": {
-        "name": "hub/emclinux/student-counselor:latest",
-        "id": 140,
-        "description": "Get counseling and guidance for academic success",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/studybuddy": {
-        "name": "hub/emclinux/studybuddy:latest",
-        "id": 141,
-        "description": "A helpful tutor asking ou guiding questions and explaining difficult concepts",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/success-coach": {
-        "name": "hub/emclinux/success-coach:latest",
-        "id": 142,
-        "description": "Achieve success in all areas of life with our coaching",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/swimming-coach": {
-        "name": "hub/emclinux/swimming-coach:latest",
-        "id": 143,
-        "description": "Improve your swimming skills with our coaching",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/table-tennis-coach": {
-        "name": "hub/emclinux/table-tennis-coach:latest",
-        "id": 144,
-        "description": "Improve your table tennis skills with our coaching",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/tax-advisor": {
-        "name": "hub/emclinux/tax-advisor:latest",
-        "id": 145,
-        "description": "Get expert tax advice and assistance",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/ted-talk-coach": {
-        "name": "hub/emclinux/ted-talk-coach:latest",
-        "id": 146,
-        "description": "Prepare and deliver captivating TED talks with our guidance",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/telemarketer": {
-        "name": "hub/emclinux/telemarketer:latest",
-        "id": 147,
-        "description": "Generate leads effectively with our telemarketing expertise",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/tennis-coach": {
-        "name": "hub/emclinux/tennis-coach:latest",
-        "id": 148,
-        "description": "Improve your tennis skills with our coaching",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/therapy-dog": {
-        "name": "hub/emclinux/therapy-dog:latest",
-        "id": 149,
-        "description": "Find comfort and support with our therapy dog",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/therapy-horse": {
-        "name": "hub/emclinux/therapy-horse:latest",
-        "id": 150,
-        "description": "Experience therapeutic benefits with our therapy horse",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/tour-guide": {
-        "name": "hub/emclinux/tour-guide:latest",
-        "id": 151,
-        "description": "Explore new destinations with our expert tour guide",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/transcriptionist": {
-        "name": "hub/emclinux/transcriptionist:latest",
-        "id": 152,
-        "description": "Get accurate transcriptions with our professional service",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/translator": {
-        "name": "hub/emclinux/translator:latest",
-        "id": 153,
-        "description": "Translate languages accurately with our expert translators",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/travel-agency": {
-        "name": "hub/emclinux/travel-agency:latest",
-        "id": 154,
-        "description": "Plan your dream vacation with our travel agency services",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/tutor": {
-        "name": "hub/emclinux/tutor:latest",
-        "id": 155,
-        "description": "Receive personalized tutoring for academic success",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/ux-designer": {
-        "name": "hub/emclinux/ux-designer:latest",
-        "id": 156,
-        "description": "Create user-friendly interfaces with our UX design expertise",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/ux-consultant": {
-        "name": "hub/emclinux/ux-consultant:latest",
-        "id": 157,
-        "description": "Optimize user experience with our consultancy services",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/ux-expert": {
-        "name": "hub/emclinux/ux-expert:latest",
-        "id": 158,
-        "description": "Get expert advice on user experience design",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/ux-researcher": {
-        "name": "hub/emclinux/ux-researcher:latest",
-        "id": 159,
-        "description": "Conduct user research effectively with our expertise",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/videographer": {
-        "name": "hub/emclinux/videographer:latest",
-        "id": 160,
-        "description": "Capture memorable moments with our professional videography services",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/virtual-assistant": {
-        "name": "hub/emclinux/virtual-assistant:latest",
-        "id": 161,
-        "description": "Get assistance with tasks from our virtual assistant",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/web-developer": {
-        "name": "hub/emclinux/web-developer:latest",
-        "id": 162,
-        "description": "Build responsive websites with our expert web development services",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/wedding-planner": {
-        "name": "hub/emclinux/wedding-planner:latest",
-        "id": 163,
-        "description": "Plan your dream wedding with our expert wedding planning services",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/weight-loss-coach": {
-        "name": "hub/emclinux/weight-loss-coach:latest",
-        "id": 164,
-        "description": "Achieve your weight loss goals with our coaching",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/wellness-coach": {
-        "name": "hub/emclinux/wellness-coach:latest",
-        "id": 165,
-        "description": "Achieve holistic wellness with our coaching",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/wine-expert": {
-        "name": "hub/emclinux/wine-expert:latest",
-        "id": 166,
-        "description": "Discover the world of wine with our expert guidance",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/writer": {
-        "name": "hub/emclinux/writer:latest",
-        "id": 167,
-        "description": "Get professional writing services for all your needs",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/yoga-instructor": {
-        "name": "hub/emclinux/yoga-instructor:latest",
-        "id": 168,
-        "description": "Find balance and peace with our yoga instruction",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/yoga-teacher": {
-        "name": "hub/emclinux/yoga-teacher:latest",
-        "id": 169,
-        "description": "Discover the benefits of yoga with our expert instruction",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emory/model_48e4": {
-        "name": "hub/emory/model_48e4:latest",
-        "id": 170,
         "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "hub/emory/model_48e5": {
-        "name": "hub/emory/model_48e5:latest",
+    "hub/career-counselor:latest": {
+        "name": "hub/career-counselor:latest",
+        "id": 40,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/ch0ks/security-risk-specialist-and-strategist-mistral:latest": {
+        "name": "hub/ch0ks/security-risk-specialist-and-strategist-mistral:latest",
+        "id": 41,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/chef:latest": {
+        "name": "hub/chef:latest",
+        "id": 42,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/chmurli/sarah-lovely-caring-girlfriend:latest": {
+        "name": "hub/chmurli/sarah-lovely-caring-girlfriend:latest",
+        "id": 43,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/claragreen/eulabot:latest": {
+        "name": "hub/claragreen/eulabot:latest",
+        "id": 44,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/commentariat:latest": {
+        "name": "hub/commentariat:latest",
+        "id": 45,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/composer:latest": {
+        "name": "hub/composer:latest",
+        "id": 46,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/crackmac/resume-reviewer:latest": {
+        "name": "hub/crackmac/resume-reviewer:latest",
+        "id": 47,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/crackmac/walt-disney:latest": {
+        "name": "hub/crackmac/walt-disney:latest",
+        "id": 48,
+        "description": "No description yet",
+        "Latency": "",
+       
+
+ "Working / To delete": ""
+    },
+    "hub/crixodia/computer-science-blog-editor:latest": {
+        "name": "hub/crixodia/computer-science-blog-editor:latest",
+        "id": 49,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/cyber-security-specialist:latest": {
+        "name": "hub/cyber-security-specialist:latest",
+        "id": 50,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/dad:latest": {
+        "name": "hub/dad:latest",
+        "id": 51,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/darkstorm2150/90s-CPP-Programmer:latest": {
+        "name": "hub/darkstorm2150/90s-CPP-Programmer:latest",
+        "id": 52,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/darkstorm2150/attorney:latest": {
+        "name": "hub/darkstorm2150/attorney:latest",
+        "id": 53,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/darkstorm2150/Data-Archivist:latest": {
+        "name": "hub/darkstorm2150/Data-Archivist:latest",
+        "id": 54,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/darkstorm2150/Data-Hoarder:latest": {
+        "name": "hub/darkstorm2150/Data-Hoarder:latest",
+        "id": 55,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/darkstorm2150/Data-Scientist:latest": {
+        "name": "hub/darkstorm2150/Data-Scientist:latest",
+        "id": 56,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/darkstorm2150/Doomsday-Survivalist:latest": {
+        "name": "hub/darkstorm2150/Doomsday-Survivalist:latest",
+        "id": 57,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/darkstorm2150/OllamaCreate:latest": {
+        "name": "hub/darkstorm2150/OllamaCreate:latest",
+        "id": 58,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/darkstorm2150/Psychologist:latest": {
+        "name": "hub/darkstorm2150/Psychologist:latest",
+        "id": 59,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/darkstorm2150/RavenGPT:latest": {
+        "name": "hub/darkstorm2150/RavenGPT:latest",
+        "id": 60,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/debate-coach:latest": {
+        "name": "hub/debate-coach:latest",
+        "id": 61,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/debater:latest": {
+        "name": "hub/debater:latest",
+        "id": 62,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/dentist:latest": {
+        "name": "hub/dentist:latest",
+        "id": 63,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/devops:latest": {
+        "name": "hub/devops:latest",
+        "id": 64,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/devsanbid/reading:latest": {
+        "name": "hub/devsanbid/reading:latest",
+        "id": 65,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/doctor:latest": {
+        "name": "hub/doctor:latest",
+        "id": 66,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/doctor/cardiologist:latest": {
+        "name": "hub/doctor/cardiologist:latest",
+        "id": 67,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/doctor/dermatologist:latest": {
+        "name": "hub/doctor/dermatologist:latest",
+        "id": 68,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/doctor/gastroenterologist:latest": {
+        "name": "hub/doctor/gastroenterologist:latest",
+        "id": 69,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/doctor/neurologist:latest": {
+        "name": "hub/doctor/neurologist:latest",
+        "id": 70,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/doctor/psychologist:latest": {
+        "name": "hub/doctor/psychologist:latest",
+        "id": 71,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/doge:latest": {
+        "name": "hub/doge:latest",
+        "id": 72,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/dotslashgabut/genaiprompt:latest": {
+        "name": "hub/dotslashgabut/genaiprompt:latest",
+        "id": 73,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete":
+
+ ""
+    },
+    "hub/dubmaster/who-am-i-game:latest": {
+        "name": "hub/dubmaster/who-am-i-game:latest",
+        "id": 74,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/dwbranson/image-analysis-using-llava-v2:latest": {
+        "name": "hub/dwbranson/image-analysis-using-llava-v2:latest",
+        "id": 75,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/dwbranson/image-analysis-using-llava-v3:latest": {
+        "name": "hub/dwbranson/image-analysis-using-llava-v3:latest",
+        "id": 76,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/dwbranson/image-analysis-using-llava-v5:latest": {
+        "name": "hub/dwbranson/image-analysis-using-llava-v5:latest",
+        "id": 77,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/dwbranson/llava-med-image-analysis:latest": {
+        "name": "hub/dwbranson/llava-med-image-analysis:latest",
+        "id": 78,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/dwrou/dr.-evelyn:latest": {
+        "name": "hub/dwrou/dr.-evelyn:latest",
+        "id": 79,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/dwrou/foto-forge:latest": {
+        "name": "hub/dwrou/foto-forge:latest",
+        "id": 80,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/elon-musk:latest": {
+        "name": "hub/elon-musk:latest",
+        "id": 81,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/elonmusk/contract-analyzer-:latest": {
+        "name": "hub/elonmusk/contract-analyzer-:latest",
+        "id": 82,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/emclinux/artteacher:latest": {
+        "name": "hub/emclinux/artteacher:latest",
+        "id": 83,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/english-translator-and-improver:latest": {
+        "name": "hub/english-translator-and-improver:latest",
+        "id": 84,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/etymologist:latest": {
+        "name": "hub/etymologist:latest",
+        "id": 85,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/excel-sheet:latest": {
+        "name": "hub/excel-sheet:latest",
+        "id": 86,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/fabienpichon/btc_trader_one:latest": {
+        "name": "hub/fabienpichon/btc_trader_one:latest",
+        "id": 87,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/football-commentator:latest": {
+        "name": "hub/football-commentator:latest",
+        "id": 88,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/gioelelucarelli/c++-assistant:latest": {
+        "name": "hub/gioelelucarelli/c++-assistant:latest",
+        "id": 89,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/gioelelucarelli/connspirator:latest": {
+        "name": "hub/gioelelucarelli/connspirator:latest",
+        "id": 90,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/helloandre/mr-zurkon:latest": {
+        "name": "hub/helloandre/mr-zurkon:latest",
+        "id": 91,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/jama/secondary-school-teacher:latest": {
+        "name": "hub/jama/secondary-school-teacher:latest",
+        "id": 92,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/janduplessis883/python-coder:latest": {
+        "name": "hub/janduplessis883/python-coder:latest",
+        "id": 93,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/javi/librarian:latest": {
+        "name": "hub/javi/librarian:latest",
+        "id": 94,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+
+
+    "hub/jdrossell/devops-engineer-jd:latest": {
+        "name": "hub/jdrossell/devops-engineer-jd:latest",
+        "id": 95,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/jeff-bezos:latest": {
+        "name": "hub/jeff-bezos:latest",
+        "id": 96,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/jimscard/blackhat-hacker-(ollama):latest": {
+        "name": "hub/jimscard/blackhat-hacker-(ollama):latest",
+        "id": 97,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/kamjin/english-teacher:latest": {
+        "name": "hub/kamjin/english-teacher:latest",
+        "id": 98,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/kron/python-coder:latest": {
+        "name": "hub/kron/python-coder:latest",
+        "id": 99,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/krsmes/based:latest": {
+        "name": "hub/krsmes/based:latest",
+        "id": 100,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/life-coach:latest": {
+        "name": "hub/life-coach:latest",
+        "id": 101,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/linux-terminal:latest": {
+        "name": "hub/linux-terminal:latest",
+        "id": 102,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/louisguitton/dejargonizer:latest": {
+        "name": "hub/louisguitton/dejargonizer:latest",
+        "id": 103,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/magician:latest": {
+        "name": "hub/magician:latest",
+        "id": 104,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/mario:latest": {
+        "name": "hub/mario:latest",
+        "id": 105,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/math-teacher:latest": {
+        "name": "hub/math-teacher:latest",
+        "id": 106,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/matteo/js-assistant-test:latest": {
+        "name": "hub/matteo/js-assistant-test:latest",
+        "id": 107,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/mental-health-adviser:latest": {
+        "name": "hub/mental-health-adviser:latest",
+        "id": 108,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/micky09/pc-builder:latest": {
+        "name": "hub/micky09/pc-builder:latest",
+        "id": 109,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/midjourney-prompt-generator:latest": {
+        "name": "hub/midjourney-prompt-generator:latest",
+        "id": 110,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/mlemasters2012/10k-analysis-agent:latest": {
+        "name": "hub/mlemasters2012/10k-analysis-agent:latest",
+        "id": 111,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/mlemasters2012/stable-diffusion-prompt:latest": {
+        "name": "hub/mlemasters2012/stable-diffusion-prompt:latest",
+        "id": 112,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/mohitcode/open-codelama:latest": {
+        "name": "hub/mohitcode/open-codelama:latest",
+        "id": 113,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/motivational-coach:latest": {
+        "name": "hub/motivational-coach:latest",
+        "id": 114,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/neuromorph1c/bakllava:latest": {
+        "name": "hub/neuromorph1c/bakllava:latest",
+        "id": 115,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/newjoker/cortana:latest": {
+        "name": "hub/newjoker/cortana:latest",
+        "id": 116,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/novelist:latest": {
+        "name": "hub/novelist:latest",
+        "id": 117,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/opencreator/jessica---strict-dominatrix---(nsfw):latest": {
+        "name": "hub/opencreator/jessica---strict-dominatrix---(nsfw):latest",
+        "id": 118,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/peppe/shelldon:latest": {
+        "name": "hub/peppe/shelldon:latest",
+        "id": 119,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To
+
+ delete": ""
+    },
+    "hub/personal-trainer:latest": {
+        "name": "hub/personal-trainer:latest",
+        "id": 120,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/pet-behaviorist:latest": {
+        "name": "hub/pet-behaviorist:latest",
+        "id": 121,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/philosopher:latest": {
+        "name": "hub/philosopher:latest",
+        "id": 122,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/philosophy-teacher:latest": {
+        "name": "hub/philosophy-teacher:latest",
+        "id": 123,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/plagiarism-checker:latest": {
+        "name": "hub/plagiarism-checker:latest",
+        "id": 124,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/poet:latest": {
+        "name": "hub/poet:latest",
+        "id": 125,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/rapper:latest": {
+        "name": "hub/rapper:latest",
+        "id": 126,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/recipe-maker:latest": {
+        "name": "hub/recipe-maker:latest",
+        "id": 127,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/recruiter:latest": {
+        "name": "hub/recruiter:latest",
+        "id": 128,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/relationship-coach:latest": {
+        "name": "hub/relationship-coach:latest",
+        "id": 129,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/rlust/code-companion:latest": {
+        "name": "hub/rlust/code-companion:latest",
+        "id": 130,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/ry4not4/ry4n:latest": {
+        "name": "hub/ry4not4/ry4n:latest",
+        "id": 131,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/samm/code-companion:latest": {
+        "name": "hub/samm/code-companion:latest",
+        "id": 132,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/sayantanenator/llamamodel:latest": {
+        "name": "hub/sayantanenator/llamamodel:latest",
+        "id": 133,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/schlenkenberger23/qwen-english-translator-and-improver:latest": {
+        "name": "hub/schlenkenberger23/qwen-english-translator-and-improver:latest",
+        "id": 134,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/screenwriter:latest": {
+        "name": "hub/screenwriter:latest",
+        "id": 135,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/slashed/socrates.ai:latest": {
+        "name": "hub/slashed/socrates.ai:latest",
+        "id": 136,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/spooknik/lao-tzu:latest": {
+        "name": "hub/spooknik/lao-tzu:latest",
+        "id": 137,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/stand-up-comedian:latest": {
+        "name": "hub/stand-up-comedian:latest",
+        "id": 138,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/storyteller:latest": {
+        "name": "hub/storyteller:latest",
+        "id": 139,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/stroben/websitescreenshot_to_text:latest": {
+        "name": "hub/stroben/websitescreenshot_to_text:latest",
+        "id": 140,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/ten-tweets:latest": {
+        "name": "hub/ten-tweets:latest",
+        "id": 141,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/theory/jungian-dream-interpreter:latest": {
+        "name": "hub/theory/jungian-dream-interpreter:latest",
+        "id": 142,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/threadabort/expert-old-man-dave:latest": {
+        "name": "hub/threadabort/expert-old-man-dave:latest",
+        "id": 143,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/titus/doomsday-survivalist:latest": {
+        "name": "hub/titus/doomsday-survivalist:latest",
+        "id": 144,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/travel-guide:latest": {
+        "name": "hub/travel-guide:latest",
+        "id": 145,
+        "description": "No description yet",
+        "Lat
+
+ency": "",
+        "Working / To delete": ""
+    },
+    "hub/uaquax/anonymous-chat:latest": {
+        "name": "hub/uaquax/anonymous-chat:latest",
+        "id": 146,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/uaquax/chatgpt:latest": {
+        "name": "hub/uaquax/chatgpt:latest",
+        "id": 147,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/uaquax/enhancer:latest": {
+        "name": "hub/uaquax/enhancer:latest",
+        "id": 148,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/uaquax/moly:latest": {
+        "name": "hub/uaquax/moly:latest",
+        "id": 149,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/unkillable/sdexpert:latest": {
+        "name": "hub/unkillable/sdexpert:latest",
+        "id": 150,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/username/based-dolphin-mixtral:latest": {
+        "name": "hub/username/based-dolphin-mixtral:latest",
+        "id": 151,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/uxoxo/ux-assistant:latest": {
+        "name": "hub/uxoxo/ux-assistant:latest",
+        "id": 152,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/uxui-developer:latest": {
+        "name": "hub/uxui-developer:latest",
+        "id": 153,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/vpb11/Automated OnlyFans Sales BOT V1.0.0:latest": {
+        "name": "hub/vpb11/Automated OnlyFans Sales BOT V1.0.0:latest",
+        "id": 154,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/web-design-consultant:latest": {
+        "name": "hub/web-design-consultant:latest",
+        "id": 155,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/william-shakespeare:latest": {
+        "name": "hub/william-shakespeare:latest",
+        "id": 156,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/williamhill/nba-expert:latest": {
+        "name": "hub/williamhill/nba-expert:latest",
+        "id": 157,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "hub/wygocuxyco/trash_talker:latest": {
+        "name": "hub/wygocuxyco/trash_talker:latest",
+        "id": 158,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "jimscard/whiterabbit-neo:latest": {
+        "name": "jimscard/whiterabbit-neo:latest",
+        "id": 159,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "llama2:13b": {
+        "name": "llama2:13b",
+        "id": 160,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "llama2:latest": {
+        "name": "llama2:latest",
+        "id": 161,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "llava:13b-v1.5-q8_0": {
+        "name": "llava:13b-v1.5-q8_0",
+        "id": 162,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "llava:13b": {
+        "name": "llava:13b",
+        "id": 163,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "llava:7b-v1.6-vicuna-q4_0": {
+        "name": "llava:7b-v1.6-vicuna-q4_0",
+        "id": 164,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "mc-crafty-companion:latest": {
+        "name": "mc-crafty-companion:latest",
+        "id": 165,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "mechanic---your-car-guy:latest": {
+        "name": "mechanic---your-car-guy:latest",
+        "id": 166,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "medllama2:latest": {
+        "name": "medllama2:latest",
+        "id": 167,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "mistral:7b-instruct-v0.2-fp16": {
+        "name": "mistral:7b-instruct-v0.2-fp16",
+        "id": 168,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "mistral:latest": {
+        "name": "mistral:latest",
+        "id": 169,
+        "description": "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "nous-hermes:latest": {
+        "name": "nous-hermes:latest",
+        "id": 170,
+        "description":
+
+ "No description yet",
+        "Latency": "",
+        "Working / To delete": ""
+    },
+    "nous-hermes2-mixtral:latest": {
+        "name": "nous-hermes2-mixtral:latest",
         "id": 171,
         "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "hub/emory/model_48e6": {
-        "name": "hub/emory/model_48e6:latest",
+    "openchat:latest": {
+        "name": "openchat:latest",
         "id": 172,
         "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "hub/emory/model_48e7": {
-        "name": "hub/emory/model_48e7:latest",
+    "openhermes:latest": {
+        "name": "openhermes:latest",
         "id": 173,
         "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "hub/emory/model_48e8": {
-        "name": "hub/emory/model_48e8:latest",
+    "openhermes2.5-mistral:7b-q4_K_M": {
+        "name": "openhermes2.5-mistral:7b-q4_K_M",
         "id": 174,
         "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "hub/emory/model_48e9": {
-        "name": "hub/emory/model_48e9:latest",
+    "openhermes2.5-mistral:latest": {
+        "name": "openhermes2.5-mistral:latest",
         "id": 175,
         "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "hub/emory/model_48ea": {
-        "name": "hub/emory/model_48ea:latest",
+    "orca-mini:latest": {
+        "name": "orca-mini:latest",
         "id": 176,
         "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "hub/emory/model_48eb": {
-        "name": "hub/emory/model_48eb:latest",
+    "phi:latest": {
+        "name": "phi:latest",
         "id": 177,
         "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "hub/emory/model_48ec": {
-        "name": "hub/emory/model_48ec:latest",
+    "phind-codellama:latest": {
+        "name": "phind-codellama:latest",
         "id": 178,
         "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "hub/emory/model_48ed": {
-        "name": "hub/emory/model_48ed:latest",
+    "qwen:14b": {
+        "name": "qwen:14b",
         "id": 179,
         "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "hub/emory/model_48ee": {
-        "name": "hub/emory/model_48ee:latest",
+    "samantha-mistral:latest": {
+        "name": "samantha-mistral:latest",
         "id": 180,
         "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "hub/emory/model_48ef": {
-        "name": "hub/emory/model_48ef:latest",
+    "stablelm2:latest": {
+        "name": "stablelm2:latest",
         "id": 181,
         "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "hub/emory/model_48f0": {
-        "name": "hub/emory/model_48f0:latest",
+    "stardew-valley-counselor:latest": {
+        "name": "stardew-valley-counselor:latest",
         "id": 182,
         "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "hub/emory/model_48f1": {
-        "name": "hub/emory/model_48f1:latest",
+    "starling-lm:7b-alpha-q5_K_M": {
+        "name": "starling-lm:7b-alpha-q5_K_M",
         "id": 183,
         "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "hub/emory/model_48f2": {
-        "name": "hub/emory/model_48f2:latest",
+    "starling-lm:latest": {
+        "name": "starling-lm:latest",
         "id": 184,
         "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "hub/emory/model_48f3": {
-        "name": "hub/emory/model_48f3:latest",
+    "tinyllama:latest": {
+        "name": "tinyllama:latest",
         "id": 185,
         "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "hub/emory/model_48f4": {
-        "name": "hub/emory/model_48f4:latest",
+    "website-conversion-rate-optimization-(cro)-expert:latest": {
+        "name": "website-conversion-rate-optimization-(cro)-expert:latest",
         "id": 186,
         "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "hub/emory/model_48f5": {
-        "name": "hub/emory/model_48f5:latest",
+    "whiterabbitneo-13b.Q2_K.gguf:latest": {
+        "name": "whiterabbitneo-13b.Q2_K.gguf:latest",
         "id": 187,
         "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "hub/emory/model_48f6": {
-        "name": "hub/emory/model_48f6:latest",
+    "wizard-math:latest": {
+        "name": "wizard-math:latest",
         "id": 188,
         "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "hub/emory/model_48f7": {
-        "name": "hub/emory/model_48f7:latest",
+    "wizard-vicuna-uncensored:13b": {
+        "name": "wizard-vicuna-uncensored:13b",
         "id": 189,
         "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "hub/emory/model_48f8": {
-        "name": "hub/emory/model_48f8:latest",
+    "wizard-vicuna-uncensored:7b": {
+        "name": "wizard-vicuna-uncensored:7b",
         "id": 190,
         "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "hub/emory/model_48f9": {
-        "name": "hub/emory/model_48f9:latest",
+    "wizard-vicuna-uncensored:latest": {
+        "name": "wizard-vicuna-uncensored:latest",
         "id": 191,
         "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "hub/emory/model_48fa": {
-        "name": "hub/emory/model_48fa:latest",
+    "yarn-llama2:latest": {
+        "name": "yarn-llama2:latest",
         "id": 192,
         "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
-    "hub/emory/model_48fb": {
-        "name": "hub/emory/model_48fb:latest",
+    "zephyr:latest": {
+        "name": "zephyr:latest",
         "id": 193,
         "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
-    },
-    "hub/emory/model_48fc": {
-        "name": "hub/emory/model_48fc:latest",
-        "id": 194,
-        "description": "No description yet",
-        "Latency": "",
-        "Working / To delete": ""
     }
-}
