@@ -1,6 +1,3 @@
-Here's the list you provided formatted with the requested structure for the Docker images numbered 1 to 194:
-
-```json
 {
     "bakllava:latest": {
         "name": "bakllava:latest",
