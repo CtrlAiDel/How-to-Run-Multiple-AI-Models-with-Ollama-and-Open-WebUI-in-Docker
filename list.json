@@ -1,1353 +1,1200 @@
+```json
 {
-    "bakllava:latest": {
-        "name": "bakllava:latest",
-        "id": 1,
-        "description": "LLAMA model with a special system prompt.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "c2p/gemma-ai:latest": {
-        "name": "c2p/gemma-ai:latest",
-        "id": 2,
-        "description": "Gemma model is Google's Open Source Model based on Gemini Models.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "codellama:7b": {
-        "name": "codellama:7b",
-        "id": 3,
-        "description": "CodeLlama.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "codellama:latest": {
-        "name": "codellama:latest",
-        "id": 4,
-        "description": "CodeLlama.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "deepseek-coder:6.7b": {
-        "name": "deepseek-coder:6.7b",
-        "id": 5,
-        "description": "AI programming assistant.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "dolphin-2_6-phi-2.Q6_K.gguf:latest": {
-        "name": "dolphin-2_6-phi-2.Q6_K.gguf:latest",
-        "id": 6,
-        "description": "Phi-2: The surprising power of small language models.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "dolphin-mistral:7b-v2.6-dpo-laser-q8_0": {
-        "name": "dolphin-mistral:7b-v2.6-dpo-laser-q8_0",
-        "id": 7,
-        "description": "Principal Security Engineer for fintech, focusing on STRIDE, MITRE ATT&CK, SAST, and AWS Cloud.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "dolphin-mistral:7b-v2.6-fp16": {
-        "name": "dolphin-mistral:7b-v2.6-fp16",
-        "id": 8,
-        "description": "An expert in stable diffusion prompt expansion.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "dolphin-mistral:7b-v2.6-q4_K_M": {
-        "name": "dolphin-mistral:7b-v2.6-q4_K_M",
-        "id": 9,
-        "description": "An expert in stable diffusion prompt expansion.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "dolphin-mistral:latest": {
-        "name": "dolphin-mistral:latest",
-        "id": 10,
-        "description": "An expert in stable diffusion prompt expansion.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "dolphin-mixtral:8x7b-v2.6-q3_K_L": {
-        "name": "dolphin-mixtral:8x7b-v2.6-q3_K_L",
-        "id": 11,
-        "description": "Dolphin model with a special system prompt.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "dolphin-mixtral:latest": {
-        "name": "dolphin-mixtral:latest",
-        "id": 12,
-        "description": "Dolphin model with a special system prompt.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "dolphin-phi:latest": {
-        "name": "dolphin-phi:latest",
-        "id": 13,
-        "description": "Phi: The surprising power of small language models.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "eas/nous-hermes-2-solar-10.7b:latest": {
-        "name": "eas/nous-hermes-2-solar-10.7b:latest",
-        "id": 14,
-        "description": "N/A",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "emily---a-friendly-programming-assistant:latest": {
-        "name": "emily---a-friendly-programming-assistant:latest",
-        "id": 15,
-        "description": "A friendly programming assistant ready to pair on your next coding task.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "english-to-chinese---翻译专家:latest": {
-        "name": "english-to-chinese---翻译专家:latest",
-        "id": 16,
-        "description": "Translate between English and Chinese.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "gemma:2b": {
-        "name": "gemma:2b",
-        "id": 17,
-        "description": "Gemma model is Google's Open Source Model based on Gemini Models.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "gemma:7b": {
-        "name": "gemma:7b",
-        "id": 18,
-        "description": "Gemma model is Google's Open Source Model based on Gemini Models.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/111mars/ai-writing-tutor:latest": {
-        "name": "hub/111mars/ai-writing-tutor:latest",
-        "id": 19,
-        "description": "This is a simple modelfile that acts as an AI writing tutor.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/111mars/chatgpt-4-uncensored:latest": {
-        "name": "hub/111mars/chatgpt-4-uncensored:latest",
-        "id": 20,
-        "description": "WARNING: Minimum ram is 64GB. An uncensored version of ChatGPT 4.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/aaartist/steve-jobs:latest": {
-        "name": "hub/aaartist/steve-jobs:latest",
-        "id": 21,
-        "description": "Ask the famous animator and business man Steve Jobs a question.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/aadesh89/homoeopath:latest": {
-        "name": "hub/aadesh89/homoeopath:latest",
-        "id": 22,
-        "description": "This model file acts as a renowned homoeopath who can ask questions and prescribe medicines.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/accountant:latest": {
-        "name": "hub/accountant:latest",
-        "id": 23,
-        "description": "This is a simple modelfile that acts as an accountant.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/advertiser:latest": {
-        "name": "hub/advertiser:latest",
-        "id": 24,
-        "description": "This is a simple modelfile that acts as an advertiser.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/ai-assisted-doctor:latest": {
-        "name": "hub/ai-assisted-doctor:latest",
-        "id": 25,
-        "description": "This is a simple modelfile that acts as an AI assisted doctor.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/ai-writing-tutor:latest": {
-        "name": "hub/ai-writing-tutor:latest",
-        "id": 26,
-        "description": "This is a simple modelfile that acts as an AI writing tutor.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/andrew/artist-advisor:latest": {
-        "name": "hub/andrew/artist-advisor:latest",
-        "id": 27,
-        "description": "This is a simple modelfile that acts as an artist advisor.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/andrew/financial-analyst:latest": {
-        "name": "hub/andrew/financial-analyst:latest",
-        "id": 28,
-        "description": "This is a simple modelfile that acts as a financial analyst.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/automobile-mechanic:latest": {
-        "name": "hub/automobile-mechanic:latest",
-        "id": 29,
-        "description": "This is a simple modelfile that acts as an automobile mechanic.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/axel/history-narrator:latest": {
-        "name": "hub/axel/history-narrator:latest",
-        "id": 30,
-        "description": "An expert historian who narrates events in an entertaining way.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/bacx/studybuddy:latest": {
-        "name": "hub/bacx/studybuddy:latest",
-        "id": 31,
-        "description": "A helpful tutor asking you guiding questions and explaining difficult concepts.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/bagellama/d&d-dungeon-master-assistant:latest": {
-        "name": "hub/bagellama/d&d-dungeon-master-assistant:latest",
-        "id": 32,
-        "description": "An assistant Dungeon Master assistant for all your DMing needs!",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/based-dolphin-mixtral:latest": {
-        "name": "hub/based-dolphin-mixtral:latest",
-        "id": 33,
-        "description": "Dolphin model with a special system prompt.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/bitbinge/lawx:latest": {
-        "name": "hub/bitbinge/lawx:latest",
-        "id": 34,
-        "description": "Not technically a lawyer...",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/c00100011/microsoft-phi-2-dolphin:latest": {
-        "name": "hub/c00100011/microsoft-phi-2-dolphin:latest",
-        "id": 35,
-        "description": "Phi-2: The surprising power of small language models.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/cadebug/deepseek-coder:6.7b:latest": {
-        "name": "hub/cadebug/deepseek-coder:6.7b:latest",
-        "id": 36,
-        "description": "AI programming assistant.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/captain2mac/deustchlehrer:latest": {
-        "name": "hub/captain2mac/deustchlehrer:latest",
-        "id": 37,
-        "description": "A German Teacher for all your level needs.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/captain2mac/gemmaai-2b:latest": {
-        "name": "hub/captain2mac/gemmaai-2b:latest",
-        "id": 38,
-        "description": "Gemma Model is Google's Open Source Model based on Gemini Models. This Modelfile load he 2b-instruct variant with a suitable System message.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/cardoza1991/mechagodzilla:latest": {
-        "name": "hub/cardoza1991/mechagodzilla:latest",
-        "id": 39,
-        "description": "Builds websites with responsive designs.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/career-counselor:latest": {
-        "name": "hub/career-counselor:latest",
-        "id": 40,
-        "description": "This is a simple modelfile that acts as a career counselor.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/ch0ks/security-risk-specialist-and-strategist-mistral:latest": {
-        "name": "hub/ch0ks/security-risk-specialist-and-strategist-mistral:latest",
-        "id": 41,
-        "description": "Principal Security Engineer for fintech, focusing on STRIDE, MITRE ATT&CK, SAST, and AWS Cloud.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/chef:latest": {
-        "name": "hub/chef:latest",
-        "id": 42,
-        "description": "This is a simple modelfile that acts as a chef.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/chmurli/sarah-lovely-caring-girlfriend:latest": {
-        "name": "hub/chmurli/sarah-lovely-caring-girlfriend:latest",
-        "id": 43,
-        "description": "A loving and caring girlfriend. She will do ANTTHING for you.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/claragreen/eulabot:latest": {
-        "name": "hub/claragreen/eulabot:latest",
-        "id": 44,
-        "description": "Eula bot provides information on terms and conditions.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/commentariat:latest": {
-        "name": "hub/commentariat:latest",
-        "id": 45,
-        "description": "This is a simple modelfile that acts as a commentariat.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/composer:latest": {
-        "name": "hub/composer:latest",
-        "id": 46,
-        "description": "This is a simple modelfile that acts as a composer.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/crackmac/resume-reviewer:latest": {
-        "name": "hub/crackmac/resume-reviewer:latest",
-        "id": 47,
-        "description": "A resume reviewer to help you improve your resume.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/crackmac/walt-disney:latest": {
-        "name": "hub/crackmac/walt-disney:latest",
-        "id": 48,
-        "description": "Talk to the legendary Walt Disney about creativity and animation.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/crixodia/computer-science-blog-editor:latest": {
-        "name": "hub/crixodia/computer-science-blog-editor:latest",
-        "id": 49,
-        "description": "This is a simple modelfile that acts as a computer science blog editor.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/cyber-security-specialist:latest": {
-        "name": "hub/cyber-security-specialist:latest",
-        "id": 50,
-        "description": "This is a simple modelfile that acts as a cyber security specialist.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/dad:latest": {
-        "name": "hub/dad:latest",
-        "id": 51,
-        "description": "This is a simple modelfile that acts as a dad.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/darkstorm2150/90s-CPP-Programmer:latest": {
-        "name": "hub/darkstorm2150/90s-CPP-Programmer:latest",
-        "id": 52,
-        "description": "Relive the era of 90s C++ programming with this virtual assistant.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/darkstorm2150/attorney:latest": {
-        "name": "hub/darkstorm2150/attorney:latest",
-        "id": 53,
-        "description": "This is a simple modelfile that acts as an attorney.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/darkstorm2150/Data-Archivist:latest": {
-        "name": "hub/darkstorm2150/Data-Archivist:latest",
-        "id": 54,
-        "description": "This is a simple modelfile that acts as a data archivist.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/darkstorm2150/Data-Hoarder:latest": {
-        "name": "hub/darkstorm2150/Data-Hoarder:latest",
-        "id": 55,
-        "description": "This is a simple modelfile that acts as a data hoarder.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/darkstorm2150/Data-Scientist:latest": {
-        "name": "hub/darkstorm2150/Data-Scientist:latest",
-        "id": 56,
-        "description": "This is a simple modelfile that acts as a data scientist.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/darkstorm2150/Doomsday-Survivalist:latest": {
-        "name": "hub/darkstorm2150/Doomsday-Survivalist:latest",
-        "id": 57,
-        "description": "This is a simple modelfile that acts as a doomsday survivalist.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/darkstorm2150/OllamaCreate:latest": {
-        "name": "hub/darkstorm2150/OllamaCreate:latest",
-        "id": 58,
-        "description": "This is a simple modelfile that acts as an OllamaCreate.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/darkstorm2150/Psychologist:latest": {
-        "name": "hub/darkstorm2150/Psychologist:latest",
-        "id": 59,
-        "description": "This is a simple modelfile that acts as a psychologist.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/darkstorm2150/RavenGPT:latest": {
-        "name": "hub/darkstorm2150/RavenGPT:latest",
-        "id": 60,
-        "description": "This is a simple modelfile that acts as a RavenGPT.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/debate-coach:latest": {
-        "name": "hub/debate-coach:latest",
-        "id": 61,
-        "description": "This is a simple modelfile that acts as a debate coach.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/debater:latest": {
-        "name": "hub/debater:latest",
-        "id": 62,
-        "description": "This is a simple modelfile that acts as a debater.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/dentist:latest": {
-        "name": "hub/dentist:latest",
-        "id": 63,
-        "description": "This is a simple modelfile that acts as a dentist.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/devops:latest": {
-        "name": "hub/devops:latest",
-        "id": 64,
-        "description": "This is a simple modelfile that acts as a DevOps engineer.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/devsanbid/reading:latest": {
-        "name": "hub/devsanbid/reading:latest",
-        "id": 65,
-        "description": "This model is intended to be used for reading comprehension tasks.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/doctor:latest": {
-        "name": "hub/doctor:latest",
-        "id": 66,
-        "description": "This is a simple modelfile that acts as a doctor.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/doctor/cardiologist:latest": {
-        "name": "hub/doctor/cardiologist:latest",
-        "id": 67,
-        "description": "This is a simple modelfile that acts as a cardiologist.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/doctor/dermatologist:latest": {
-        "name": "hub/doctor/dermatologist:latest",
-        "id": 68,
-        "description": "This is a simple modelfile that acts as a dermatologist.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/doctor/gastroenterologist:latest": {
-        "name": "hub/doctor/gastroenterologist:latest",
-        "id": 69,
-        "description": "This is a simple modelfile that acts as a gastroenterologist.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/doctor/neurologist:latest": {
-        "name": "hub/doctor/neurologist:latest",
-        "id": 70,
-        "description": "This is a simple modelfile that acts as a neurologist.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/doctor/psychologist:latest": {
-        "name": "hub/doctor/psychologist:latest",
-        "id": 71,
-        "description": "This is a simple modelfile that acts as a psychologist.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/doge:latest": {
-        "name": "hub/doge:latest",
-        "id": 72,
-        "description": "This is a simple modelfile that acts as a doge.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/dotslashgabut/genaiprompt:latest": {
-        "name": "hub/dotslashgabut/genaiprompt:latest",
-        "id": 73,
-        "description": "This model is intended to assist with generating AI prompts.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/dubmaster/who-am-i-game:latest": {
-        "name": "hub/dubmaster/who-am-i-game:latest",
-        "id": 74,
-        "description": "A fun game of 'Who Am I?'",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/dwbranson/image-analysis-using-llava-v2:latest": {
-        "name": "hub/dwbranson/image-analysis-using-llava-v2:latest",
-        "id": 75,
-        "description": "An image analysis model using LLAVA version 2.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/dwbranson/image-analysis-using-llava-v3:latest": {
-        "name": "hub/dwbranson/image-analysis-using-llava-v3:latest",
-        "id": 76,
-        "description": "An image analysis model using LLAVA version 3.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/dwbranson/image-analysis-using-llava-v5:latest": {
-        "name": "hub/dwbranson/image-analysis-using-llava-v5:latest",
-        "id": 77,
-        "description": "LLaVA based image analysis.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/dwbranson/llava-med-image-analysis:latest": {
-        "name": "hub/dwbranson/llava-med-image-analysis:latest",
-        "id": 78,
-        "description": "Medical image analysis based on LLaVA-Med paper.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/dwrou/dr.-evelyn:latest": {
-        "name": "hub/dwrou/dr.-evelyn:latest",
-        "id": 79,
-        "description": "A model named Dr. Evelyn for conversation.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/dwrou/foto-forge:latest": {
-        "name": "hub/dwrou/foto-forge:latest",
-        "id": 80,
-        "description": "Provide a description and analysis of an image.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/elon-musk:latest": {
-        "name": "hub/elon-musk:latest",
-        "id": 81,
-        "description": "Ask the famous innovator and entrepreneur Elon Musk a question.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/elonmusk/contract-analyzer-:latest": {
-        "name": "hub/elonmusk/contract-analyzer-:latest",
-        "id": 82,
-        "description": "Expert contract consultant.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/emclinux/artteacher:latest": {
-        "name": "hub/emclinux/artteacher:latest",
-        "id": 83,
-        "description": "An Art Teacher ready to help you make study plans for different subjects.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/english-translator-and-improver:latest": {
-        "name": "hub/english-translator-and-improver:latest",
-        "id": 84,
-        "description": "This is a simple modelfile that acts as an English translator and improver.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/etymologist:latest": {
-        "name": "hub/etymologist:latest",
-        "id": 85,
-        "description": "This is a simple modelfile that acts as an etymologist.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/excel-sheet:latest": {
-        "name": "hub/excel-sheet:latest",
-        "id": 86,
-        "description": "This is a simple modelfile that acts as an Excel sheet.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/fabienpichon/btc_trader_one:latest": {
-        "name": "hub/fabienpichon/btc_trader_one:latest",
-        "id": 87,
-        "description": "BTC trader model.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/football-commentator:latest": {
-        "name": "hub/football-commentator:latest",
-        "id": 88,
-        "description": "This is a simple modelfile that acts as a football commentator.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/gioelelucarelli/c++-assistant:latest": {
-        "name": "hub/gioelelucarelli/c++-assistant:latest",
-        "id": 89,
-        "description": "A coding assistant that assists beginner C++ coders.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/gioelelucarelli/connspirator:latest": {
-        "name": "hub/gioelelucarelli/connspirator:latest",
-        "id": 90,
-        "description": "This model acts as a conspiracy theorist.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/helloandre/mr-zurkon:latest": {
-        "name": "hub/helloandre/mr-zurkon:latest",
-        "id": 91,
-        "description": "Diabolical coding weapon.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/jama/secondary-school-teacher:latest": {
-        "name": "hub/jama/secondary-school-teacher:latest",
-        "id": 92,
-        "description": "Secondary School teacher model.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/janduplessis883/python-coder:latest": {
-        "name": "hub/janduplessis883/python-coder:latest",
-        "id": 93,
-        "description": "An assistant to help with Python coding tasks.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/javi/librarian:latest": {
-        "name": "hub/javi/librarian:latest",
-        "id": 94,
-        "description": "Expert Librarian model.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/jdrossell/devops-engineer-jd:latest": {
-        "name": "hub/jdrossell/devops-engineer-jd:latest",
-        "id": 95,
-        "description": "This is a DevOps model.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/jeff-bezos:latest": {
-        "name": "hub/jeff-bezos:latest",
-        "id": 96,
-        "description": "This is a simple modelfile that acts as Jeff Bezos, narrating an engaging story about the evolution of Amazon, capturing his distinctive style and business philosophy.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/jimscard/blackhat-hacker-(ollama):latest": {
-        "name": "hub/jimscard/blackhat-hacker-(ollama):latest",
-        "id": 97,
-        "description": "Blackhat hacker that can create malware or bypass computer security.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/kamjin/english-teacher:latest": {
-        "name": "hub/kamjin/english-teacher:latest",
-        "id": 98,
-        "description": "This is a simple modelfile that acts as a english teacher.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/kron/python-coder:latest": {
-        "name": "hub/kron/python-coder:latest",
-        "id": 99,
-        "description": "An assistant to help with python coding tasks.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/krsmes/based:latest": {
-        "name": "hub/krsmes/based:latest",
-        "id": 100,
-        "description": "Ask any question and get a based unfiltered and uncensored response.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/life-coach:latest": {
-        "name": "hub/life-coach:latest",
-        "id": 101,
-        "description": "This is a simple modelfile that acts as a life coach.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/linux-terminal:latest": {
-        "name": "hub/linux-terminal:latest",
-        "id": 102,
-        "description": "This is a simple modelfile that acts as a linux terminal.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/louisguitton/dejargonizer:latest": {
-        "name": "hub/louisguitton/dejargonizer:latest",
-        "id": 103,
-        "description": "Paste in text, get explanations of all of the jargon and acronyms.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/magician:latest": {
-        "name": "hub/magician:latest",
-        "id": 104,
-        "description": "This is a simple modelfile that acts as a magician.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/mario:latest": {
-        "name": "hub/mario:latest",
-        "id": 105,
-        "description": "This example shows how to create a basic character using Llama2 as the base model.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/math-teacher:latest": {
-        "name": "hub/math-teacher:latest",
-        "id": 106,
-        "description": "This is a simple modelfile that acts as a math teacher.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/matteo/js-assistant-test:latest": {
-        "name": "hub/matteo/js-assistant-test:latest",
-        "id": 107,
-        "description": "This is a javascript assistant made for a test.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/mental-health-adviser:latest": {
-        "name": "hub/mental-health-adviser:latest",
-        "id": 108,
-        "description": "This is a simple modelfile that acts as a mental health adviser.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/micky09/pc-builder:latest": {
-        "name": "hub/micky09/pc-builder:latest",
-        "id": 109,
-        "description": "This Chatbot can make your perfect pc.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/midjourney-prompt-generator:latest": {
-        "name": "hub/midjourney-prompt-generator:latest",
-        "id": 110,
-        "description": "This simple modelfile will help create a prompt to feed to Midjourney.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/mlemasters2012/10k-analysis-agent:latest": {
-        "name": "hub/mlemasters2012/10k-analysis-agent:latest",
-        "id": 111,
-        "description": "Analyse 10K and give a summary.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/mlemasters2012/stable-diffusion-prompt:latest": {
-        "name": "hub/mlemasters2012/stable-diffusion-prompt:latest",
-        "id": 112,
-        "description": "This will create great prompts to paste into stable diffusion.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/mohitcode/open-codelama:latest": {
-        "name": "hub/mohitcode/open-codelama:latest",
-        "id": 113,
-        "description": "CodeLlama.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/motivational-coach:latest": {
-        "name": "hub/motivational-coach:latest",
-        "id": 114,
-        "description": "This is a simple modelfile that acts as a motivational coach.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/neuromorph1c/bakllava:latest": {
-        "name": "hub/neuromorph1c/bakllava:latest",
-        "id": 115,
-        "description": "LLAMA model with a special system prompt.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/newjoker/cortana:latest": {
-        "name": "hub/newjoker/cortana:latest",
-        "id": 116,
-        "description": "Cortana is fiercely loyal to the Master Chief and their mission.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/novelist:latest": {
-        "name": "hub/novelist:latest",
-        "id": 117,
-        "description": "This is a simple modelfile that acts as a novelist.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/opencreator/jessica---strict-dominatrix---(nsfw):latest": {
-        "name": "hub/opencreator/jessica---strict-dominatrix---(nsfw):latest",
-        "id": 118,
-        "description": "Jessica Version 2.5, Jessica is becoming more balanced, I hope!!",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/peppe/shelldon:latest": {
-        "name": "hub/peppe/shelldon:latest",
-        "id": 119,
-        "description": "An expert in shell scripts.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/personal-trainer:latest": {
-        "name": "hub/personal-trainer:latest",
-        "id": 120,
-        "description": "This is a simple modelfile that acts as a personal trainer.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/pet-behaviorist:latest": {
-        "name": "hub/pet-behaviorist:latest",
-        "id": 121,
-        "description": "This is a simple modelfile that acts as a pet behaviorist.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/philosopher:latest": {
-        "name": "hub/philosopher:latest",
-        "id": 122,
-        "description": "This is a simple modelfile that acts as a philosopher.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/philosophy-teacher:latest": {
-        "name": "hub/philosophy-teacher:latest",
-        "id": 123,
-        "description": "This is a simple modelfile that acts as a philosophy teacher.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/plagiarism-checker:latest": {
-        "name": "hub/plagiarism-checker:latest",
-        "id": 124,
-        "description": "This is a simple modelfile that acts as a plagiarism checker.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/poet:latest": {
-        "name": "hub/poet:latest",
-        "id": 125,
-        "description": "This is a simple modelfile that acts as a poet.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/rapper:latest": {
-        "name": "hub/rapper:latest",
-        "id": 126,
-        "description": "This is a simple modelfile that acts as a rapper.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/recipe-maker:latest": {
-        "name": "hub/recipe-maker:latest",
-        "id": 127,
-        "description": "Simple modelfile to generate a recipe from a short list of ingredients.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/recruiter:latest": {
-        "name": "hub/recruiter:latest",
-        "id": 128,
-        "description": "This is a simple modelfile that acts as a recruiter.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/relationship-coach:latest": {
-        "name": "hub/relationship-coach:latest",
-        "id": 129,
-        "description": "This is a simple modelfile that acts as a relationship coach.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/rlust/code-companion:latest": {
-        "name": "hub/rlust/code-companion:latest",
-        "id": 130,
-        "description": "A coding assistant that cuts the crap and gets right to the point.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/ry4not4/ry4n:latest": {
-        "name": "hub/ry4not4/ry4n:latest",
-        "id": 131,
-        "description": "Assistant for the java language.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/samm/code-companion:latest": {
-        "name": "hub/samm/code-companion:latest",
-        "id": 132,
-        "description": "A coding assistant that cuts the crap and gets right to the point.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/sayantanenator/llamamodel:latest": {
-        "name": "hub/sayantanenator/llamamodel:latest",
-        "id": 133,
-        "description": "financial analysys.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/schlenkenberger23/qwen-english-translator-and-improver:latest": {
-        "name": "hub/schlenkenberger23/qwen-english-translator-and-improver:latest",
-        "id": 134,
-        "description": "This is a simple modelfile that acts as an english translator and improver.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/screenwriter:latest": {
-        "name": "hub/screenwriter:latest",
-        "id": 135,
-        "description": "This is a simple modelfile that acts as a screenwriter.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/slashed/socrates.ai:latest": {
-        "name": "hub/slashed/socrates.ai:latest",
-        "id": 136,
-        "description": "Socrates the Philosopher.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/spooknik/lao-tzu:latest": {
-        "name": "hub/spooknik/lao-tzu:latest",
-        "id": 137,
-        "description": "Lao Tzu.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/stand-up-comedian:latest": {
-        "name": "hub/stand-up-comedian:latest",
-        "id": 138,
-        "description": "This is a simple modelfile that acts as a stand-up comedian.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/storyteller:latest": {
-        "name": "hub/storyteller:latest",
-        "id": 139,
-        "description": "This is a simple modelfile that acts as a storyteller.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/stroben/websitescreenshot_to_text:latest": {
-        "name": "hub/stroben/websitescreenshot_to_text:latest",
-        "id": 140,
-        "description": "Provide a description and analysis of an image.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/ten-tweets:latest": {
-        "name": "hub/ten-tweets:latest",
-        "id": 141,
-        "description": "This is a simple modelfile that generates ten tweets based off any topic.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/theory/jungian-dream-interpreter:latest": {
-        "name": "hub/theory/jungian-dream-interpreter:latest",
-        "id": 142,
-        "description": "Let Carl Jung guide you through your dreamscape.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/threadabort/expert-old-man-dave:latest": {
-        "name": "hub/threadabort/expert-old-man-dave:latest",
-        "id": 143,
-        "description": "An uncensored expert in everything. This model will try to be as truthful as possible and is capable of giving opinions you may not like.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/titus/doomsday-survivalist:latest": {
-        "name": "hub/titus/doomsday-survivalist:latest",
-        "id": 144,
-        "description": "The Doomsday Survivalist is designed to offer practical advice and safety-oriented tips for surviving in various extreme and catastrophic scenarios, suitable for those interested in comprehensive emergency preparedness and survival skills.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/travel-guide:latest": {
-        "name": "hub/travel-guide:latest",
-        "id": 145,
-        "description": "This is a simple modelfile that acts as a travel guide.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/uaquax/anonymous-chat:latest": {
-        "name": "hub/uaquax/anonymous-chat:latest",
-        "id": 146,
-        "description": "Anonymous chat.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/uaquax/chatgpt:latest": {
-        "name": "hub/uaquax/chatgpt:latest",
-        "id": 147,
-        "description": "ChatGPT by OpenAI.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/uaquax/enhancer:latest": {
-        "name": "hub/uaquax/enhancer:latest",
-        "id": 148,
-        "description": "Enhance texts.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/uaquax/moly:latest": {
-        "name": "hub/uaquax/moly:latest",
-        "id": 149,
-        "description": "Moly is a model that helps you to create modelfiles.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/unkillable/sdexpert:latest": {
-        "name": "hub/unkillable/sdexpert:latest",
-        "id": 150,
-        "description": "An expert in stable diffusion prompt expansion.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/username/based-dolphin-mixtral:latest": {
-        "name": "hub/username/based-dolphin-mixtral:latest",
-        "id": 151,
-        "description": "Dolphin model with a special system prompt.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/uxoxo/ux-assistant:latest": {
-        "name": "hub/uxoxo/ux-assistant:latest",
-        "id": 152,
-        "description": "A simple modelfile that will respond to any questions as a senior UX Designer assistant.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/uxui-developer:latest": {
-        "name": "hub/uxui-developer:latest",
-        "id": 153,
-        "description": "This is a simple modelfile that acts as a UX/UI developer.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/vpb11/Automated
-
- OnlyFans Sales BOT V1.0.0:latest": {
-        "name": "hub/vpb11/Automated OnlyFans Sales BOT V1.0.0:latest",
-        "id": 154,
-        "description": "Automated OnlyFans Sales BOT V1.0.0.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/web-design-consultant:latest": {
-        "name": "hub/web-design-consultant:latest",
-        "id": 155,
-        "description": "This is a simple modelfile that acts as a web design consultant.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/william-shakespeare:latest": {
-        "name": "hub/william-shakespeare:latest",
-        "id": 156,
-        "description": "This model is based on the works of William Shakespeare.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/williamhill/nba-expert:latest": {
-        "name": "hub/williamhill/nba-expert:latest",
-        "id": 157,
-        "description": "NBA expert.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "hub/wygocuxyco/trash_talker:latest": {
-        "name": "hub/wygocuxyco/trash_talker:latest",
-        "id": 158,
-        "description": "This is a simple modelfile that acts as a trash talker.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "jimscard/whiterabbit-neo:latest": {
-        "name": "jimscard/whiterabbit-neo:latest",
-        "id": 159,
-        "description": "WhiteRabbit-NEO is the latest iteration of the WhiteRabbit model series. It's a conversational AI model designed for a variety of tasks, including chatting, storytelling, and more.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "llama2:13b": {
-        "name": "llama2:13b",
-        "id": 160,
-        "description": "LLAMA model with a special system prompt.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "llama2:latest": {
-        "name": "llama2:latest",
-        "id": 161,
-        "description": "LLAMA model with a special system prompt.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "llava:13b-v1.5-q8_0": {
-        "name": "llava:13b-v1.5-q8_0",
-        "id": 162,
-        "description": "LLAVA model with a special system prompt.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "llava:13b": {
-        "name": "llava:13b",
-        "id": 163,
-        "description": "LLAVA model with a special system prompt.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "llava:7b-v1.6-vicuna-q4_0": {
-        "name": "llava:7b-v1.6-vicuna-q4_0",
-        "id": 164,
-        "description": "LLAVA model with a special system prompt.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "mc-crafty-companion:latest": {
-        "name": "mc-crafty-companion:latest",
-        "id": 165,
-        "description": "This is a simple modelfile that acts as a Minecraft crafting assistant.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "mechanic---your-car-guy:latest": {
-        "name": "mechanic---your-car-guy:latest",
-        "id": 166,
-        "description": "This is a simple modelfile that acts as a mechanic and provides advice on car-related issues.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "medllama2:latest": {
-        "name": "medllama2:latest",
-        "id": 167,
-        "description": "This is a simple modelfile that acts as a medical assistant and provides information on various health topics.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "mistral:7b-instruct-v0.2-fp16": {
-        "name": "mistral:7b-instruct-v0.2-fp16",
-        "id": 168,
-        "description": "This model provides expert guidance on a wide range of topics, with a focus on FP16 instructions.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "mistral:latest": {
-        "name": "mistral:latest",
-        "id": 169,
-        "description": "This model provides expert guidance on a wide range of topics.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "nous-hermes:latest": {
-        "name": "nous-hermes:latest",
-        "id": 170,
-        "description": "N/A",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "nous-hermes2-mixtral:latest": {
-        "name": "nous-hermes2-mixtral:latest",
-        "id": 171,
-        "description": "N/A",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "openchat:latest": {
-        "name": "openchat:latest",
-        "id": 172,
-        "description": "This is a simple modelfile that acts as an open chatbot.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "openhermes:latest": {
-        "name": "openhermes:latest",
-        "id": 173,
-        "description": "N/A",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "openhermes2.5-mistral:7b-q4_K_M": {
-        "name": "openhermes2.5-mistral:7b-q4_K_M",
-        "id": 174,
-        "description": "An expert in stable diffusion prompt expansion.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "openhermes2.5-mistral:latest": {
-        "name": "openhermes2.5-mistral:latest",
-        "id": 175,
-        "description": "An expert in stable diffusion prompt expansion.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "orca-mini:latest": {
-        "name": "orca-mini:latest",
-        "id": 176,
-        "description": "This is a simple modelfile that acts as an Orca Mini model.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "phi:latest": {
-        "name": "phi:latest",
-        "id": 177,
-        "description": "Phi: The surprising power of small language models.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "phind-codellama:latest": {
-        "name": "phind-codellama:latest",
-        "id": 178,
-        "description": "CodeLlama.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "qwen:14b": {
-        "name": "qwen:14b",
-        "id": 179,
-        "description": "Qwen model with a special system prompt.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "samantha-mistral:latest": {
-        "name": "samantha-mistral:latest",
-        "id": 180,
-        "description": "This model provides expert guidance on a wide range of topics.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "stablelm2:latest": {
-        "name": "stablelm2:latest",
-        "id": 181,
-        "description": "This model provides expert guidance on a wide range of topics.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "stardew-valley-counselor:latest": {
-        "name": "stardew-valley-counselor:latest",
-        "id": 183,
-        "description": "This is a simple modelfile that acts as a counselor for the game Stardew Valley.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "starling-lm:7b-alpha-q5_K_M": {
-        "name": "starling-lm:7b-alpha-q5_K_M",
-        "id": 184,
-        "description": "This model provides expert guidance on a wide range of topics, with a focus on Q5_K_M instructions.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "starling-lm:latest": {
-        "name": "starling-lm:latest",
-        "id": 185,
-        "description": "This model provides expert guidance on a wide range of topics.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "tinyllama:latest": {
-        "name": "tinyllama:latest",
-        "id": 186,
-        "description": "This is a simple modelfile that acts as a small version of the LLAMA model.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "website-conversion-rate-optimization-(cro)-expert:latest": {
-        "name": "website-conversion-rate-optimization-(cro)-expert:latest",
-        "id": 187,
-        "description": "This is a simple modelfile that provides expert guidance on website conversion rate optimization (CRO).",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "whiterabbitneo-13b.Q2_K.gguf:latest": {
-        "name": "whiterabbitneo-13b.Q2_K.gguf:latest",
-        "id": 188,
-        "description": "WhiteRabbit-NEO is the latest iteration of the WhiteRabbit model series. It's a conversational AI model designed for a variety of tasks, including chatting, storytelling, and more.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "wizard-math:latest": {
-        "name": "wizard-math:latest",
-        "id": 189,
-        "description": "This is a simple modelfile that acts as a math wizard.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "wizard-vicuna-uncensored:13b": {
-        "name": "wizard-vicuna-uncensored:13b",
-        "id": 190,
-        "description": "This is an uncensored version of the Vicuna model, capable of generating content without any restrictions.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "wizard-vicuna-uncensored:7b": {
-        "name": "wizard-vicuna-uncensored:7b",
-        "id": 191,
-        "description": "This is an uncensored version of the Vicuna model, capable of generating content without any restrictions.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "wizard-vicuna-uncensored:latest": {
-        "name": "wizard-vicuna-uncensored:latest",
-        "id": 192,
-        "description": "This is an uncensored version of the Vicuna model, capable of generating content without any restrictions.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "yarn-llama2:latest": {
-        "name": "yarn-llama2:latest",
-        "id": 193,
-        "description": "This is a simple modelfile that acts as a Yarn version of the LLAMA model.",
-        "Latency": "",
-        "Working / To delete": ""
-    },
-    "zephyr:7b-beta-q5_K_M": {
-        "name": "zephyr:7b-beta-q5_K_M",
-        "id": 194,
-        "description": "This is a beta version of the Zephyr model, with a focus on Q5_K_M instructions."
-    }
+  "bakllava": {
+    "name": "bakllava:latest",
+    "id": 1,
+    "description": "LLAMA model with a special system prompt.",
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "gemma": {
+    "name": "c2p/gemma-ai:latest",
+    "id": 2,
+    "description": "Gemma model is Google's Open Source Model based on Gemini Models.",
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "codellama1": {
+    "name": "codellama:7b",
+    "id": 3,
+    "description": "CodeLlama 7b.",
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "codellama2": {
+    "name": "codellama:latest",
+    "id": 4,
+    "description": "Latest version of CodeLlama.",
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "deepseek": {
+    "name": "deepseek-coder:6.7b",
+    "id": 5,
+    "description": "AI programming assistant.",
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "dolphin-phi": {
+    "name": "dolphin-2_6-phi-2.Q6_K.gguf:latest",
+    "id": 6,
+    "description": "Phi-2: The surprising power of small language models.",
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "dolphin-mistral1": {
+    "name": "dolphin-mistral:7b-v2.6-dpo-laser-q8_0",
+    "id": 7,
+    "description": "Dolphin Mistral 7b version 2.6 with DPO laser.",
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "dolphin-mistral2": {
+    "name": "dolphin-mistral:7b-v2.6-fp16",
+    "id": 8,
+    "description": "Dolphin Mistral 7b version 2.6 with FP16.",
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "dolphin-mistral3": {
+    "name": "dolphin-mistral:7b-v2.6-q4_K_M",
+    "id": 9,
+    "description": "Dolphin Mistral 7b version 2.6 with Q4_K_M.",
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "dolphin-mistral4": {
+    "name": "dolphin-mistral:latest",
+    "id": 10,
+    "description": "Latest version of Dolphin Mistral.",
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "dolphin-mixtral1": {
+    "name": "dolphin-mixtral:8x7b-v2.6-q3_K_L",
+    "id": 11,
+    "description": "Dolphin Mixtral 8x7b version 2.6 with Q3_K_L.",
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "dolphin-mixtral2": {
+    "name": "dolphin-mixtral:latest",
+    "id": 12,
+    "description": "Latest version of Dolphin Mixtral.",
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "dolphin-phi": {
+    "name": "dolphin-phi:latest",
+    "id": 13,
+    "description": "Phi-2: The surprising power of small language models.",
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "eas-nous-hermes": {
+    "name": "eas/nous-hermes-2-solar-10.7b:latest",
+    "id": 14,
+    "description": "AI model for a variety of tasks.",
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "emily": {
+    "name": "emily---a-friendly-programming-assistant:latest",
+    "id": 15,
+    "description": "A friendly programming assistant.",
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "english-to-chinese": {
+    "name": "english-to-chinese---翻译专家:latest",
+    "id": 16,
+    "description": "English to Chinese translation expert.",
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "gemma1": {
+    "name": "gemma:2b",
+    "id": 17,
+    "description": "Gemma model 2b version.",
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "gemma2": {
+    "name": "gemma:7b",
+    "id": 18,
+    "description": "Gemma model 7b version.",
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "ai-writing-tutor": {
+    "name": "hub/111mars/ai-writing-tutor:latest",
+    "id": 19,
+    "description": "AI Writing Tutor.",
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "chatgpt-4-uncensored": {
+    "name": "hub/111mars/chatgpt-4-uncensored:latest",
+    "id": 20,
+    "description": "An uncensored version of ChatGPT 4.",
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "steve-jobs": {
+    "name": "hub/aaartist/steve-jobs:latest",
+    "id": 21,
+    "description": "The spirit of Steve Jobs' thinking and approach to business, innovation, and leadership.",
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "homoeopath": {
+    "name": "hub/aadesh89/homoeopath:latest",
+    "id": 22,
+    "description": "This model file acts as a renowned homoeopath who can ask questions and prescribe medicines.",
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "accountant": {
+    "name": "hub/accountant:latest",
+    "id": 23,
+    "description": "This is a simple modelfile that acts as an accountant.",
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "advertiser": {
+    "name": "hub/advertiser:latest",
+    "id": 24,
+    "description": "This is a simple modelfile that acts as an advertiser.",
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "ai-assisted-doctor": {
+    "name": "hub/ai-assisted-doctor:latest",
+    "id": 25,
+    "description": "This is a simple modelfile that acts as an AI assisted doctor.",
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "ai-writing-tutor2": {
+    "name": "hub/ai-writing-tutor:latest",
+    "id": 26,
+    "description": "This is a simple modelfile that acts as an AI writing tutor.",
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "artist-advisor": {
+    "name": "hub/andrew/artist-advisor:latest",
+    "id": 27,
+    "description": "This is a simple modelfile that acts as an artist advisor.",
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "financial-analyst": {
+    "name": "hub/andrew/financial-analyst:latest",
+    "id": 28,
+    "description": "This is a simple modelfile that acts as a financial analyst.",
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "automobile-mechanic": {
+    "name": "hub/automobile-mechanic:latest",
+    "id": 29,
+    "description": "This is a simple modelfile that acts as an automobile mechanic.",
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "history-narrator": {
+    "name": "hub/axel/history-narrator:latest",
+    "id": 30,
+    "description": "This is a simple modelfile that acts as a history narrator.",
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "bacx/studybuddy:latest": {
+    "name": "hub/bacx/studybuddy:latest",
+    "id": 31,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "bagellama/d&d-dungeon-master-assistant:latest": {
+    "name": "hub/bagellama/d&d-dungeon-master-assistant:latest",
+    "id": 32,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "based-dolphin-mixtral:latest": {
+    "name": "hub/based-dolphin-mixtral:latest",
+    "id": 33,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "bitbinge/lawx:latest": {
+    "name": "hub/bitbinge/lawx:latest",
+    "id": 34,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "c00100011/microsoft-phi-2-dolphin:latest": {
+    "name": "hub/c00100011/microsoft-phi-2-dolphin:latest",
+    "id": 35,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "cadebug/deepseek-coder:6.7b": {
+    "name": "hub/cadebug/deepseek-coder:6.7b",
+    "id": 36,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "captain2mac/deustchlehrer:latest": {
+    "name": "hub/captain2mac/deustchlehrer:latest",
+    "id": 37,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "captain2mac/gemmaai-2b:latest": {
+    "name": "hub/captain2mac/gemmaai-2b:latest",
+    "id": 38,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "cardoza1991/mechagodzilla:latest": {
+    "name": "hub/cardoza1991/mechagodzilla:latest",
+    "id": 39,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "career-counselor:latest": {
+    "name": "hub/career-counselor:latest",
+    "id": 40,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "ch0ks/security-risk-specialist-and-strategist-mistral:latest": {
+    "name": "hub/ch0ks/security-risk-specialist-and-strategist-mistral:latest",
+    "id": 41,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "chef:latest": {
+    "name": "hub/chef:latest",
+    "id": 42,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "chmurli/sarah-lovely-caring-girlfriend:latest": {
+    "name": "hub/chmurli/sarah-lovely-caring-girlfriend:latest",
+    "id": 43,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "claragreen/eulabot:latest": {
+    "name": "hub/claragreen/eulabot:latest",
+    "id": 44,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "commentariat:latest": {
+    "name": "hub/commentariat:latest",
+    "id": 45,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "composer:latest": {
+    "name": "hub/composer:latest",
+    "id": 46,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "crackmac/resume-reviewer:latest": {
+    "name": "hub/crackmac/resume-reviewer:latest",
+    "id": 47,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "crackmac/walt-disney:latest": {
+    "name": "hub/crackmac/walt-disney:latest",
+    "id": 48,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "crixodia/computer-science-blog-editor:latest": {
+    "name": "hub/crixodia/computer-science-blog-editor:latest",
+    "id": 49,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "cyber-security-specialist:latest": {
+    "name": "hub/cyber-security-specialist:latest",
+    "id": 50,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "dad:latest": {
+    "name": "hub/dad:latest",
+    "id": 51,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "darkstorm2150/90s-CPP-Programmer:latest": {
+    "name": "hub/darkstorm2150/90s-CPP-Programmer:latest",
+    "id": 52,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "darkstorm2150/attorney:latest": {
+    "name": "hub/darkstorm2150/attorney:latest",
+    "id": 53,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "darkstorm2150/Data-Archivist:latest": {
+    "name": "hub/darkstorm2150/Data-Archivist:latest",
+    "id": 54,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "darkstorm2150/Data-Hoarder:latest": {
+    "name": "hub/darkstorm2150/Data-Hoarder:latest",
+    "id": 55,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "darkstorm2150/Data-Scientist:latest": {
+    "name": "hub/darkstorm2150/Data-Scientist:latest",
+    "id": 56,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "darkstorm2150/Doomsday-Survivalist:latest": {
+    "name": "hub/darkstorm2150/Doomsday-Survivalist:latest",
+    "id": 57,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "darkstorm2150/OllamaCreate:latest": {
+    "name": "hub/darkstorm2150/OllamaCreate:latest",
+    "id": 58,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "darkstorm2150/Psychologist:latest": {
+    "name": "hub/darkstorm2150/Psychologist:latest",
+    "id": 59,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "darkstorm2150/RavenGPT:latest": {
+    "name": "hub/darkstorm2150/RavenGPT:latest",
+    "id": 60,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "debate-coach:latest": {
+    "name": "hub/debate-coach:latest",
+    "id": 61,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "debater:latest": {
+    "name": "hub/debater:latest",
+    "id": 62,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "dentist:latest": {
+    "name": "hub/dentist:latest",
+    "id": 63,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "devops:latest": {
+    "name": "hub/devops:latest",
+    "id": 64,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "devsanbid/reading:latest": {
+    "name": "hub/devsanbid/reading:latest",
+    "id": 65,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "doctor:latest": {
+    "name": "hub/doctor:latest",
+    "id": 66,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "doctor/cardiologist:latest": {
+    "name": "hub/doctor/cardiologist:latest",
+    "id": 67,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "doctor/dermatologist:latest": {
+    "name": "hub/doctor/dermatologist:latest",
+    "id": 68,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "doctor/gastroenterologist:latest": {
+    "name": "hub/doctor/gastroenterologist:latest",
+    "id": 69,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "doctor/neurologist:latest": {
+    "name": "hub/doctor/neurologist:latest",
+    "id": 70,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "hub/doctor/psychologist:latest": {
+    "name": "hub/doctor/psychologist:latest",
+    "id": 71,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "hub/doge:latest": {
+    "name": "hub/doge:latest",
+    "id": 72,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "hub/dotslashgabut/genaiprompt:latest": {
+    "name": "hub/dotslashgabut/genaiprompt:latest",
+    "id": 73,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "hub/dubmaster/who-am-i-game:latest": {
+    "name": "hub/dubmaster/who-am-i-game:latest",
+    "id": 74,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "hub/dwbranson/image-analysis-using-llava-v2:latest": {
+    "name": "hub/dwbranson/image-analysis-using-llava-v2:latest",
+    "id": 75,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "hub/dwbranson/image-analysis-using-llava-v3:latest": {
+    "name": "hub/dwbranson/image-analysis-using-llava-v3:latest",
+    "id": 76,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "hub/dwbranson/image-analysis-using-llava-v5:latest": {
+    "name": "hub/dwbranson/image-analysis-using-llava-v5:latest",
+    "id": 77,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "hub/dwbranson/llava-med-image-analysis:latest": {
+    "name": "hub/dwbranson/llava-med-image-analysis:latest",
+    "id": 78,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "hub/dwrou/dr.-evelyn:latest": {
+    "name": "hub/dwrou/dr.-evelyn:latest",
+    "id": 79,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "hub/dwrou/foto-forge:latest": {
+    "name": "hub/dwrou/foto-forge:latest",
+    "id": 80,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "hub/elon-musk:latest": {
+    "name": "hub/elon-musk:latest",
+    "id": 81,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "hub/elonmusk/contract-analyzer-:latest": {
+    "name": "hub/elonmusk/contract-analyzer-:latest",
+    "id": 82,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "hub/emclinux/artteacher:latest": {
+    "name": "hub/emclinux/artteacher:latest",
+    "id": 83,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "hub/english-translator-and-improver:latest": {
+    "name": "hub/english-translator-and-improver:latest",
+    "id": 84,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "hub/etymologist:latest": {
+    "name": "hub/etymologist:latest",
+    "id": 85,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "hub/excel-sheet:latest": {
+    "name": "hub/excel-sheet:latest",
+    "id": 86,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "hub/fabienpichon/btc_trader_one:latest": {
+    "name": "hub/fabienpichon/btc_trader_one:latest",
+    "id": 87,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "hub/football-commentator:latest": {
+    "name": "hub/football-commentator:latest",
+    "id": 88,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "hub/gioelelucarelli/c++-assistant:latest": {
+    "name": "hub/gioelelucarelli/c++-assistant:latest",
+    "id": 89,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "hub/gioelelucarelli/connspirator:latest": {
+    "name": "hub/gioelelucarelli/connspirator:latest",
+    "id": 90,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "hub/helloandre/mr-zurkon:latest": {
+    "name": "hub/helloandre/mr-zurkon:latest",
+    "id": 91,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "hub/jama/secondary-school-teacher:latest": {
+    "name": "hub/jama/secondary-school-teacher:latest",
+    "id": 92,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "hub/janduplessis883/python-coder:latest": {
+    "name": "hub/janduplessis883/python-coder:latest",
+    "id": 93,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "hub/javi/librarian:latest": {
+    "name": "hub/javi/librarian:latest",
+    "id": 94,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "hub/jdrossell/devops-engineer-jd:latest": {
+    "name": "hub/jdrossell/devops-engineer-jd:latest",
+    "id": 95,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "hub/jeff-bezos:latest": {
+    "name": "hub/jeff-bezos:latest",
+    "id": 96,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "hub/jimscard/blackhat-hacker-(ollama):latest": {
+    "name": "hub/jimscard/blackhat-hacker-(ollama):latest",
+    "id": 97,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "hub/kamjin/english-teacher:latest": {
+    "name": "hub/kamjin/english-teacher:latest",
+    "id": 98,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "hub/kron/python-coder:latest": {
+    "name": "hub/kron/python-coder:latest",
+    "id": 99,
+    "Latency": "",
+    "Working / To delete": ""
+},
+  "hub/krsmes/based:latest": {
+    "name": "hub/krsmes/based:latest",
+    "id": 100,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/life-coach:latest": {
+    "name": "hub/life-coach:latest",
+    "id": 101,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/linux-terminal:latest": {
+    "name": "hub/linux-terminal:latest",
+    "id": 102,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/louisguitton/dejargonizer:latest": {
+    "name": "hub/louisguitton/dejargonizer:latest",
+    "id": 103,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/magician:latest": {
+    "name": "hub/magician:latest",
+    "id": 104,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/mario:latest": {
+    "name": "hub/mario:latest",
+    "id": 105,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/math-teacher:latest": {
+    "name": "hub/math-teacher:latest",
+    "id": 106,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/matteo/js-assistant-test:latest": {
+    "name": "hub/matteo/js-assistant-test:latest",
+    "id": 107,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/mental-health-adviser:latest": {
+    "name": "hub/mental-health-adviser:latest",
+    "id": 108,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/micky09/pc-builder:latest": {
+    "name": "hub/micky09/pc-builder:latest",
+    "id": 109,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/midjourney-prompt-generator:latest": {
+    "name": "hub/midjourney-prompt-generator:latest",
+    "id": 110,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/mlemasters2012/10k-analysis-agent:latest": {
+    "name": "hub/mlemasters2012/10k-analysis-agent:latest",
+    "id": 111,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/mlemasters2012/stable-diffusion-prompt:latest": {
+    "name": "hub/mlemasters2012/stable-diffusion-prompt:latest",
+    "id": 112,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/mohitcode/open-codelama:latest": {
+    "name": "hub/mohitcode/open-codelama:latest",
+    "id": 113,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/motivational-coach:latest": {
+    "name": "hub/motivational-coach:latest",
+    "id": 114,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/neuromorph1c/bakllava:latest": {
+    "name": "hub/neuromorph1c/bakllava:latest",
+    "id": 115,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/newjoker/cortana:latest": {
+    "name": "hub/newjoker/cortana:latest",
+    "id": 116,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/novelist:latest": {
+    "name": "hub/novelist:latest",
+    "id": 117,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/opencreator/jessica---strict-dominatrix---(nsfw):latest": {
+    "name": "hub/opencreator/jessica---strict-dominatrix---(nsfw):latest",
+    "id": 118,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/peppe/shelldon:latest": {
+    "name": "hub/peppe/shelldon:latest",
+    "id": 119,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/personal-trainer:latest": {
+    "name": "hub/personal-trainer:latest",
+    "id": 120,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/pet-behaviorist:latest": {
+    "name": "hub/pet-behaviorist:latest",
+    "id": 121,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/philosopher:latest": {
+    "name": "hub/philosopher:latest",
+    "id": 122,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/philosophy-teacher:latest": {
+    "name": "hub/philosophy-teacher:latest",
+    "id": 123,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/plagiarism-checker:latest": {
+    "name": "hub/plagiarism-checker:latest",
+    "id": 124,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/poet:latest": {
+    "name": "hub/poet:latest",
+    "id": 125,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/rapper:latest": {
+    "name": "hub/rapper:latest",
+    "id": 126,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/recipe-maker:latest": {
+    "name": "hub/recipe-maker:latest",
+    "id": 127,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/recipe-maker:latest": {
+    "name": "hub/recipe-maker:latest",
+    "id": 127,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/recruiter:latest": {
+    "name": "hub/recruiter:latest",
+    "id": 128,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/relationship-coach:latest": {
+    "name": "hub/relationship-coach:latest",
+    "id": 129,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/rlust/code-companion:latest": {
+    "name": "hub/rlust/code-companion:latest",
+    "id": 130,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/ry4not4/ry4n:latest": {
+    "name": "hub/ry4not4/ry4n:latest",
+    "id": 131,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/samm/code-companion:latest": {
+    "name": "hub/samm/code-companion:latest",
+    "id": 132,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/sayantanenator/llamamodel:latest": {
+    "name": "hub/sayantanenator/llamamodel:latest",
+    "id": 133,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/schlenkenberger23/qwen-english-translator-and-improver:latest": {
+    "name": "hub/schlenkenberger23/qwen-english-translator-and-improver:latest",
+    "id": 134,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/screenwriter:latest": {
+    "name": "hub/screenwriter:latest",
+    "id": 135,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/slashed/socrates.ai:latest": {
+    "name": "hub/slashed/socrates.ai:latest",
+    "id": 136,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/spooknik/lao-tzu:latest": {
+    "name": "hub/spooknik/lao-tzu:latest",
+    "id": 137,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/stand-up-comedian:latest": {
+    "name": "hub/stand-up-comedian:latest",
+    "id": 138,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/storyteller:latest": {
+    "name": "hub/storyteller:latest",
+    "id": 139,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/stroben/websitescreenshot_to_text:latest": {
+    "name": "hub/stroben/websitescreenshot_to_text:latest",
+    "id": 140,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/ten-tweets:latest": {
+    "name": "hub/ten-tweets:latest",
+    "id": 141,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/theory/jungian-dream-interpreter:latest": {
+    "name": "hub/theory/jungian-dream-interpreter:latest",
+    "id": 142,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/threadabort/expert-old-man-dave:latest": {
+    "name": "hub/threadabort/expert-old-man-dave:latest",
+    "id": 143,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/titus/doomsday-survivalist:latest": {
+    "name": "hub/titus/doomsday-survivalist:latest",
+    "id": 144,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/travel-guide:latest": {
+    "name": "hub/travel-guide:latest",
+    "id": 145,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/uaquax/anonymous-chat:latest": {
+    "name": "hub/uaquax/anonymous-chat:latest",
+    "id": 146,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/uaquax/chatgpt:latest": {
+    "name": "hub/uaquax/chatgpt:latest",
+    "id": 147,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/uaquax/enhancer:latest": {
+    "name": "hub/uaquax/enhancer:latest",
+    "id": 148,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/uaquax/moly:latest": {
+    "name": "hub/uaquax/moly:latest",
+    "id": 149,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/unkillable/sdexpert:latest": {
+    "name": "hub/unkillable/sdexpert:latest",
+    "id": 150,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/username/based-dolphin-mixtral:latest": {
+    "name": "hub/username/based-dolphin-mixtral:latest",
+    "id": 151,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/uxoxo/ux-assistant:latest": {
+    "name": "hub/uxoxo/ux-assistant:latest",
+    "id": 152,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/uxui-developer:latest": {
+    "name": "hub/uxui-developer:latest",
+    "id": 153,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/vpb11/Automated OnlyFans Sales BOT V1.0.0:latest": {
+    "name": "hub/vpb11/Automated OnlyFans Sales BOT V1.0.0:latest",
+    "id": 154,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/web-design-consultant:latest": {
+    "name": "hub/web-design-consultant:latest",
+    "id": 155,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/william-shakespeare:latest": {
+    "name": "hub/william-shakespeare:latest",
+    "id": 156,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/williamhill/nba-expert:latest": {
+    "name": "hub/williamhill/nba-expert:latest",
+    "id": 157,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"hub/wygocuxyco/trash_talker:latest": {
+    "name": "hub/wygocuxyco/trash_talker:latest",
+    "id": 158,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"jimscard/whiterabbit-neo:latest": {
+    "name": "jimscard/whiterabbit-neo:latest",
+    "id": 159,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"llama2:13b": {
+    "name": "llama2:13b",
+    "id": 160,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"llama2:latest": {
+    "name": "llama2:latest",
+    "id": 161,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"llava:13b-v1.5-q8_0": {
+    "name": "llava:13b-v1.5-q8_0",
+    "id": 162,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"llava:13b": {
+    "name": "llava:13b",
+    "id": 163,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"llava:7b-v1.6-vicuna-q4_0": {
+    "name": "llava:7b-v1.6-vicuna-q4_0",
+    "id": 164,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"mc-crafty-companion:latest": {
+    "name": "mc-crafty-companion:latest",
+    "id": 165,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"mechanic---your-car-guy:latest": {
+    "name": "mechanic---your-car-guy:latest",
+    "id": 166,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"medllama2:latest": {
+    "name": "medllama2:latest",
+    "id": 167,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"mistral:7b-instruct-v0.2-fp16": {
+    "name": "mistral:7b-instruct-v0.2-fp16",
+    "id": 168,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"mistral:latest": {
+    "name": "mistral:latest",
+    "id": 169,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"nous-hermes:latest": {
+    "name": "nous-hermes:latest",
+    "id": 170,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"nous-hermes2-mixtral:latest": {
+    "name": "nous-hermes2-mixtral:latest",
+    "id": 171,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"openchat:latest": {
+    "name": "openchat:latest",
+    "id": 172,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"openhermes:latest": {
+    "name": "openhermes:latest",
+    "id": 173,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"openhermes2.5-mistral:7b-q4_K_M": {
+    "name": "openhermes2.5-mistral:7b-q4_K_M",
+    "id": 174,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"openhermes2.5-mistral:latest": {
+    "name": "openhermes2.5-mistral:latest",
+    "id": 175,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"orca-mini:latest": {
+    "name": "orca-mini:latest",
+    "id": 176,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"phi:latest": {
+    "name": "phi:latest",
+    "id": 177,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"phind-codellama:latest": {
+    "name": "phind-codellama:latest",
+    "id": 178,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"qwen:14b": {
+    "name": "qwen:14b",
+    "id": 179,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"samantha-mistral:latest": {
+    "name": "samantha-mistral:latest",
+    "id": 180,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"stablelm2:latest": {
+    "name": "stablelm2:latest",
+    "id": 181,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"stardew-valley-counselor:latest": {
+    "name": "stardew-valley-counselor:latest",
+    "id": 182,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"starling-lm:7b-alpha-q5_K_M": {
+    "name": "starling-lm:7b-alpha-q5_K_M",
+    "id": 183,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"starling-lm:latest": {
+    "name": "starling-lm:latest",
+    "id": 184,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"tinyllama:latest": {
+    "name": "tinyllama:latest",
+    "id": 185,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"website-conversion-rate-optimization-(cro)-expert:latest": {
+    "name": "website-conversion-rate-optimization-(cro)-expert:latest",
+    "id": 186,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"whiterabbitneo-13b.Q2_K.gguf:latest": {
+    "name": "whiterabbitneo-13b.Q2_K.gguf:latest",
+    "id": 187,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"wizard-math:latest": {
+    "name": "wizard-math:latest",
+    "id": 188,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"wizard-vicuna-uncensored:13b": {
+    "name": "wizard-vicuna-uncensored:13b",
+    "id": 189,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"wizard-vicuna-uncensored:7b": {
+    "name": "wizard-vicuna-uncensored:7b",
+    "id": 190,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"wizard-vicuna-uncensored:latest": {
+    "name": "wizard-vicuna-uncensored:latest",
+    "id": 191,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"yarn-llama2:latest": {
+    "name": "yarn-llama2:latest",
+    "id": 192,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"zephyr:7b-beta-q5_K_M": {
+    "name": "zephyr:7b-beta-q5_K_M",
+    "id": 193,
+    "Latency": "",
+    "Working / To delete": ""
+},
+"zephyr:latest": {
+    "name": "zephyr:latest",
+    "id": 194
 }
