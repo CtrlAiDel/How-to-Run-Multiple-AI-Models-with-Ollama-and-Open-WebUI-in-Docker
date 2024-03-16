@@ -163,9 +163,7 @@
     "hub/advertiser:latest": {
         "name": "hub/advertiser:latest",
         "id": 24,
-        "description": "No description yet
-
-",
+        "description": "No description yet",
         "Latency": "",
         "Working / To delete": ""
     },
@@ -838,9 +836,7 @@
         "id": 119,
         "description": "No description yet",
         "Latency": "",
-        "Working / To
-
- delete": ""
+        "Working / To delete": ""
     },
     "hub/personal-trainer:latest": {
         "name": "hub/personal-trainer:latest",
@@ -1021,9 +1017,7 @@
         "name": "hub/travel-guide:latest",
         "id": 145,
         "description": "No description yet",
-        "Lat
-
-ency": "",
+        "Latency": "",
         "Working / To delete": ""
     },
     "hub/uaquax/anonymous-chat:latest": {
