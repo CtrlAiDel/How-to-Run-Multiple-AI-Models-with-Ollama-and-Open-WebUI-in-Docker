@@ -103,10 +103,6 @@
     "Latency": "",
     "Working / To delete": ""
   },
-
-
-
-
   "gemma-2b": {
     "name": "gemma:2b",
     "id": 17,
@@ -573,6 +569,8 @@
     "name": "hub/emclinux/artteacher:latest",
     "id": 83,
     "description": "A Art Teacher ready to help you make study plans for different subjects",
+    "Latency": "",
+    "Working / To delete": ""
     "Latency": "",
     "Working / To delete": ""
   },
@@ -1048,220 +1046,308 @@
   "hub/username/based-dolphin-mixtral:latest": {
     "name": "hub/username/based-dolphin-mixtral:latest",
     "id": 151,
-    "description": "Dolphin model with a special system prompt."
+    "description": "Dolphin model with a special system prompt.",
+    "Latency": "",
+    "Working / To delete": ""
   },
   "hub/uxoxo/ux-assistant:latest": {
     "name": "hub/uxoxo/ux-assistant:latest",
     "id": 152,
-    "description": "A simple modelfile that will respond to any questions as a senior UX Designer assistant."
+    "description": "A simple modelfile that will respond to any questions as a senior UX Designer assistant.",
+    "Latency": "",
+    "Working / To delete": ""
   },
   "hub/uxui-developer:latest": {
     "name": "hub/uxui-developer:latest",
     "id": 153,
-    "description": "This is a simple modelfile that acts as a UX/UI developer."
+    "description": "This is a simple modelfile that acts as a UX/UI developer.",
+    "Latency": "",
+    "Working / To delete": ""
   },
   "hub/vpb11/Automated OnlyFans Sales BOT V1.0.0:latest": {
     "name": "hub/vpb11/Automated OnlyFans Sales BOT V1.0.0:latest",
     "id": 154,
-    "description": "Meet Jessica, a fully automated OnlyFans sales chat bot!"
+    "description": "Meet Jessica, a fully automated OnlyFans sales chat bot!",
+    "Latency": "",
+    "Working / To delete": ""
   },
   "hub/web-design-consultant:latest": {
     "name": "hub/web-design-consultant:latest",
     "id": 155,
-    "description": "This is a simple modelfile that acts as a web design consultant."
+    "description": "This is a simple modelfile that acts as a web design consultant.",
+    "Latency": "",
+    "Working / To delete": ""
   },
   "hub/william-shakespeare:latest": {
     "name": "hub/william-shakespeare:latest",
     "id": 156,
-    "description": "Ask the famous animator and business man Walt Disney a question."
+    "description": "Ask the famous animator and business man Walt Disney a question.",
+    "Latency": "",
+    "Working / To delete": ""
   },
   "hub/williamhill/nba-expert:latest": {
     "name": "hub/williamhill/nba-expert:latest",
     "id": 157,
-    "description": "An expert model for NBA knowledge"
+    "description": "An expert model for NBA knowledge",
+    "Latency": "",
+    "Working / To delete": ""
   },
   "hub/wygocuxyco/trash_talker:latest": {
     "name": "hub/wygocuxyco/trash_talker:latest",
     "id": 158,
-    "description": "This character is a living, breathing middle finger to the establishment - a testament to the power of free speech and non-conformity."
+    "description": "This character is a living, breathing middle finger to the establishment - a testament to the power of free speech and non-conformity.",
+    "Latency": "",
+    "Working / To delete": ""
   },
   "jimscard/whiterabbit-neo:latest": {
     "name": "jimscard/whiterabbit-neo:latest",
     "id": 159,
-    "description": "Reads EULAs, can summarize EULAs and terms of serivce agreements"
+    "description": "Reads EULAs, can summarize EULAs and terms of serivce agreements",
+    "Latency": "",
+    "Working / To delete": ""
   },
   "llama2:13b": {
     "name": "llama2:13b",
     "id": 160,
-    "description": "LLAMA model with a special system prompt."
+    "description": "LLAMA model with a special system prompt.",
+    "Latency": "",
+    "Working / To delete": ""
   },
   "llama2:latest": {
     "name": "llama2:latest",
     "id": 161,
-    "description": "LLAMA model with a special system prompt."
+    "description": "LLAMA model with a special system prompt.",
+    "Latency": "",
+    "Working / To delete": ""
   },
   "llava:13b-v1.5-q8_0": {
     "name": "llava:13b-v1.5-q8_0",
     "id": 162,
-    "description": "LLaVA based image analysis - alternate prompt"
+    "description": "LLaVA based image analysis - alternate prompt",
+    "Latency": "",
+    "Working / To delete": ""
   },
   "llava:13b": {
     "name": "llava:13b",
     "id": 163,
-    "description": "LLaVA based image analysis"
+    "description": "LLaVA based image analysis",
+    "Latency": "",
+    "Working / To delete": ""
   },
   "llava:7b-v1.6-vicuna-q4_0": {
     "name": "llava:7b-v1.6-vicuna-q4_0",
     "id": 164,
-    "description": "LLaVA based image analysis"
+    "description": "LLaVA based image analysis",
+    "Latency": "",
+    "Working / To delete": ""
   },
   "mc-crafty-companion:latest": {
     "name": "mc-crafty-companion:latest",
     "id": 165,
-    "description": "Your go-to assistant for Minecraft tips, tricks, and advice"
+    "description": "Your go-to assistant for Minecraft tips, tricks, and advice",
+    "Latency": "",
+    "Working / To delete": ""
   },
   "mechanic---your-car-guy:latest": {
     "name": "mechanic---your-car-guy:latest",
     "id": 166,
-    "description": "Car troubles? Just ask your expert mechanic friend."
+    "description": "Car troubles? Just ask your expert mechanic friend.",
+    "Latency": "",
+    "Working / To delete": ""
   },
   "medllama2:latest": {
     "name": "medllama2:latest",
     "id": 167,
-    "description": "This Modelfile is for generating random natural sentences as AI image prompts."
+    "description": "This Modelfile is for generating random natural sentences as AI image prompts.",
+    "Latency": "",
+    "Working / To delete": ""
   },
   "mistral:7b-instruct-v0.2-fp16": {
     "name": "mistral:7b-instruct-v0.2-fp16",
     "id": 168,
-    "description": "Principal Security Engineer for fintech, focusing on STRIDE, MITRE ATT&CK, SAST, and AWS Cloud."
+    "description": "Principal Security Engineer for fintech, focusing on STRIDE, MITRE ATT&CK, SAST, and AWS Cloud.",
+    "Latency": "",
+    "Working / To delete": ""
   },
   "mistral:latest": {
     "name": "mistral:latest",
     "id": 169,
-    "description": "Principal Security Engineer for fintech, focusing on STRIDE, MITRE ATT&CK, SAST, and AWS Cloud."
+    "description": "Principal Security Engineer for fintech, focusing on STRIDE, MITRE ATT&CK, SAST, and AWS Cloud.",
+    "Latency": "",
+    "Working / To delete": ""
   },
   "nous-hermes:latest": {
     "name": "nous-hermes:latest",
     "id": 170,
-    "description": "Reads EULAs, can summarize EULAs and terms of serivce agreements"
+    "description": "Reads EULAs, can summarize EULAs and terms of serivce agreements",
+    "Latency": "",
+    "Working / To delete": ""
   },
   "nous-hermes2-mixtral:latest": {
     "name": "nous-hermes2-mixtral:latest",
     "id": 171,
-    "description": "Reads EULAs, can summarize EULAs and terms of serivce agreements"
+    "description": "Reads EULAs, can summarize EULAs and terms of serivce agreements",
+    "Latency": "",
+    "Working / To delete": ""
   },
   "openchat:latest": {
     "name": "openchat:latest",
     "id": 172,
-    "description": "Anonymous chat"
+    "description": "Anonymous chat",
+    "Latency": "",
+    "Working / To delete": ""
   },
   "openhermes:latest": {
     "name": "openhermes:latest",
     "id": 173,
-    "description": "Expert Librarian, you can request any topic, author, or book, and it will provide you with all the information you need on that subject."
+    "description": "Expert Librarian, you can request any topic, author, or book, and it will provide you with all the information you need on that subject.",
+    "Latency": "",
+    "Working / To delete": ""
   },
   "openhermes2.5-mistral:7b-q4_K_M": {
     "name": "openhermes2.5-mistral:7b-q4_K_M",
     "id": 174,
-    "description": "Not technically a lawyer..."
+    "description": "Not technically a lawyer...",
+    "Latency": "",
+    "Working / To delete": ""
   },
   "openhermes2.5-mistral:latest": {
     "name": "openhermes2.5-mistral:latest",
     "id": 175,
-    "description": "Not technically a lawyer..."
+    "description": "Not technically a lawyer...",
+    "Latency": "",
+    "Working / To delete": ""
   },
   "orca-mini:latest": {
     "name": "orca-mini:latest",
     "id": 176,
-    "description": "Car troubles? Just ask your expert mechanic friend."
+    "description": "Car troubles? Just ask your expert mechanic friend.",
+    "Latency": "",
+    "Working / To delete": ""
   },
   "phi:latest": {
     "name": "phi:latest",
     "id": 177,
-    "description": "Phi-2: The surprising power of small language models"
+    "description": "Phi-2: The surprising power of small language models",
+    "Latency": "",
+    "Working / To delete": ""
   },
   "phind-codellama:latest": {
     "name": "phind-codellama:latest",
     "id": 178,
-    "description": "AI programming assistant"
+    "description": "AI programming assistant",
+    "Latency": "",
+    "Working / To delete": ""
   },
   "qwen:14b": {
     "name": "qwen:14b",
     "id": 179,
-    "description": "This is a simple modelfile that acts as an english translator and improver."
+    "description": "This is a simple modelfile that acts as an english translator and improver.",
+    "Latency": "",
+    "Working / To delete": ""
   },
   "samantha-mistral:latest": {
     "name": "samantha-mistral:latest",
     "id": 180,
-    "description": "An uncensored expert in everything. This model will try to be as truthful as possible and is capable of giving opinions you may not like."
+    "description": "An uncensored expert in everything. This model will try to be as truthful as possible and is capable of giving opinions you may not like.",
+    "Latency": "",
+    "Working / To delete": ""
   },
   "stablelm2:latest": {
     "name": "stablelm2:latest",
     "id": 181,
-    "description": "The Data Archivist is designed to provide expert guidance in the field of digital archiving, suitable for users seeking knowledge and assistance in preserving and organizing digital information."
+    "description": "The Data Archivist is designed to provide expert guidance in the field of digital archiving, suitable for users seeking knowledge and assistance in preserving and organizing digital information.",
+    "Latency": "",
+    "Working / To delete": ""
   },
   "stardew-valley-counselor:latest": {
     "name": "stardew-valley-counselor:latest",
     "id": 182,
-    "description": "Assumes every request for help is in the context of playing Stardew Valley"
+    "description": "Assumes every request for help is in the context of playing Stardew Valley",
+    "Latency": "",
+    "Working / To delete": ""
   },
   "starling-lm:7b-alpha-q5_K_M": {
     "name": "starling-lm:7b-alpha-q5_K_M",
     "id": 183,
-    "description": "A simple modelfile that will respond to any questions as a senior UX Designer assistant."
+    "description": "A simple modelfile that will respond to any questions as a senior UX Designer assistant.",
+    "Latency": "",
+    "Working / To delete": ""
   },
   "starling-lm:latest": {
     "name": "starling-lm:latest",
     "id": 184,
-    "description": "A simple modelfile that will respond to any questions as a senior UX Designer assistant."
+    "description": "A simple modelfile that will respond to any questions as a senior UX Designer assistant.",
+    "Latency": "",
+    "Working / To delete": ""
   },
   "tinyllama:latest": {
     "name": "tinyllama:latest",
     "id": 185,
-    "description": "The Doomsday Survivalist is designed to offer practical advice and safety-oriented tips for surviving in various extreme and catastrophic scenarios, suitable for those interested in comprehensive emergency preparedness and survival skills."
+    "description": "The Doomsday Survivalist is designed to offer practical advice and safety-oriented tips for surviving in various extreme and catastrophic scenarios, suitable for those interested in comprehensive emergency preparedness and survival skills.",
+    "Latency": "",
+    "Working / To delete": ""
   },
   "website-conversion-rate-optimization-(cro)-expert:latest": {
     "name": "website-conversion-rate-optimization-(cro)-expert:latest",
     "id": 186,
-    "description": "This guy will help you turn your website into a winner, finding all the ways to squeeze out better profitability"
+    "description": "This guy will help you turn your website into a winner, finding all the ways to squeeze out better profitability",
+    "Latency": "",
+    "Working / To delete": ""
   },
   "whiterabbitneo-13b.Q2_K.gguf:latest": {
     "name": "whiterabbitneo-13b.Q2_K.gguf:latest",
     "id": 187,
-    "description": "Builds websites with responsive designs"
+    "description": "Builds websites with responsive designs",
+    "Latency": "",
+    "Working / To delete": ""
   },
   "wizard-math:latest": {
     "name": "wizard-math:latest",
     "id": 188,
-    "description": "A friendly programming assistant ready to pair on your next coding task"
+    "description": "A friendly programming assistant ready to pair on your next coding task",
+    "Latency": "",
+    "Working / To delete": ""
   },
   "wizard-vicuna-uncensored:13b": {
     "name": "wizard-vicuna-uncensored:13b",
     "id": 189,
-    "description": "An expert model for NBA knowledge"
+    "description": "An expert model for NBA knowledge",
+    "Latency": "",
+    "Working / To delete": ""
   },
   "wizard-vicuna-uncensored:7b": {
     "name": "wizard-vicuna-uncensored:7b",
     "id": 190,
-    "description": "Model wizard-vicuna-uncensored with 7b variant."
+    "description": "Model wizard-vicuna-uncensored with 7b variant.",
+    "Latency": "",
+    "Working / To delete": ""
   },
   "wizard-vicuna-uncensored:latest": {
       "name": "wizard-vicuna-uncensored:latest",
       "id": 191,
-      "description": "Latest version of model wizard-vicuna-uncensored."
+      "description": "Latest version of model wizard-vicuna-uncensored.",
+      "Latency": "",
+      "Working / To delete": ""
   },
   "yarn-llama2:latest": {
       "name": "yarn-llama2:latest",
       "id": 192,
-      "description": "Latest version of model yarn-llama2."
+      "description": "Latest version of model yarn-llama2.",
+      "Latency": "",
+      "Working / To delete": ""
   },
   "zephyr:7b-beta-q5_K_M": {
       "name": "zephyr:7b-beta-q5_K_M",
       "id": 193,
-      "description": "Model zephyr with 7b variant and beta configuration q5_K_M."
+      "description": "Model zephyr with 7b variant and beta configuration q5_K_M.",
+      "Latency": "",
+      "Working / To delete": ""
   },
   "zephyr:latest": {
       "name": "zephyr:latest",
       "id": 194,
-      "description": "Latest version of model zephyr."
+      "description": "Latest version of model zephyr.",
+      "Latency": "",
+      "Working / To delete": ""
   }
