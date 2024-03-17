@@ -1,3 +1,5 @@
+const models = {
+
   "bakllava": {
     "name": "bakllava:latest",
     "id": 1,
@@ -1351,3 +1353,8 @@
       "Latency": "",
       "Working / To delete": ""
   }
+
+
+};
+
+export default models;
