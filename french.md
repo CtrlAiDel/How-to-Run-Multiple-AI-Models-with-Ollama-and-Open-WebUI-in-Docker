@@ -1,4 +1,4 @@
-## Guide complet pour l'installation d'Ollama, de l'interface web Open et de Docker Desktop
+## Guide complet pour l'installation d'Ollama, de l'interface web Open-AI et de Docker Desktop
 
 Pour garantir une expérience fluide lors de la configuration de WSL, du déploiement de Docker et de l'utilisation d'Ollama pour la génération et l'analyse d'images basées sur l'IA, il est essentiel de travailler sur un PC puissant. Des ressources système adéquates sont cruciales pour le bon fonctionnement et les performances optimales de ces tâches. Nous conseillons aux utilisateurs de vérifier que leurs systèmes sont bien équipés pour gérer efficacement ces processus avant de suivre les étapes suivantes.
 
