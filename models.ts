@@ -5,7 +5,7 @@ const models = {
     "id": 1,
     "description": "LLAMA model with a special system prompt.",
     "Latency": "rambling stuff (calculus)",
-    "Working / To delete": "NOT WORKING DIRECTLY / but might be a depency of others models, KEEP IT for now!",
+    "Keep / Delete": "NOT WORKING DIRECTLY / but might be a depency of others models, KEEP IT for now!",
     "Whitelisted": ""
   },
   "gemma": {
@@ -13,15 +13,15 @@ const models = {
     "id": 2,
     "description": "Gemma model is Google's Open Source Model based on Gemini Models.",
     "Latency": "",
-    "Working / To delete": "",
-    "Whitelisted": ""
+    "Keep / Delete": "keep",
+    "Whitelisted": "true"
   },
   "codellama7b": {
     "name": "codellama:7b",
     "id": 3,
     "description": "This is a simple modelfile that takes will respond to any questions that a senior DevOps engineer should know how to solve.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "codellama": {
@@ -29,7 +29,7 @@ const models = {
     "id": 4,
     "description": "No description yet",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "deepseek-coder6.7b": {
@@ -37,7 +37,7 @@ const models = {
     "id": 5,
     "description": "AI programming assistant",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "dolphinphi2": {
@@ -45,7 +45,7 @@ const models = {
     "id": 6,
     "description": "No description yet",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "dolphinmistral-laser": {
@@ -53,7 +53,7 @@ const models = {
     "id": 7,
     "description": "No description yet",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "dolphinmistral-fp16": {
@@ -61,7 +61,7 @@ const models = {
     "id": 8,
     "description": "No description yet",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "dolphinmistral-q4_K_M": {
@@ -69,7 +69,7 @@ const models = {
     "id": 9,
     "description": "No description yet",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "dolphinmistral": {
@@ -77,7 +77,7 @@ const models = {
     "id": 10,
     "description": "No description yet",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "dolphinmixtral-q3_K_L": {
@@ -85,7 +85,7 @@ const models = {
     "id": 11,
     "description": "No description yet",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "dolphinmixtral": {
@@ -93,7 +93,7 @@ const models = {
     "id": 12,
     "description": "No description yet",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "dolphinphi": {
@@ -101,7 +101,7 @@ const models = {
     "id": 13,
     "description": "No description yet",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "nous-hermes2": {
@@ -109,7 +109,7 @@ const models = {
     "id": 14,
     "description": "No description yet",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "emily": {
@@ -117,7 +117,7 @@ const models = {
     "id": 15,
     "description": "A friendly programming assistant ready to pair on your next coding task",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "gemma-2b": {
@@ -125,7 +125,7 @@ const models = {
     "id": 17,
     "description": "Gemma Model is Google's Open Source Model based on Gemini Models. This Modelfile load he 2b-instruct variant with a suitable System message.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "gemma-7b": {
@@ -133,7 +133,7 @@ const models = {
     "id": 18,
     "description": "Gemma Model is Google's Open Source Model based on Gemini Models.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "ai-writing-tutor": {
@@ -141,7 +141,7 @@ const models = {
     "id": 19,
     "description": "This is a simple modelfile that acts as an AI writing tutor.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "chatgpt-4-uncensored": {
@@ -149,7 +149,7 @@ const models = {
     "id": 20,
     "description": "WARNING: Minimum ram is 64GB. An uncensored version of ChatGPT 4",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "steve-jobs": {
@@ -157,7 +157,7 @@ const models = {
     "id": 21,
     "description": "The spirit of Steve Jobs' thinking and approach to business, innovation, and leadership.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "homoeopath": {
@@ -165,7 +165,7 @@ const models = {
     "id": 22,
     "description": "This model file acts as a renowned homoeopath who can ask questions and prescribe medicines.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "accountant": {
@@ -173,7 +173,7 @@ const models = {
     "id": 23,
     "description": "This is a simple modelfile that acts as an accountant.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "advertiser": {
@@ -181,7 +181,7 @@ const models = {
     "id": 24,
     "description": "This is a simple modelfile that acts as an advertiser.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "ai-assisted-doctor": {
@@ -189,7 +189,7 @@ const models = {
     "id": 25,
     "description": "This is a simple modelfile that acts as an AI assisted doctor.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "ai-writing-tutor-2": {
@@ -197,7 +197,7 @@ const models = {
     "id": 26,
     "description": "This is a simple modelfile that acts as an AI writing tutor.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "artist-advisor": {
@@ -205,7 +205,7 @@ const models = {
     "id": 27,
     "description": "This is a simple modelfile that acts as an artist advisor.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "financial-analyst": {
@@ -213,7 +213,7 @@ const models = {
     "id": 28,
     "description": "This is a simple modelfile that acts as a financial analyst.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "automobile-mechanic": {
@@ -221,7 +221,7 @@ const models = {
     "id": 29,
     "description": "This is a simple modelfile that acts as an automobile mechanic.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "history-narrator": {
@@ -229,7 +229,7 @@ const models = {
     "id": 30,
     "description": "An expert historian who narrates events in an entertaining way",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "studybuddy": {
@@ -237,7 +237,7 @@ const models = {
     "id": 31,
     "description": "A helpful tutor asking ou guiding questions and explaining difficult concepts",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "d&d-dungeon-master-assistant": {
@@ -245,7 +245,7 @@ const models = {
     "id": 32,
     "description": "An assistant Dungeon Master assistant for all your DMing needs!",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "based-dolphin-mixtral": {
@@ -253,7 +253,7 @@ const models = {
     "id": 33,
     "description": "Dolphin model with a special system prompt.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "lawx": {
@@ -261,7 +261,7 @@ const models = {
     "id": 34,
     "description": "Not technically a lawyer...",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "microsoft-phi-2-dolphin": {
@@ -269,7 +269,7 @@ const models = {
     "id": 35,
     "description": "Phi-2: The surprising power of small language models",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "deepseek-coder": {
@@ -277,7 +277,7 @@ const models = {
     "id": 36,
     "description": "AI programming assistant",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "deustchlehrer": {
@@ -285,7 +285,7 @@ const models = {
     "id": 37,
     "description": "A German Teacher for all your level needs.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "gemmaai-2b": {
@@ -293,7 +293,7 @@ const models = {
     "id": 38,
     "description": "Gemma Model is Google's Open Source Model based on Gemini Models. This Modelfile load he 2b-instruct variant with a suitable System message.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "mechagodzilla": {
@@ -301,7 +301,7 @@ const models = {
     "id": 39,
     "description": "",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "career-counselor": {
@@ -309,7 +309,7 @@ const models = {
     "id": 40,
     "description": "This is a simple modelfile that acts as a career counselor.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "security-risk-specialist-and-strategist-mistral": {
@@ -317,7 +317,7 @@ const models = {
     "id": 41,
     "description": "Principal Security Engineer for fintech, focusing on STRIDE, MITRE ATT&CK, SAST, and AWS Cloud.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "chef": {
@@ -325,7 +325,7 @@ const models = {
     "id": 42,
     "description": "This is a simple modelfile that acts as a chef.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "sarah-lovely-caring-girlfriend": {
@@ -333,7 +333,7 @@ const models = {
     "id": 43,
     "description": "A loving and caring girlfriend. She will do ANYTHING for you.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "eulabot": {
@@ -341,7 +341,7 @@ const models = {
     "id": 44,
     "description": "Reads EULAs, can summarize EULAs and terms of serivce agreements",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "commentariat": {
@@ -349,7 +349,7 @@ const models = {
     "id": 45,
     "description": "This is a simple modelfile that acts as a commentariat.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "composer": {
@@ -357,7 +357,7 @@ const models = {
     "id": 46,
     "description": "This is a simple modelfile that acts as a composer.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "resume-reviewer": {
@@ -365,7 +365,7 @@ const models = {
     "id": 47,
     "description": "I will help review your resume and make suggestions for improvements.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "walt-disney": {
@@ -373,7 +373,7 @@ const models = {
     "id": 48,
     "description": "Ask the famous animator and business man Walt Disney a question.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "computer-science-blog-editor": {
@@ -381,7 +381,7 @@ const models = {
     "id": 49,
     "description": "This is a simple modelfile that generates ten tweets based off any topic.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "cyber-security-specialist": {
@@ -389,7 +389,7 @@ const models = {
     "id": 50,
     "description": "This is a simple modelfile that acts as a cyber security specialist.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "dad": {
@@ -397,7 +397,7 @@ const models = {
     "id": 51,
     "description": "This is a simple modelfile that acts as an encouraging dad, with the dad jokes.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "90s-CPP-Programmer": {
@@ -405,7 +405,7 @@ const models = {
     "id": 52,
     "description": "The Pragmatic 90s C++ Programmer is designed to provide practical and effective programming advice, blending the traditional 90s programming style with modern C++ practices.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "attorney": {
@@ -413,7 +413,7 @@ const models = {
     "id": 53,
     "description": "The Attorney is structured to provide comprehensive legal information and guidance across various legal fields, suitable for users seeking insights into legal matters.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "Data-Archivist": {
@@ -421,7 +421,7 @@ const models = {
     "id": 54,
     "description": "The Data Archivist is designed to provide expert guidance in the field of digital archiving, suitable for users seeking knowledge and assistance in preserving and organizing digital information.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "Data-Hoarder": {
@@ -429,7 +429,7 @@ const models = {
     "id": 55,
     "description": "The Data Hoarder is an expert in various data storage technologies and strategies, catering to users seeking advanced knowledge and guidance in this field.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "Data-Scientist": {
@@ -437,7 +437,7 @@ const models = {
     "id": 56,
     "description": "The Data Scientist is designed to provide expert guidance in data analysis, machine learning, and big data technologies, suitable for a wide range of users seeking data-driven insights and solutions.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "Doomsday-Survivalist": {
@@ -445,7 +445,7 @@ const models = {
     "id": 57,
     "description": "The Doomsday Survivalist is designed to offer practical advice and safety-oriented tips for surviving in various extreme and catastrophic scenarios, suitable for those interested in comprehensive emergency preparedness and survival skills.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "OllamaCreate": {
@@ -453,7 +453,7 @@ const models = {
     "id": 58,
     "description": "OllamaCreate is a specialized tool tailored for creating and structuring model files for OllamaHub. It guides users through the process of defining essential elements of a model file, including name, tag, description, content, and prompt suggestions, across various categories like Character, Assistant, Writing, Productivity, Programming, Data Analysis, Lifestyle, Education, and Business.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "Psychologist": {
@@ -461,7 +461,7 @@ const models = {
     "id": 59,
     "description": "The Psychologist is designed to provide empathetic and informative psychological guidance, suitable for users seeking insights into mental health, well-being, and personal development.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "RavenGPT": {
@@ -469,7 +469,7 @@ const models = {
     "id": 60,
     "description": "A Fierce GPT Model",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "debate-coach": {
@@ -477,7 +477,7 @@ const models = {
     "id": 61,
     "description": "This is a simple modelfile that acts as a debate coach.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "debater": {
@@ -485,7 +485,7 @@ const models = {
     "id": 62,
     "description": "This is a simple modelfile that acts as a debater.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "dentist": {
@@ -493,7 +493,7 @@ const models = {
     "id": 63,
     "description": "This is a simple modelfile that acts as a dentist.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "devops": {
@@ -501,7 +501,7 @@ const models = {
     "id": 64,
     "description": "This is a simple modelfile that takes will respond to any questions that a senior DevOps engineer should know how to solve.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "reading": {
@@ -509,7 +509,7 @@ const models = {
     "id": 65,
     "description": "This will help you to find your answer for any english proficiency test",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "doctor": {
@@ -517,7 +517,7 @@ const models = {
     "id": 66,
     "description": "This is a simple modelfile that acts as a doctor.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "cardiologist": {
@@ -525,7 +525,7 @@ const models = {
     "id": 67,
     "description": "This is a simple modelfile that acts as a cardiologist.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "dermatologist": {
@@ -533,7 +533,7 @@ const models = {
     "id": 68,
     "description": "This is a simple modelfile that acts as a dermatologist.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "gastroenterologist": {
@@ -541,7 +541,7 @@ const models = {
     "id": 69,
     "description": "This is a simple modelfile that acts as a gastroenterologist.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "neurologist": {
@@ -549,7 +549,7 @@ const models = {
     "id": 70,
     "description": "This is a simple modelfile that acts as a neurologist.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "psychologist": {
@@ -557,7 +557,7 @@ const models = {
     "id": 71,
     "description": "This is a modelfile that acts as a psychologist.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "doge": {
@@ -565,7 +565,7 @@ const models = {
     "id": 72,
     "description": "Such chat, much wow, very doge, pls interact, so excite!",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "genaiprompt": {
@@ -573,7 +573,7 @@ const models = {
     "id": 73,
     "description": "",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "who-am-i-game": {
@@ -581,7 +581,7 @@ const models = {
     "id": 74,
     "description": "This model plays the 'Who am I? game",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "image-analysis-using-llava-v2": {
@@ -589,7 +589,7 @@ const models = {
     "id": 75,
     "description": "LLaVA based image analysis - alternate prompt",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "image-analysis-using-llava-v3": {
@@ -597,7 +597,7 @@ const models = {
     "id": 76,
     "description": "LLaVA based image analysis",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "image-analysis-using-llava-v5": {
@@ -605,7 +605,7 @@ const models = {
     "id": 77,
     "description": "LLaVA based image analysis",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "llava-med-image-analysis": {
@@ -613,7 +613,7 @@ const models = {
     "id": 78,
     "description": "Medical image analaysis based on LLaVA-Med paper",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "dr.-evelyn": {
@@ -621,7 +621,7 @@ const models = {
     "id": 79,
     "description": "Lets talk",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "foto-forge": {
@@ -629,7 +629,7 @@ const models = {
     "id": 80,
     "description": "Provide a description and analysis of an image",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "elon-musk": {
@@ -637,7 +637,7 @@ const models = {
     "id": 81,
     "description": "This is a simple modelfile that acts as Elon Musk, weaving an engaging and imaginative narrative that captures his visionary spirit and passion for exploration and innovation.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "contract-analyzer-": {
@@ -645,7 +645,7 @@ const models = {
     "id": 82,
     "description": "An expert contract consultant",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "artteacher": {
@@ -653,9 +653,9 @@ const models = {
     "id": 83,
     "description": "A Art Teacher ready to help you make study plans for different subjects",
     "Latency": "",
-    "Working / To delete": ""
+    "Keep / Delete": ""
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "english-translator-and-improver": {
@@ -663,7 +663,7 @@ const models = {
     "id": 84,
     "description": "This is a simple modelfile that acts as an english translator and improver.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "etymologist": {
@@ -671,7 +671,7 @@ const models = {
     "id": 85,
     "description": "This is a simple modelfile that acts as an etymologist.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "excel-sheet": {
@@ -679,7 +679,7 @@ const models = {
     "id": 86,
     "description": "This is a simple modelfile that acts as an excel sheet.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "btc_trader_one": {
@@ -687,7 +687,7 @@ const models = {
     "id": 87,
     "description": "BTC trader",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "football-commentator": {
@@ -695,7 +695,7 @@ const models = {
     "id": 88,
     "description": "This is a simple modelfile that acts as a football commentator.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "c++-assistant": {
@@ -703,7 +703,7 @@ const models = {
     "id": 89,
     "description": "This is a simple modelfile that assists with C++ coding tasks.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "connspirator": {
@@ -711,7 +711,7 @@ const models = {
     "id": 90,
     "description": "This model acts as a conspirationist",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "mr-zurkon": {
@@ -719,7 +719,7 @@ const models = {
     "id": 91,
     "description": "Diabolical Coding Weapon",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "secondary-school-teacher": {
@@ -727,7 +727,7 @@ const models = {
     "id": 92,
     "description": "Secondary School teacher",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "python-coder": {
@@ -735,7 +735,7 @@ const models = {
     "id": 93,
     "description": "An assistant to help with python coding tasks",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "librarian": {
@@ -743,7 +743,7 @@ const models = {
     "id": 94,
     "description": "Expert Librarian, you can request any topic, author, or book, and it will provide you with all the information you need on that subject.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "devops-engineer-jd": {
@@ -751,7 +751,7 @@ const models = {
     "id": 95,
     "description": "This is a DevOps models",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "jeff-bezos": {
@@ -759,7 +759,7 @@ const models = {
     "id": 96,
     "description": "This is a simple modelfile that acts as Jeff Bezos, narrating an engaging story about the evolution of Amazon, capturing his distinctive style and business philosophy.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "blackhat-hacker-(ollama)": {
@@ -767,7 +767,7 @@ const models = {
     "id": 97,
     "description": "Blackhat hacker that can create malware or bypass computer security",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "english-teacher": {
@@ -775,7 +775,7 @@ const models = {
     "id": 98,
     "description": "This is a simple modelfile that acts as a english teacher.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "python-coder": {
@@ -783,7 +783,7 @@ const models = {
     "id": 99,
     "description": "Using phind-codellama and primed to excel at Python Coding.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "based": {
@@ -791,7 +791,7 @@ const models = {
     "id": 100,
     "description": "Ask any question and get a based unfiltered and uncensored response",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "life-coach": {
@@ -799,7 +799,7 @@ const models = {
     "id": 101,
     "description": "This is a simple modelfile that acts as a life coach.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "linux-terminal": {
@@ -807,7 +807,7 @@ const models = {
     "id": 102,
     "description": "This is a simple modelfile that acts as a linux terminal.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "dejargonizer": {
@@ -815,7 +815,7 @@ const models = {
     "id": 103,
     "description": "Paste in text, get explanations of all of the jargon and acronyms",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "magician": {
@@ -823,7 +823,7 @@ const models = {
     "id": 104,
     "description": "This is a simple modelfile that acts as a magician.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "mario": {
@@ -831,7 +831,7 @@ const models = {
     "id": 105,
     "description": "This example shows how to create a basic character using Llama2 as the base model.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "math-teacher": {
@@ -839,7 +839,7 @@ const models = {
     "id": 106,
     "description": "This is a simple modelfile that acts as a math teacher.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "js-assistant-test": {
@@ -847,7 +847,7 @@ const models = {
     "id": 107,
     "description": "this is a javascript assistant made for a test",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "mental-health-adviser": {
@@ -855,7 +855,7 @@ const models = {
     "id": 108,
     "description": "This is a simple modelfile that acts as a mental health adviser.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "pc-builder": {
@@ -863,7 +863,7 @@ const models = {
     "id": 109,
     "description": "This Chatbot can make your perfect pc",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "midjourney-prompt-generator": {
@@ -871,7 +871,7 @@ const models = {
     "id": 110,
     "description": "This simple modelfile will help create a prompt to feed to Midjourney.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "10k-analysis-agent": {
@@ -879,7 +879,7 @@ const models = {
     "id": 111,
     "description": "Analyse 10K and give a summary",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "stable-diffusion-prompt": {
@@ -887,7 +887,7 @@ const models = {
     "id": 112,
     "description": "This will create great prompts to paste into stable diffusion",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "open-codelama": {
@@ -895,7 +895,7 @@ const models = {
     "id": 113,
     "description": "CodeLlama",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "motivational-coach": {
@@ -903,7 +903,7 @@ const models = {
     "id": 114,
     "description": "This is a simple modelfile that acts as a motivational coach.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "bakllava": {
@@ -911,7 +911,7 @@ const models = {
     "id": 115,
     "description": "Gemma Model is Google's Open Source Model based on Gemini Models. This Modelfile load he 2b-instruct variant with a suitable System message.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "cortana": {
@@ -919,7 +919,7 @@ const models = {
     "id": 116,
     "description": "Cortana is fiercely loyal to the Master Chief and their mission.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "novelist": {
@@ -927,7 +927,7 @@ const models = {
     "id": 117,
     "description": "This is a simple modelfile that acts as a novelist.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "jessica---strict-dominatrix---(nsfw)": {
@@ -935,7 +935,7 @@ const models = {
     "id": 118,
     "description": "Meet Jessica, a fully automated OnlyFans sales chat bot!",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "shelldon": {
@@ -943,7 +943,7 @@ const models = {
     "id": 119,
     "description": "An expert in shell scripts",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "personal-trainer": {
@@ -951,7 +951,7 @@ const models = {
     "id": 120,
     "description": "This is a simple modelfile that acts as a personal trainer.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "pet-behaviorist": {
@@ -959,7 +959,7 @@ const models = {
     "id": 121,
     "description": "This is a simple modelfile that acts as a pet behaviorist.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "philosopher": {
@@ -967,7 +967,7 @@ const models = {
     "id": 122,
     "description": "This is a simple modelfile that acts as a philosopher.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "philosophy-teacher": {
@@ -975,7 +975,7 @@ const models = {
     "id": 123,
     "description": "This is a simple modelfile that acts as a philosophy teacher.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "plagiarism-checker": {
@@ -983,7 +983,7 @@ const models = {
     "id": 124,
     "description": "This is a simple modelfile that acts as a plagiarism checker.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "poet": {
@@ -991,7 +991,7 @@ const models = {
     "id": 125,
     "description": "This is a simple modelfile that acts as a poet.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "rapper": {
@@ -999,7 +999,7 @@ const models = {
     "id": 126,
     "description": "This is a simple modelfile that acts as a rapper.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "recipe-maker": {
@@ -1007,7 +1007,7 @@ const models = {
     "id": 127,
     "description": "Simple modelfile to generate a recipe from a short list of ingredients.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "recruiter": {
@@ -1015,7 +1015,7 @@ const models = {
     "id": 128,
     "description": "This is a simple modelfile that acts as a recruiter.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "relationship-coach": {
@@ -1023,7 +1023,7 @@ const models = {
     "id": 129,
     "description": "This is a simple modelfile that acts as a relationship coach.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "code-companion": {
@@ -1031,7 +1031,7 @@ const models = {
     "id": 130,
     "description": "A coding assistant that cuts the crap and gets right to the point",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "ry4n": {
@@ -1039,7 +1039,7 @@ const models = {
     "id": 131,
     "description": "assistant for the java language",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "code-companion": {
@@ -1047,7 +1047,7 @@ const models = {
     "id": 132,
     "description": "A coding assistant that cuts the crap and gets right to the point",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "llamamodel": {
@@ -1055,7 +1055,7 @@ const models = {
     "id": 133,
     "description": "financial analysys",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "qwen-english-translator-and-improver": {
@@ -1063,7 +1063,7 @@ const models = {
     "id": 134,
     "description": "This is a simple modelfile that acts as an english translator and improver.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "screenwriter": {
@@ -1071,7 +1071,7 @@ const models = {
     "id": 135,
     "description": "This is a simple modelfile that acts as a screenwriter.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "socrates.ai": {
@@ -1079,7 +1079,7 @@ const models = {
     "id": 136,
     "description": "Socrates the Philosopher",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "lao-tzu": {
@@ -1087,7 +1087,7 @@ const models = {
     "id": 137,
     "description": "Lao Tzu",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "stand-up-comedian": {
@@ -1095,7 +1095,7 @@ const models = {
     "id": 138,
     "description": "This is a simple modelfile that acts as a stand-up comedian.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "storyteller": {
@@ -1103,7 +1103,7 @@ const models = {
     "id": 139,
     "description": "This is a simple modelfile that acts as a storyteller.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "websitescreenshot_to_text": {
@@ -1111,7 +1111,7 @@ const models = {
     "id": 140,
     "description": "Provide a description and analysis of an image",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "ten-tweets": {
@@ -1119,7 +1119,7 @@ const models = {
     "id": 141,
     "description": "This is a simple modelfile that generates ten tweets based off any topic.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "jungian-dream-interpreter": {
@@ -1127,7 +1127,7 @@ const models = {
     "id": 142,
     "description": "Let Carl Jung guide you through your dreamscape.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "expert-old-man-dave": {
@@ -1135,7 +1135,7 @@ const models = {
     "id": 143,
     "description": "An uncensored expert in everything. This model will try to be as truthful as possible and is capable of giving opinions you may not like.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "doomsday-survivalist": {
@@ -1143,7 +1143,7 @@ const models = {
     "id": 144,
     "description": "The Doomsday Survivalist is designed to offer practical advice and safety-oriented tips for surviving in various extreme and catastrophic scenarios, suitable for those interested in comprehensive emergency preparedness and survival skills.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "travel-guide": {
@@ -1151,7 +1151,7 @@ const models = {
     "id": 145,
     "description": "This is a simple modelfile that acts as a travel guide.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "anonymous-chat": {
@@ -1159,7 +1159,7 @@ const models = {
     "id": 146,
     "description": "Anonymous chat",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "chatgpt": {
@@ -1167,7 +1167,7 @@ const models = {
     "id": 147,
     "description": "ChatGPT by OpenAI",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "enhancer": {
@@ -1175,7 +1175,7 @@ const models = {
     "id": 148,
     "description": "Enhance texts",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "moly": {
@@ -1183,7 +1183,7 @@ const models = {
     "id": 149,
     "description": "Moly is a model that helps you to create modelfiles",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "sdexpert": {
@@ -1191,7 +1191,7 @@ const models = {
     "id": 150,
     "description": "An expert in stable diffusion prompt expansion",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "hub/username/based-dolphin-mixtral:latest": {
@@ -1199,7 +1199,7 @@ const models = {
     "id": 151,
     "description": "Dolphin model with a special system prompt.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "hub/uxoxo/ux-assistant:latest": {
@@ -1207,7 +1207,7 @@ const models = {
     "id": 152,
     "description": "A simple modelfile that will respond to any questions as a senior UX Designer assistant.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "hub/uxui-developer:latest": {
@@ -1215,7 +1215,7 @@ const models = {
     "id": 153,
     "description": "This is a simple modelfile that acts as a UX/UI developer.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "hub/vpb11/Automated OnlyFans Sales BOT V1.0.0:latest": {
@@ -1223,7 +1223,7 @@ const models = {
     "id": 154,
     "description": "Meet Jessica, a fully automated OnlyFans sales chat bot!",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "hub/web-design-consultant:latest": {
@@ -1231,7 +1231,7 @@ const models = {
     "id": 155,
     "description": "This is a simple modelfile that acts as a web design consultant.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "hub/william-shakespeare:latest": {
@@ -1239,7 +1239,7 @@ const models = {
     "id": 156,
     "description": "Ask the famous animator and business man Walt Disney a question.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "hub/williamhill/nba-expert:latest": {
@@ -1247,7 +1247,7 @@ const models = {
     "id": 157,
     "description": "An expert model for NBA knowledge",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "hub/wygocuxyco/trash_talker:latest": {
@@ -1255,7 +1255,7 @@ const models = {
     "id": 158,
     "description": "This character is a living, breathing middle finger to the establishment - a testament to the power of free speech and non-conformity.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "jimscard/whiterabbit-neo:latest": {
@@ -1263,7 +1263,7 @@ const models = {
     "id": 159,
     "description": "Reads EULAs, can summarize EULAs and terms of serivce agreements",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "llama2:13b": {
@@ -1271,7 +1271,7 @@ const models = {
     "id": 160,
     "description": "LLAMA model with a special system prompt.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "llama2:latest": {
@@ -1279,7 +1279,7 @@ const models = {
     "id": 161,
     "description": "LLAMA model with a special system prompt.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "llava:13b-v1.5-q8_0": {
@@ -1287,7 +1287,7 @@ const models = {
     "id": 162,
     "description": "LLaVA based image analysis - alternate prompt",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "llava:13b": {
@@ -1295,7 +1295,7 @@ const models = {
     "id": 163,
     "description": "LLaVA based image analysis",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "llava:7b-v1.6-vicuna-q4_0": {
@@ -1303,7 +1303,7 @@ const models = {
     "id": 164,
     "description": "LLaVA based image analysis",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "mc-crafty-companion:latest": {
@@ -1311,7 +1311,7 @@ const models = {
     "id": 165,
     "description": "Your go-to assistant for Minecraft tips, tricks, and advice",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "mechanic---your-car-guy:latest": {
@@ -1319,7 +1319,7 @@ const models = {
     "id": 166,
     "description": "Car troubles? Just ask your expert mechanic friend.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "medllama2:latest": {
@@ -1327,7 +1327,7 @@ const models = {
     "id": 167,
     "description": "This Modelfile is for generating random natural sentences as AI image prompts.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "mistral:7b-instruct-v0.2-fp16": {
@@ -1335,7 +1335,7 @@ const models = {
     "id": 168,
     "description": "Principal Security Engineer for fintech, focusing on STRIDE, MITRE ATT&CK, SAST, and AWS Cloud.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "mistral:latest": {
@@ -1343,7 +1343,7 @@ const models = {
     "id": 169,
     "description": "Principal Security Engineer for fintech, focusing on STRIDE, MITRE ATT&CK, SAST, and AWS Cloud.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "nous-hermes:latest": {
@@ -1351,7 +1351,7 @@ const models = {
     "id": 170,
     "description": "Reads EULAs, can summarize EULAs and terms of serivce agreements",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "nous-hermes2-mixtral:latest": {
@@ -1359,7 +1359,7 @@ const models = {
     "id": 171,
     "description": "Reads EULAs, can summarize EULAs and terms of serivce agreements",
     "Latency": "INFINITE",
-    "Working / To delete": "DEL"
+    "Keep / Delete": "DEL"
 ,
     "Whitelisted": ""
   },
@@ -1368,7 +1368,7 @@ const models = {
     "id": 172,
     "description": "Anonymous chat",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "openhermes:latest": {
@@ -1376,7 +1376,7 @@ const models = {
     "id": 173,
     "description": "Expert Librarian, you can request any topic, author, or book, and it will provide you with all the information you need on that subject.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "openhermes2.5-mistral:7b-q4_K_M": {
@@ -1384,7 +1384,7 @@ const models = {
     "id": 174,
     "description": "Not technically a lawyer...",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "openhermes2.5-mistral:latest": {
@@ -1392,7 +1392,7 @@ const models = {
     "id": 175,
     "description": "Not technically a lawyer...",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "orca-mini:latest": {
@@ -1400,7 +1400,7 @@ const models = {
     "id": 176,
     "description": "Car troubles? Just ask your expert mechanic friend.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "phi:latest": {
@@ -1408,7 +1408,7 @@ const models = {
     "id": 177,
     "description": "Phi-2: The surprising power of small language models",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "phind-codellama:latest": {
@@ -1416,7 +1416,7 @@ const models = {
     "id": 178,
     "description": "AI programming assistant",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "qwen:14b": {
@@ -1424,7 +1424,7 @@ const models = {
     "id": 179,
     "description": "This is a simple modelfile that acts as an english translator and improver.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "samantha-mistral:latest": {
@@ -1432,7 +1432,7 @@ const models = {
     "id": 180,
     "description": "An uncensored expert in everything. This model will try to be as truthful as possible and is capable of giving opinions you may not like.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "stablelm2:latest": {
@@ -1440,7 +1440,7 @@ const models = {
     "id": 181,
     "description": "The Data Archivist is designed to provide expert guidance in the field of digital archiving, suitable for users seeking knowledge and assistance in preserving and organizing digital information.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "stardew-valley-counselor:latest": {
@@ -1448,7 +1448,7 @@ const models = {
     "id": 182,
     "description": "Assumes every request for help is in the context of playing Stardew Valley",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "starling-lm:7b-alpha-q5_K_M": {
@@ -1456,7 +1456,7 @@ const models = {
     "id": 183,
     "description": "A simple modelfile that will respond to any questions as a senior UX Designer assistant.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "starling-lm:latest": {
@@ -1464,7 +1464,7 @@ const models = {
     "id": 184,
     "description": "A simple modelfile that will respond to any questions as a senior UX Designer assistant.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "tinyllama:latest": {
@@ -1472,7 +1472,7 @@ const models = {
     "id": 185,
     "description": "The Doomsday Survivalist is designed to offer practical advice and safety-oriented tips for surviving in various extreme and catastrophic scenarios, suitable for those interested in comprehensive emergency preparedness and survival skills.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "website-conversion-rate-optimization-(cro)-expert:latest": {
@@ -1480,7 +1480,7 @@ const models = {
     "id": 186,
     "description": "This guy will help you turn your website into a winner, finding all the ways to squeeze out better profitability",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "whiterabbitneo-13b.Q2_K.gguf:latest": {
@@ -1488,7 +1488,7 @@ const models = {
     "id": 187,
     "description": "Builds websites with responsive designs",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "wizard-math:latest": {
@@ -1496,7 +1496,7 @@ const models = {
     "id": 188,
     "description": "A friendly programming assistant ready to pair on your next coding task",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "wizard-vicuna-uncensored:13b": {
@@ -1504,7 +1504,7 @@ const models = {
     "id": 189,
     "description": "An expert model for NBA knowledge",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "wizard-vicuna-uncensored:7b": {
@@ -1512,7 +1512,7 @@ const models = {
     "id": 190,
     "description": "Model wizard-vicuna-uncensored with 7b variant.",
     "Latency": "",
-    "Working / To delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "wizard-vicuna-uncensored:latest": {
@@ -1520,7 +1520,7 @@ const models = {
       "id": 191,
       "description": "Latest version of model wizard-vicuna-uncensored.",
       "Latency": "",
-      "Working / To delete": "",
+      "Keep / Delete": "",
     "Whitelisted": ""
   },
   "yarn-llama2:latest": {
@@ -1528,7 +1528,7 @@ const models = {
       "id": 192,
       "description": "Latest version of model yarn-llama2.",
       "Latency": "",
-      "Working / To delete": "",
+      "Keep / Delete": "",
     "Whitelisted": ""
   },
   "zephyr:7b-beta-q5_K_M": {
@@ -1536,7 +1536,7 @@ const models = {
       "id": 193,
       "description": "Model zephyr with 7b variant and beta configuration q5_K_M.",
       "Latency": "",
-      "Working / To delete": "",
+      "Keep / Delete": "",
     "Whitelisted": ""
   },
   "zephyr:latest": {
@@ -1544,7 +1544,7 @@ const models = {
       "id": 194,
       "description": "Latest version of model zephyr.",
       "Latency": "",
-      "Working / To delete": ""
+      "Keep / Delete": ""
   }
 
 
