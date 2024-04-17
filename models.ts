@@ -1189,8 +1189,8 @@ const models = {
     "name": "nous-hermes2-mixtral:latest",
     "id": 171,
     "description": "Reads EULAs, can summarize EULAs and terms of serivce agreements",
-    "Latency": "",
-    "Working / To delete": ""
+    "Latency": "INFINITE",
+    "Working / To delete": "DEL"
   },
   "openchat:latest": {
     "name": "openchat:latest",
