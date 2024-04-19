@@ -1282,9 +1282,17 @@ const models = {
     "Keep / Delete": "",
     "Whitelisted": ""
   },
+  "llama3:latest": {
+    "name": "llama3:latest",
+    "id": 162,
+    "description": "LLAMA model with a special system prompt.",
+    "Latency": "",
+    "Keep / Delete": "",
+    "Whitelisted": ""
+  },
   "llava:13b-v1.5-q8_0": {
     "name": "llava:13b-v1.5-q8_0",
-    "id": 162,
+    "id": 163,
     "description": "LLaVA based image analysis - alternate prompt",
     "Latency": "",
     "Keep / Delete": "",
@@ -1292,7 +1300,7 @@ const models = {
   },
   "llava:13b": {
     "name": "llava:13b",
-    "id": 163,
+    "id": 164,
     "description": "LLaVA based image analysis",
     "Latency": "",
     "Keep / Delete": "",
@@ -1300,7 +1308,7 @@ const models = {
   },
   "llava:7b-v1.6-vicuna-q4_0": {
     "name": "llava:7b-v1.6-vicuna-q4_0",
-    "id": 164,
+    "id": 165,
     "description": "LLaVA based image analysis",
     "Latency": "",
     "Keep / Delete": "",
@@ -1308,7 +1316,7 @@ const models = {
   },
   "mc-crafty-companion:latest": {
     "name": "mc-crafty-companion:latest",
-    "id": 165,
+    "id": 166,
     "description": "Your go-to assistant for Minecraft tips, tricks, and advice",
     "Latency": "",
     "Keep / Delete": "",
@@ -1316,7 +1324,7 @@ const models = {
   },
   "mechanic---your-car-guy:latest": {
     "name": "mechanic---your-car-guy:latest",
-    "id": 166,
+    "id": 167,
     "description": "Car troubles? Just ask your expert mechanic friend.",
     "Latency": "",
     "Keep / Delete": "",
@@ -1324,7 +1332,7 @@ const models = {
   },
   "medllama2:latest": {
     "name": "medllama2:latest",
-    "id": 167,
+    "id": 168,
     "description": "This Modelfile is for generating random natural sentences as AI image prompts.",
     "Latency": "",
     "Keep / Delete": "",
@@ -1332,7 +1340,7 @@ const models = {
   },
   "mistral:7b-instruct-v0.2-fp16": {
     "name": "mistral:7b-instruct-v0.2-fp16",
-    "id": 168,
+    "id": 169,
     "description": "Principal Security Engineer for fintech, focusing on STRIDE, MITRE ATT&CK, SAST, and AWS Cloud.",
     "Latency": "",
     "Keep / Delete": "",
@@ -1340,7 +1348,7 @@ const models = {
   },
   "mistral:latest": {
     "name": "mistral:latest",
-    "id": 169,
+    "id": 170,
     "description": "Principal Security Engineer for fintech, focusing on STRIDE, MITRE ATT&CK, SAST, and AWS Cloud.",
     "Latency": "",
     "Keep / Delete": "",
@@ -1348,7 +1356,7 @@ const models = {
   },
   "nous-hermes:latest": {
     "name": "nous-hermes:latest",
-    "id": 170,
+    "id": 171,
     "description": "Reads EULAs, can summarize EULAs and terms of serivce agreements",
     "Latency": "",
     "Keep / Delete": "",
@@ -1356,16 +1364,15 @@ const models = {
   },
   "nous-hermes2-mixtral:latest": {
     "name": "nous-hermes2-mixtral:latest",
-    "id": 171,
+    "id": 172,
     "description": "Reads EULAs, can summarize EULAs and terms of serivce agreements",
     "Latency": "INFINITE",
-    "Keep / Delete": "DEL"
-,
+    "Keep / Delete": "DEL",
     "Whitelisted": ""
   },
   "openchat:latest": {
     "name": "openchat:latest",
-    "id": 172,
+    "id": 173,
     "description": "Anonymous chat",
     "Latency": "",
     "Keep / Delete": "",
@@ -1373,7 +1380,7 @@ const models = {
   },
   "openhermes:latest": {
     "name": "openhermes:latest",
-    "id": 173,
+    "id": 174,
     "description": "Expert Librarian, you can request any topic, author, or book, and it will provide you with all the information you need on that subject.",
     "Latency": "",
     "Keep / Delete": "",
@@ -1381,7 +1388,7 @@ const models = {
   },
   "openhermes2.5-mistral:7b-q4_K_M": {
     "name": "openhermes2.5-mistral:7b-q4_K_M",
-    "id": 174,
+    "id": 175,
     "description": "Not technically a lawyer...",
     "Latency": "",
     "Keep / Delete": "",
@@ -1389,7 +1396,7 @@ const models = {
   },
   "openhermes2.5-mistral:latest": {
     "name": "openhermes2.5-mistral:latest",
-    "id": 175,
+    "id": 176,
     "description": "Not technically a lawyer...",
     "Latency": "",
     "Keep / Delete": "",
@@ -1397,7 +1404,7 @@ const models = {
   },
   "orca-mini:latest": {
     "name": "orca-mini:latest",
-    "id": 176,
+    "id": 177,
     "description": "Car troubles? Just ask your expert mechanic friend.",
     "Latency": "",
     "Keep / Delete": "",
@@ -1405,7 +1412,7 @@ const models = {
   },
   "phi:latest": {
     "name": "phi:latest",
-    "id": 177,
+    "id": 178,
     "description": "Phi-2: The surprising power of small language models",
     "Latency": "",
     "Keep / Delete": "",
@@ -1413,7 +1420,7 @@ const models = {
   },
   "phind-codellama:latest": {
     "name": "phind-codellama:latest",
-    "id": 178,
+    "id": 179,
     "description": "AI programming assistant",
     "Latency": "",
     "Keep / Delete": "",
@@ -1421,7 +1428,7 @@ const models = {
   },
   "qwen:14b": {
     "name": "qwen:14b",
-    "id": 179,
+    "id": 180,
     "description": "This is a simple modelfile that acts as an english translator and improver.",
     "Latency": "",
     "Keep / Delete": "",
@@ -1429,7 +1436,7 @@ const models = {
   },
   "samantha-mistral:latest": {
     "name": "samantha-mistral:latest",
-    "id": 180,
+    "id": 181,
     "description": "An uncensored expert in everything. This model will try to be as truthful as possible and is capable of giving opinions you may not like.",
     "Latency": "",
     "Keep / Delete": "",
@@ -1437,7 +1444,7 @@ const models = {
   },
   "stablelm2:latest": {
     "name": "stablelm2:latest",
-    "id": 181,
+    "id": 182,
     "description": "The Data Archivist is designed to provide expert guidance in the field of digital archiving, suitable for users seeking knowledge and assistance in preserving and organizing digital information.",
     "Latency": "",
     "Keep / Delete": "",
@@ -1445,7 +1452,7 @@ const models = {
   },
   "stardew-valley-counselor:latest": {
     "name": "stardew-valley-counselor:latest",
-    "id": 182,
+    "id": 183,
     "description": "Assumes every request for help is in the context of playing Stardew Valley",
     "Latency": "",
     "Keep / Delete": "",
@@ -1453,7 +1460,7 @@ const models = {
   },
   "starling-lm:7b-alpha-q5_K_M": {
     "name": "starling-lm:7b-alpha-q5_K_M",
-    "id": 183,
+    "id": 184,
     "description": "A simple modelfile that will respond to any questions as a senior UX Designer assistant.",
     "Latency": "",
     "Keep / Delete": "",
@@ -1461,7 +1468,7 @@ const models = {
   },
   "starling-lm:latest": {
     "name": "starling-lm:latest",
-    "id": 184,
+    "id": 185,
     "description": "A simple modelfile that will respond to any questions as a senior UX Designer assistant.",
     "Latency": "",
     "Keep / Delete": "",
@@ -1469,7 +1476,7 @@ const models = {
   },
   "tinyllama:latest": {
     "name": "tinyllama:latest",
-    "id": 185,
+    "id": 186,
     "description": "The Doomsday Survivalist is designed to offer practical advice and safety-oriented tips for surviving in various extreme and catastrophic scenarios, suitable for those interested in comprehensive emergency preparedness and survival skills.",
     "Latency": "",
     "Keep / Delete": "",
@@ -1477,7 +1484,7 @@ const models = {
   },
   "website-conversion-rate-optimization-(cro)-expert:latest": {
     "name": "website-conversion-rate-optimization-(cro)-expert:latest",
-    "id": 186,
+    "id": 187,
     "description": "This guy will help you turn your website into a winner, finding all the ways to squeeze out better profitability",
     "Latency": "",
     "Keep / Delete": "",
@@ -1485,7 +1492,7 @@ const models = {
   },
   "whiterabbitneo-13b.Q2_K.gguf:latest": {
     "name": "whiterabbitneo-13b.Q2_K.gguf:latest",
-    "id": 187,
+    "id": 188,
     "description": "Builds websites with responsive designs",
     "Latency": "",
     "Keep / Delete": "",
@@ -1493,7 +1500,7 @@ const models = {
   },
   "wizard-math:latest": {
     "name": "wizard-math:latest",
-    "id": 188,
+    "id": 189,
     "description": "A friendly programming assistant ready to pair on your next coding task",
     "Latency": "",
     "Keep / Delete": "",
@@ -1501,7 +1508,7 @@ const models = {
   },
   "wizard-vicuna-uncensored:13b": {
     "name": "wizard-vicuna-uncensored:13b",
-    "id": 189,
+    "id": 190,
     "description": "An expert model for NBA knowledge",
     "Latency": "",
     "Keep / Delete": "",
@@ -1509,7 +1516,7 @@ const models = {
   },
   "wizard-vicuna-uncensored:7b": {
     "name": "wizard-vicuna-uncensored:7b",
-    "id": 190,
+    "id": 191,
     "description": "Model wizard-vicuna-uncensored with 7b variant.",
     "Latency": "",
     "Keep / Delete": "",
@@ -1517,7 +1524,7 @@ const models = {
   },
   "wizard-vicuna-uncensored:latest": {
       "name": "wizard-vicuna-uncensored:latest",
-      "id": 191,
+      "id": 192,
       "description": "Latest version of model wizard-vicuna-uncensored.",
       "Latency": "",
       "Keep / Delete": "",
@@ -1525,7 +1532,7 @@ const models = {
   },
   "yarn-llama2:latest": {
       "name": "yarn-llama2:latest",
-      "id": 192,
+      "id": 193,
       "description": "Latest version of model yarn-llama2.",
       "Latency": "",
       "Keep / Delete": "",
@@ -1533,7 +1540,7 @@ const models = {
   },
   "zephyr:7b-beta-q5_K_M": {
       "name": "zephyr:7b-beta-q5_K_M",
-      "id": 193,
+      "id": 194,
       "description": "Model zephyr with 7b variant and beta configuration q5_K_M.",
       "Latency": "",
       "Keep / Delete": "",
@@ -1541,7 +1548,7 @@ const models = {
   },
   "zephyr:latest": {
       "name": "zephyr:latest",
-      "id": 194,
+      "id": 195,
       "description": "Latest version of model zephyr.",
       "Latency": "",
       "Keep / Delete": ""
