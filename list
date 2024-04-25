@@ -1,194 +1,35 @@
-bakllava:latest
-c2p/gemma-ai:latest
-codellama:7b
-codellama:latest
-deepseek-coder:6.7b
-dolphin-2_6-phi-2.Q6_K.gguf:latest
-dolphin-mistral:7b-v2.6-dpo-laser-q8_0
-dolphin-mistral:7b-v2.6-fp16
-dolphin-mistral:7b-v2.6-q4_K_M
-dolphin-mistral:latest
-dolphin-mixtral:8x7b-v2.6-q3_K_L
-dolphin-mixtral:latest
-dolphin-phi:latest
-eas/nous-hermes-2-solar-10.7b:latest
-emily---a-friendly-programming-assistant:latest
-english-to-chinese---翻译专家:latest
-gemma:2b
-gemma:7b
-hub/111mars/ai-writing-tutor:latest
-hub/111mars/chatgpt-4-uncensored:latest
-hub/aaartist/steve-jobs:latest
-hub/aadesh89/homoeopath:latest
-hub/accountant:latest
-hub/advertiser:latest
-hub/ai-assisted-doctor:latest
-hub/ai-writing-tutor:latest
-hub/andrew/artist-advisor:latest
-hub/andrew/financial-analyst:latest
-hub/automobile-mechanic:latest
-hub/axel/history-narrator:latest
-hub/bacx/studybuddy:latest
-hub/bagellama/d&d-dungeon-master-assistant:latest
-hub/based-dolphin-mixtral:latest
-hub/bitbinge/lawx:latest
-hub/c00100011/microsoft-phi-2-dolphin:latest
-hub/cadebug/deepseek-coder:6.7b
-hub/captain2mac/deustchlehrer:latest
-hub/captain2mac/gemmaai-2b:latest
-hub/cardoza1991/mechagodzilla:latest
-hub/career-counselor:latest
-hub/ch0ks/security-risk-specialist-and-strategist-mistral:latest
-hub/chef:latest
-hub/chmurli/sarah-lovely-caring-girlfriend:latest
-hub/claragreen/eulabot:latest
-hub/commentariat:latest
-hub/composer:latest
-hub/crackmac/resume-reviewer:latest
-hub/crackmac/walt-disney:latest
-hub/crixodia/computer-science-blog-editor:latest
-hub/cyber-security-specialist:latest
-hub/dad:latest
-hub/darkstorm2150/90s-CPP-Programmer:latest
-hub/darkstorm2150/attorney:latest
-hub/darkstorm2150/Data-Archivist:latest
-hub/darkstorm2150/Data-Hoarder:latest
-hub/darkstorm2150/Data-Scientist:latest
-hub/darkstorm2150/Doomsday-Survivalist:latest
-hub/darkstorm2150/OllamaCreate:latest
-hub/darkstorm2150/Psychologist:latest
-hub/darkstorm2150/RavenGPT:latest
-hub/debate-coach:latest
-hub/debater:latest
-hub/dentist:latest
-hub/devops:latest
-hub/devsanbid/reading:latest
-hub/doctor:latest
-hub/doctor/cardiologist:latest
-hub/doctor/dermatologist:latest
-hub/doctor/gastroenterologist:latest
-hub/doctor/neurologist:latest
-hub/doctor/psychologist:latest
-hub/doge:latest
-hub/dotslashgabut/genaiprompt:latest
-hub/dubmaster/who-am-i-game:latest
-hub/dwbranson/image-analysis-using-llava-v2:latest
-hub/dwbranson/image-analysis-using-llava-v3:latest
-hub/dwbranson/image-analysis-using-llava-v5:latest
-hub/dwbranson/llava-med-image-analysis:latest
-hub/dwrou/dr.-evelyn:latest
-hub/dwrou/foto-forge:latest
-hub/elon-musk:latest
-hub/elonmusk/contract-analyzer-:latest
-hub/emclinux/artteacher:latest
-hub/english-translator-and-improver:latest
-hub/etymologist:latest
-hub/excel-sheet:latest
-hub/fabienpichon/btc_trader_one:latest
-hub/football-commentator:latest
-hub/gioelelucarelli/c++-assistant:latest
-hub/gioelelucarelli/connspirator:latest
-hub/helloandre/mr-zurkon:latest
-hub/jama/secondary-school-teacher:latest
-hub/janduplessis883/python-coder:latest
-hub/javi/librarian:latest
-hub/jdrossell/devops-engineer-jd:latest
-hub/jeff-bezos:latest
-hub/jimscard/blackhat-hacker-(ollama):latest
-hub/kamjin/english-teacher:latest
-hub/kron/python-coder:latest
-hub/krsmes/based:latest
-hub/life-coach:latest
-hub/linux-terminal:latest
-hub/louisguitton/dejargonizer:latest
-hub/magician:latest
-hub/mario:latest
-hub/math-teacher:latest
-hub/matteo/js-assistant-test:latest
-hub/mental-health-adviser:latest
-hub/micky09/pc-builder:latest
-hub/midjourney-prompt-generator:latest
-hub/mlemasters2012/10k-analysis-agent:latest
-hub/mlemasters2012/stable-diffusion-prompt:latest
-hub/mohitcode/open-codelama:latest
-hub/motivational-coach:latest
-hub/neuromorph1c/bakllava:latest
-hub/newjoker/cortana:latest
-hub/novelist:latest
-hub/opencreator/jessica---strict-dominatrix---(nsfw):latest
-hub/peppe/shelldon:latest
-hub/personal-trainer:latest
-hub/pet-behaviorist:latest
-hub/philosopher:latest
-hub/philosophy-teacher:latest
-hub/plagiarism-checker:latest
-hub/poet:latest
-hub/rapper:latest
-hub/recipe-maker:latest
-hub/recruiter:latest
-hub/relationship-coach:latest
-hub/rlust/code-companion:latest
-hub/ry4not4/ry4n:latest
-hub/samm/code-companion:latest
-hub/sayantanenator/llamamodel:latest
-hub/schlenkenberger23/qwen-english-translator-and-improver:latest
-hub/screenwriter:latest
-hub/slashed/socrates.ai:latest
-hub/spooknik/lao-tzu:latest
-hub/stand-up-comedian:latest
-hub/storyteller:latest
-hub/stroben/websitescreenshot_to_text:latest
-hub/ten-tweets:latest
-hub/theory/jungian-dream-interpreter:latest
-hub/threadabort/expert-old-man-dave:latest
-hub/titus/doomsday-survivalist:latest
-hub/travel-guide:latest
-hub/uaquax/anonymous-chat:latest
-hub/uaquax/chatgpt:latest
-hub/uaquax/enhancer:latest
-hub/uaquax/moly:latest
-hub/unkillable/sdexpert:latest
-hub/username/based-dolphin-mixtral:latest
-hub/uxoxo/ux-assistant:latest
-hub/uxui-developer:latest
-hub/vpb11/Automated OnlyFans Sales BOT V1.0.0:latest
-hub/web-design-consultant:latest
-hub/william-shakespeare:latest
-hub/williamhill/nba-expert:latest
-hub/wygocuxyco/trash_talker:latest
-jimscard/whiterabbit-neo:latest
-llama2:13b
-llama2:latest
-llava:13b-v1.5-q8_0
-llava:13b
-llava:7b-v1.6-vicuna-q4_0
-mc-crafty-companion:latest
-mechanic---your-car-guy:latest
-medllama2:latest
-mistral:7b-instruct-v0.2-fp16
-mistral:latest
-nous-hermes:latest
-nous-hermes2-mixtral:latest
-openchat:latest
-openhermes:latest
-openhermes2.5-mistral:7b-q4_K_M
-openhermes2.5-mistral:latest
-orca-mini:latest
-phi:latest
-phind-codellama:latest
-qwen:14b
-samantha-mistral:latest
-stablelm2:latest
-stardew-valley-counselor:latest
-starling-lm:7b-alpha-q5_K_M
-starling-lm:latest
-tinyllama:latest
-website-conversion-rate-optimization-(cro)-expert:latest
-whiterabbitneo-13b.Q2_K.gguf:latest
-wizard-math:latest
-wizard-vicuna-uncensored:13b
-wizard-vicuna-uncensored:7b
-wizard-vicuna-uncensored:latest
-yarn-llama2:latest
-zephyr:7b-beta-q5_K_M
-zephyr:latest
+1. bakllava:latest
+2. codellama:latest
+3. deepseek-coder:6.7b
+4. dolphin-mistral:7b-v2.6-q4_K_M
+5. dolphin-mistral:latest
+6. dolphin-mixtral:latest
+7. dolphin-phi:latest
+8. gemma:2b
+9. gemma:7b
+10. jimscard/whiterabbit-neo:latest
+11. llama2:latest
+12. llama3:latest
+13. llava:13b-v1.5-q8_0
+14. mistral:latest
+15. mistral:latest
+16. nous-hermes:latest
+17. nous-hermes2-mixtral:latest
+18. openchat:latest
+19. openhermes:latest
+20. openhermes2.5-mistral:7b-q4_K_M
+21. openhermes2.5-mistral:latest
+22. orca-mini:latest
+23. phi:latest
+24. phind-codellama:latest
+25. qwen:14b
+26. samantha-mistral:latest
+27. stablelm2:latest
+28. starling-lm:7b-alpha-q5_K_M
+29. starling-lm:latest
+30. tinyllama:latest
+31. wizard-math:latest
+32. wizard-vicuna-uncensored:7b
+33. yarn-llama2:latest
+34. zephyr:7b-beta-q5_K_M
+35. zephyr:latest
