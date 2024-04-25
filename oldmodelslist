@@ -1,5 +1,10 @@
 To re-download
 
+bakllava:latest
+c2p/gemma-ai:latest
+codellama:7b
+codellama:latest
+deepseek-coder:6.7b
 dolphin-2_6-phi-2.Q6_K.gguf:latest
 dolphin-mistral:7b-v2.6-dpo-laser-q8_0
 dolphin-mistral:7b-v2.6-fp16
@@ -11,6 +16,8 @@ dolphin-phi:latest
 eas/nous-hermes-2-solar-10.7b:latest
 emily---a-friendly-programming-assistant:latest
 english-to-chinese---翻译专家:latest
+gemma:2b
+gemma:7b
 hub/111mars/ai-writing-tutor:latest
 hub/111mars/chatgpt-4-uncensored:latest
 hub/aaartist/steve-jobs:latest
