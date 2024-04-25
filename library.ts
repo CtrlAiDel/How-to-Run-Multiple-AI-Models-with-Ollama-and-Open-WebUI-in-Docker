@@ -1,40 +1,34 @@
 1. bakllava
 2. codellama
 3. deepseek-coder
-4. dolphin-2_6-phi-2.Q6_K.gguf
+4. dolphin-2.6-mistral-7b.Q4_K_M.gguf
 5. dolphin-mistral
 6. dolphin-mixtral
-7. emily---a-friendly-programming-assistant
-8. english-to-chinese---翻译专家
-9. gemma
-10. llava
-11. llama2
-12. mc-crafty-companion
-13. mechanic---your-car-guy
-14. medllama2
-15. mistral
-16. nous-hermes
-17. nous-hermes2-mixtral
-18. openchat
-19. openhermes
-20. openhermes2.5-mistral
-21. orca-mini
-22. phind-codellama
-23. qwen
-24. samantha-mistral
-25. stablelm2
-26. starling-lm
-27. stardew-valley-counselor
-28. tinyllama
-29. website-conversion-rate-optimization-(cro)-expert
-30. whiterabbitneo-13b.Q2_K.gguf
-31. wizard-math
-32. wizard-vicuna-uncensored
-33. yarn-llama2
-34. zephyr
-35. llava
-36. orca-mini
+7. dolphin-phi
+8. gemma
+9. llama2
+10. llama3
+11. llava
+12. mistral
+13. nous-hermes
+14. nous-hermes2-mixtral
+15. openchat
+16. openhermes
+17. openhermes2.5-mistral
+18. orca-mini
+19. phi
+20. phind-codellama
+21. qwen
+22. samantha-mistral
+23. stablelm2
+24. starling-lm
+25. tinyllama
+26. wizard-math
+27. wizard-vicuna-uncensored
+28. yarn-llama2
+29. zephyr
 
 
 Located there:
-\\wsl$\docker-desktop-data\data\docker\volumes\ollama\_data\models\manifests\registry.ollama.ai\library
+\\wsl.localhost\Ubuntu\mnt\wslg\distro\usr\share\ollama\.ollama\models
+\\wsl.localhost\docker-desktop-data\mnt\wslg\distro\data\docker\volumes\ollama\_data\models
