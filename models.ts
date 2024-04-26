@@ -200,9 +200,7 @@ const models = {
     "Keep / Delete": "",
     "Whitelisted": ""
   },
-  "hub/chiph31/game-recommender":
-
- {
+  "hub/chiph31/game-recommender":  {
     "name": "hub/chiph31/game-recommender:latest",
     "id": 26,
     "description": "",
@@ -611,9 +609,7 @@ const models = {
     "Whitelisted": ""
   },
   "hub/hub/einstein": {
-    "name": "hub/hub/einstein
-
-:latest",
+    "name": "hub/hub/einstein:latest",
     "id": 77,
     "description": "",
     "Latency": "",
@@ -770,9 +766,7 @@ const models = {
     "description": "",
     "Latency": "",
     "Keep / Delete": "",
-    "Whitelisted
-
-": ""
+    "Whitelisted": ""
   },
   "hub/mobile-developer": {
     "name": "hub/mobile-developer:latest",
