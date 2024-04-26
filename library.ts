@@ -38,3 +38,8 @@
 Located there:
 \\wsl.localhost\Ubuntu\mnt\wslg\distro\usr\share\ollama\.ollama\models
 \\wsl.localhost\docker-desktop-data\mnt\wslg\distro\data\docker\volumes\ollama\_data\models
+
+
+docker exec -it 0265b49b6756 sh
+docker exec -it c38094071708 sh
+docker ps to find the ID
