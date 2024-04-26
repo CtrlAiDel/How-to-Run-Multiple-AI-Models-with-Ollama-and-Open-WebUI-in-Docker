@@ -80,7 +80,7 @@ const models = {
     "Keep / Delete": "",
     "Whitelisted": ""
   },
-  "gemma": {
+  "gemma2b": {
     "name": "gemma:2b",
     "id": 11,
     "description": "",
@@ -88,7 +88,7 @@ const models = {
     "Keep / Delete": "",
     "Whitelisted": ""
   },
-  "gemma": {
+  "gemma7b": {
     "name": "gemma:7b",
     "id": 12,
     "description": "",
@@ -96,7 +96,7 @@ const models = {
     "Keep / Delete": "",
     "Whitelisted": ""
   },
-  "hub_aaartist_steve-jobs": {
+  "steve-jobs": {
     "name": "hub/aaartist/steve-jobs:latest",
     "id": 13,
     "description": "",
@@ -104,7 +104,7 @@ const models = {
     "Keep / Delete": "",
     "Whitelisted": ""
   },
-  "aadesh89_homoeopath": {
+  "homoeopath": {
     "name": "hub/aadesh89/homoeopath:latest",
     "id": 14,
     "description": "",
@@ -144,7 +144,7 @@ const models = {
     "Keep / Delete": "",
     "Whitelisted": ""
   },
-  "andrew_artist-advisor": {
+  "advisor": {
     "name": "hub/andrew/artist-advisor:latest",
     "id": 19,
     "description": "",
@@ -152,7 +152,7 @@ const models = {
     "Keep / Delete": "",
     "Whitelisted": ""
   },
-  "andrew_financial-analyst": {
+  "financial-analyst": {
     "name": "hub/andrew/financial-analyst:latest",
     "id": 20,
     "description": "",
@@ -168,7 +168,7 @@ const models = {
     "Keep / Delete": "",
     "Whitelisted": ""
   },
-  "axel_history-narrator": {
+  "history-narrator": {
     "name": "hub/axel/history-narrator:latest",
     "id": 22,
     "description": "",
@@ -176,7 +176,7 @@ const models = {
     "Keep / Delete": "",
     "Whitelisted": ""
   },
-  "bacx_studybuddy": {
+  "studybuddy": {
     "name": "hub/bacx/studybuddy:latest",
     "id": 23,
     "description": "",
@@ -184,7 +184,7 @@ const models = {
     "Keep / Delete": "",
     "Whitelisted": ""
   },
-  "bagellama_d&d": {
+  "dnd": {
     "name": "hub/bagellama/d&d-dungeon-master-assistant:latest",
     "id": 24,
     "description": "",
@@ -202,9 +202,7 @@ const models = {
   },
   "bitbinge_lawx": {
     "name": "hub/bitbinge/lawx:latest",
-    "id
-
-": 26,
+    "id": 26,
     "description": "",
     "Latency": "",
     "Keep / Delete": "",
@@ -218,7 +216,7 @@ const models = {
     "Keep / Delete": "",
     "Whitelisted": ""
   },
-  "ch0ks_security-risk-specialist-and-strategist-mistral": {
+  "security-risk": {
     "name": "hub/ch0ks/security-risk-specialist-and-strategist-mistral:latest",
     "id": 28,
     "description": "",
@@ -234,7 +232,7 @@ const models = {
     "Keep / Delete": "",
     "Whitelisted": ""
   },
-  "chiph31_game-recommender": {
+  "game-recommender": {
     "name": "hub/chiph31/game-recommender:latest",
     "id": 30,
     "description": "",
@@ -242,7 +240,7 @@ const models = {
     "Keep / Delete": "",
     "Whitelisted": ""
   },
-  "chmurli_sarah-lovely-caring-girlfriend": {
+  "sarah": {
     "name": "hub/chmurli/sarah-lovely-caring-girlfriend:latest",
     "id": 31,
     "description": "",
@@ -250,7 +248,7 @@ const models = {
     "Keep / Delete": "",
     "Whitelisted": ""
   },
-  "chronixsc_emily": {
+  "emily": {
     "name": "hub/chronixsc/emily:latest",
     "id": 32,
     "description": "",
@@ -258,7 +256,7 @@ const models = {
     "Keep / Delete": "",
     "Whitelisted": ""
   },
-  "claragreen_eulabot": {
+  "eulabot": {
     "name": "hub/claragreen/eulabot:latest",
     "id": 33,
     "description": "",
@@ -282,7 +280,7 @@ const models = {
     "Keep / Delete": "",
     "Whitelisted": ""
   },
-  "crackmac_resume-reviewer": {
+  "resume-reviewer": {
     "name": "hub/crackmac/resume-reviewer:latest",
     "id": 36,
     "description": "",
@@ -290,7 +288,7 @@ const models = {
     "Keep / Delete": "",
     "Whitelisted": ""
   },
-  "crackmac_walt-disney": {
+  "walt-disney": {
     "name": "hub/crackmac/walt-disney:latest",
     "id": 37,
     "description": "",
@@ -306,7 +304,7 @@ const models = {
     "Keep / Delete": "",
     "Whitelisted": ""
   },
-  "darkstorm2150_Data-Archivist": {
+  "data-archivist": {
     "name": "hub/darkstorm2150/Data-Archivist:latest",
     "id": 39,
     "description": "",
@@ -314,7 +312,7 @@ const models = {
     "Keep / Delete": "",
     "Whitelisted": ""
   },
-  "darkstorm2150_Data-Hoarder": {
+  "data-hoarder": {
     "name": "hub/darkstorm2150/Data-Hoarder:latest",
     "id": 40,
     "description": "",
@@ -322,7 +320,7 @@ const models = {
     "Keep / Delete": "",
     "Whitelisted": ""
   },
-  "darkstorm2150_Doomsday-Survivalist": {
+  "doomsday-survivalist": {
     "name": "hub/darkstorm2150/Doomsday-Survivalist:latest",
     "id": 41,
     "description": "",
@@ -330,7 +328,7 @@ const models = {
     "Keep / Delete": "",
     "Whitelisted": ""
   },
-  "darkstorm2150_OllamaCreate": {
+  "OllamaCreate": {
     "name": "hub/darkstorm2150/OllamaCreate:latest",
     "id": 42,
     "description": "",
@@ -338,7 +336,7 @@ const models = {
     "Keep / Delete": "",
     "Whitelisted": ""
   },
-  "darkstorm2150_Ooh-Ollama": {
+  "Ooh-Ollama": {
     "name": "hub/darkstorm2150/Ooh-Ollama:latest",
     "id": 43,
     "description": "",
@@ -346,7 +344,7 @@ const models = {
     "Keep / Delete": "",
     "Whitelisted": ""
   },
-  "darkstorm2150_Psychologist": {
+  "Psychologist": {
     "name": "hub/darkstorm2150/Psychologist:latest",
     "id": 44,
     "description": "",
@@ -354,7 +352,7 @@ const models = {
     "Keep / Delete": "",
     "Whitelisted": ""
   },
-  "darkstorm2150_RavenGPT": {
+  "RavenGPT": {
     "name": "hub/darkstorm2150/RavenGPT:latest",
     "id": 45,
     "description": "",
@@ -362,7 +360,7 @@ const models = {
     "Keep / Delete": "",
     "Whitelisted": ""
   },
-  "darkstorm2150_Urban-Survivalist": {
+  "urban-survivalist": {
     "name": "hub/darkstorm2150/Urban-Survivalist:latest",
     "id": 46,
     "description": "",
@@ -370,7 +368,7 @@ const models = {
     "Keep / Delete": "",
     "Whitelisted": ""
   },
-  "darkstorm2150_Wilderness-Survivalist": {
+  "wilderness-survivalist": {
     "name": "hub/darkstorm2150/Wilderness-Survivalist:latest",
     "id": 47,
     "description": "",
@@ -407,9 +405,7 @@ const models = {
     "id": 51,
     "description": "",
     "Latency": "",
-    "
-
-Keep / Delete": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "doctor": {
@@ -468,7 +464,7 @@ Keep / Delete": "",
     "Keep / Delete": "",
     "Whitelisted": ""
   },
-  "dubmaster_who-am-i-game": {
+  "who-am-i": {
     "name": "hub/dubmaster/who-am-i-game:latest",
     "id": 59,
     "description": "",
@@ -492,7 +488,7 @@ Keep / Delete": "",
     "Keep / Delete": "",
     "Whitelisted": ""
   },
-  "elonmusk_contract-analyzer-": {
+  "contract-analyzer-": {
     "name": "hub/elonmusk/contract-analyzer-:latest",
     "id": 62,
     "description": "",
@@ -500,7 +496,7 @@ Keep / Delete": "",
     "Keep / Delete": "",
     "Whitelisted": ""
   },
-  "artteacher": {
+  "art-teacher": {
     "name": "hub/emclinux/artteacher:latest",
     "id": 63,
     "description": "",
@@ -508,7 +504,7 @@ Keep / Delete": "",
     "Keep / Delete": "",
     "Whitelisted": ""
   },
-  "english-translator-and-improver": {
+  "english-translator": {
     "name": "hub/english-translator-and-improver:latest",
     "id": 64,
     "description": "",
@@ -580,7 +576,7 @@ Keep / Delete": "",
     "Keep / Delete": "",
     "Whitelisted": ""
   },
-  "minecraft": {
+  "mc": {
     "name": "hub/krsmes/minecraft:latest",
     "id": 73,
     "description": "",
@@ -588,7 +584,7 @@ Keep / Delete": "",
     "Keep / Delete": "",
     "Whitelisted": ""
   },
-  "linux-terminal": {
+  "linux": {
     "name": "hub/linux-terminal:latest",
     "id": 74,
     "description": "",
@@ -620,14 +616,12 @@ Keep / Delete": "",
     "Keep / Delete": "",
     "Whitelisted": ""
   },
-  "js-assistant-test": {
+  "javascript-assistant": {
     "name": "hub/matteo/js-assistant-test:latest",
     "id": 78,
     "description": "",
     "Latency": "",
-    "Keep / Delete
-
-": "",
+    "Keep / Delete": "",
     "Whitelisted": ""
   },
   "scientist": {
