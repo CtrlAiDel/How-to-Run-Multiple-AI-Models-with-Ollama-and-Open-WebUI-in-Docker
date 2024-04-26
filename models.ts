@@ -402,9 +402,7 @@ const models = {
     "Keep / Delete": "",
     "Whitelisted": ""
   },
-  "hub
-
-/doctor/gastroenterologist": {
+  "hub/doctor/gastroenterologist": {
     "name": "hub/doctor/gastroenterologist:latest",
     "id": 51,
     "description": "",
