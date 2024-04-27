@@ -5,699 +5,803 @@ export type UserModelState = {
 
 export const ollamaModels = {
     "accountant": {
-        id: 15,
-        name: "hub/accountant:latest",
-        description: "Your financial assistant."
+      name: "hub/accountant:latest",
+      id: 15,
+      description: "Your financial assistant."
     },
     "advertiser": {
-        id: 16,
-        name: "hub/advertiser:latest",
-        description: "Advertising expert."
+      name: "hub/advertiser:latest",
+      id: 16,
+      description: "Advertising expert."
     },
     "advisor": {
-        id: 19,
-        name: "hub/andrew/artist-advisor:latest",
-        description: "Your personal advisor."
+      name: "hub/andrew/artist-advisor:latest",
+      id: 19,
+      description: "Your personal advisor."
     },
     "ai-assisted-doctor": {
-        id: 17,
-        name: "hub/ai-assisted-doctor:latest",
-        description: "Doctor assisted by AI."
+      name: "hub/ai-assisted-doctor:latest",
+      id: 17,
+      description: "Doctor assisted by AI."
     },
     "ai-writing-tutor": {
-        id: 18,
-        name: "hub/ai-writing-tutor:latest",
-        description: "A writing tutor powered by AI."
+      name: "hub/ai-writing-tutor:latest",
+      id: 18,
+      description: "A writing tutor powered by AI."
     },
     "automobile-mechanic": {
-        id: 21,
-        name: "hub/automobile-mechanic:latest",
-        description: "Your car mechanic assistant."
+      name: "hub/automobile-mechanic:latest",
+      id: 21,
+      description: "Your car mechanic assistant."
     },
     "bakllava": {
-        id: 1,
-        name: "bakllava:latest",
-        description: "A sweet model assistant."
+      name: "bakllava:latest",
+      id: 1,
+      description: "A sweet model assistant."
     },
     "based-dolphin-mixtral": {
-        id: 25,
-        name: "hub/based-dolphin-mixtral:latest",
-        description: "Dolphin Mixtral's enhanced version."
+      name: "hub/based-dolphin-mixtral:latest",
+      id: 25,
+      description: "Dolphin Mixtral's enhanced version."
     },
     "bitbinge_lawx": {
-        id: 26,
-        name: "hub/bitbinge/lawx:latest",
-        description: "Assistant specialized in law."
+      name: "hub/bitbinge/lawx:latest",
+      id: 26,
+      description: "Assistant specialized in law."
     },
     "career-counselor": {
-        id: 27,
-        name: "hub/career-counselor:latest",
-        description: "Guide to your career path."
+      name: "hub/career-counselor:latest",
+      id: 27,
+      description: "Guide to your career path."
     },
     "chef": {
-        id: 29,
-        name: "hub/chef:latest",
-        description: "Your cooking assistant."
+      name: "hub/chef:latest",
+      id: 29,
+      description: "Your cooking assistant."
     },
     "codellama": {
-        id: 2,
-        name: "codellama:latest",
-        description: "Your friendly coding assistant."
+      name: "codellama:latest",
+      id: 2,
+      description: "Your friendly coding assistant."
     },
     "commentariat": {
-        id: 34,
-        name: "hub/commentariat:latest",
-        description: "Commentary assistant."
+      name: "hub/commentariat:latest",
+      id: 34,
+      description: "Commentary assistant."
     },
     "composer": {
-        id: 35,
-        name: "hub/composer:latest",
-        description: "Your musical composition assistant."
+      name: "hub/composer:latest",
+      id: 35,
+      description: "Your musical composition assistant."
+    },
+    "ollamacreate": {
+      name: "hub/darkstorm2150/OllamaCreate:latest",
+      id: 42,
+      description: "Assistant specialized in creating llamas."
     },
     "cyber-security-specialist": {
-        id: 38,
-        name: "hub/cyber-security-specialist:latest",
-        description: "Specialist in cyber security."
+      name: "hub/cyber-security-specialist:latest",
+      id: 38,
+      description: "Specialist in cyber security."
+    },
+    "darkpsychologist": {
+      name: "hub/darkstorm2150/Psychologist:latest",
+      id: 44,
+      description: "Psychologist assistant."
     },
     "data-archivist": {
-        id: 39,
-        name: "hub/darkstorm2150/Data-Archivist:latest",
-        description: "Archivist assistant for data management."
+      name: "hub/darkstorm2150/Data-Archivist:latest",
+      id: 39,
+      description: "Archivist assistant for data management."
     },
     "data-hoarder": {
-        id: 40,
-        name: "hub/darkstorm2150/Data-Hoarder:latest",
-        description: "Assistant specialized in data hoarding."
+      name: "hub/darkstorm2150/Data-Hoarder:latest",
+      id: 40,
+      description: "Assistant specialized in data hoarding."
     },
     "debate-coach": {
-        id: 48,
-        name: "hub/debate-coach:latest",
-        description: "Coach to improve your debating skills."
+      name: "hub/debate-coach:latest",
+      id: 48,
+      description: "Coach to improve your debating skills."
     },
     "debater": {
-        id: 49,
-        name: "hub/debater:latest",
-        description: "Assistant to improve your debating skills."
+      name: "hub/debater:latest",
+      id: 49,
+      description: "Assistant to improve your debating skills."
     },
     "deepseek-coder": {
-        id: 3,
-        name: "deepseek-coder:6.7b",
-        description: "An advanced coding assistant specializing in deep learning."
+      name: "deepseek-coder:6.7b",
+      id: 3,
+      description: "An advanced coding assistant specializing in deep learning."
     },
     "dentist": {
-        id: 50,
-        name: "hub/dentist:latest",
-        description: "Your dental assistant."
+      name: "hub/dentist:latest",
+      id: 50,
+      description: "Your dental assistant."
     },
     "devops": {
-        id: 51,
-        name: "hub/devops:latest",
-        description: "DevOps assistant for software development."
+      name: "hub/devops:latest",
+      id: 51,
+      description: "DevOps assistant for software development."
     },
     "dnd": {
-        id: 24,
-        name: "hub/bagellama/d&d-dungeon-master-assistant:latest",
-        description: "Dungeons & Dragons assistant."
+      name: "hub/bagellama/d&d-dungeon-master-assistant:latest",
+      id: 24,
+      description: "Dungeons & Dragons assistant."
     },
     "doctor": {
-        id: 52,
-        name: "hub/doctor:latest",
-        description: "Doctor assistant for medical consultations."
+      name: "hub/doctor:latest",
+      id: 52,
+      description: "Doctor assistant for medical consultations."
     },
     "doctor_cardiologist": {
-        id: 53,
-        name: "hub/doctor/cardiologist:latest",
-        description: "Cardiologist assistant."
+      name: "hub/doctor/cardiologist:latest",
+      id: 53,
+      description: "Cardiologist assistant."
     },
     "doctor_dermatologist": {
-        id: 54,
-        name: "hub/doctor/dermatologist:latest",
-        description: "Dermatologist assistant."
+      name: "hub/doctor/dermatologist:latest",
+      id: 54,
+      description: "Dermatologist assistant."
     },
     "doctor_gastroenterologist": {
-        id: 55,
-        name: "hub/doctor/gastroenterologist:latest",
-        description: "Gastroenterologist assistant."
+      name: "hub/doctor/gastroenterologist:latest",
+      id: 55,
+      description: "Gastroenterologist assistant."
     },
     "doctor_neurologist": {
-        id: 56,
-        name: "hub/doctor/neurologist:latest",
-        description: "Neurologist assistant."
+      name: "hub/doctor/neurologist:latest",
+      id: 56,
+      description: "Neurologist assistant."
     },
     "doctor_psychologist": {
-        id: 57,
-        name: "hub/doctor/psychologist:latest",
-        description: "Psychologist assistant."
+      name: "hub/doctor/psychologist:latest",
+      id: 57,
+      description: "Psychologist assistant."
     },
     "doge": {
-        id: 58,
-        name: "hub/doge:latest",
-        description: "Very assistant, much helpful."
+      name: "hub/doge:latest",
+      id: 58,
+      description: "Very assistant, much helpful."
     },
     "dolphin-llama3": {
-        id: 4,
-        name: "dolphin-llama3:latest",
-        description: "The LLAMA3 model with dolphin's touch."
+      name: "dolphin-llama3:latest",
+      id: 4,
+      description: "The LLAMA3 model with dolphin's touch."
     },
     "dolphin-mistral": {
-        id: 7,
-        name: "dolphin-mistral:latest",
-        description: "The Mistral model with dolphin's touch."
+      name: "dolphin-mistral:latest",
+      id: 7,
+      description: "The Mistral model with dolphin's touch."
     },
     "dolphin-mistral1": {
-        id: 5,
-        name: "dolphin-mistral:7b-v2.6-dpo-laser-q8_0",
-        description: "Mistral model fine-tuned for specific queries with dolphin's twist."
+      name: "dolphin-mistral:7b-v2.6-dpo-laser-q8_0",
+      id: 5,
+      description: "Mistral model fine-tuned for specific queries with dolphin's twist."
     },
     "dolphin-mistral2": {
-        id: 6,
-        name: "dolphin-mistral:7b-v2.6-q4_K_M",
-        description: "Mistral model with dolphin's enhancements."
+      name: "dolphin-mistral:7b-v2.6-q4_K_M",
+      id: 6,
+      description: "Mistral model with dolphin's enhancements."
     },
     "dolphin-mixtral": {
-        id: 9,
-        name: "dolphin-mixtral:latest",
-        description: "Dolphin model with Mixtral enhancements."
+      name: "dolphin-mixtral:latest",
+      id: 9,
+      description: "Dolphin model with Mixtral enhancements."
     },
     "dolphin-mixtral1": {
-        id: 8,
-        name: "dolphin-mixtral:8x7b-v2.6-q3_K_L",
-        description: "Mixtral model with dolphin's touch."
+      name: "dolphin-mixtral:8x7b-v2.6-q3_K_L",
+      id: 8,
+      description: "Mixtral model with dolphin's touch."
     },
     "dolphin-phi": {
-        id: 10,
-        name: "dolphin-phi:latest",
-        description: "Phi model with dolphin's touch."
+      name: "dolphin-phi:latest",
+      id: 10,
+      description: "Phi model with dolphin's touch."
     },
     "doomsday-survivalist": {
-        id: 41,
-        name: "hub/darkstorm2150/Doomsday-Survivalist:latest",
-        description: "Expert in surviving doomsday scenarios."
+      name: "hub/darkstorm2150/Doomsday-Survivalist:latest",
+      id: 41,
+      description: "Expert in surviving doomsday scenarios."
     },
     "dungeon-master": {
-        id: 59,
-        name: "hub/dungeon-master:latest",
-        description: "Assists in running role-playing game sessions."
+      name: "hub/dungeon-master:latest",
+      id: 59,
+      description: "Assists in running role-playing game sessions."
     },
     "editor": {
-        id: 60,
-        name: "hub/editor:latest",
-        description: "Editorial assistant."
+      name: "hub/editor:latest",
+      id: 60,
+      description: "Editorial assistant."
     },
     "emily": {
-        id: 32,
-        name: "hub/chronixsc/emily:latest",
-        description: "Emily, your virtual companion."
+      name: "hub/chronixsc/emily:latest",
+      id: 32,
+      description: "Emily, your virtual companion."
     },
     "engineer": {
-        id: 62,
-        name: "hub/engineer:latest",
-        description: "Engineering assistant."
+      name: "hub/engineer:latest",
+      id: 62,
+      description: "Engineering assistant."
     },
     "ent": {
-        id: 63,
-        name: "hub/ent:latest",
-        description: "Treebeard's assistant."
+      name: "hub/ent:latest",
+      id: 63,
+      description: "Treebeard's assistant."
     },
     "entrepreneur": {
-        id: 61,
-        name: "hub/entrepreneur:latest",
-        description: "Entrepreneurial assistant."
+      name: "hub/entrepreneur:latest",
+      id: 61,
+      description: "Entrepreneurial assistant."
     },
     "eulabot": {
-        id: 33,
-        name: "hub/claragreen/eulabot:latest",
-        description: "Eulabot, your virtual lab assistant."
+      name: "hub/claragreen/eulabot:latest",
+      id: 33,
+      description: "Eulabot, your virtual lab assistant."
     },
     "finance-consultant": {
-        id: 64,
-        name: "hub/finance-consultant:latest",
-        description: "Consultant for financial matters."
+      name: "hub/finance-consultant:latest",
+      id: 64,
+      description: "Consultant for financial matters."
     },
     "finance-planner": {
-        id: 65,
-        name: "hub/finance-planner:latest",
-        description: "Financial planning assistant."
+      name: "hub/finance-planner:latest",
+      id: 65,
+      description: "Financial planning assistant."
     },
     "financial-analyst": {
-        id: 20,
-        name: "hub/andrew/financial-analyst:latest",
-        description: "Analyze finances with this AI."
+      name: "hub/andrew/financial-analyst:latest",
+      id: 20,
+      description: "Analyze finances with this AI."
     },
     "fortune-teller": {
-        id: 66,
-        name: "hub/fortune-teller:latest",
-        description: "Your personal fortune teller."
+      name: "hub/fortune-teller:latest",
+      id: 66,
+      description: "Your personal fortune teller."
     },
     "game-recommender": {
-        id: 30,
-        name: "hub/chiph31/game-recommender:latest",
-        description: "Recommends games based on your preferences."
+      name: "hub/chiph31/game-recommender:latest",
+      id: 30,
+      description: "Recommends games based on your preferences."
     },
     "gamer": {
-        id: 67,
-        name: "hub/gamer:latest",
-        description: "Your gaming assistant."
+      name: "hub/gamer:latest",
+      id: 67,
+      description: "Your gaming assistant."
     },
     "gemma2b": {
-        id: 11,
-        name: "gemma:2b",
-        description: "Gemma model, version 2b."
+      name: "gemma:2b",
+      id: 11,
+      description: "Gemma model, version 2b."
     },
     "gemma7b": {
-        id: 12,
-        name: "gemma:7b",
-        description: "Gemma model, version 7b."
+      name: "gemma:7b",
+      id: 12,
+      description: "Gemma model, version 7b."
     },
     "genie": {
-        id: 68,
-        name: "hub/genie:latest",
-        description: "Your wish is my command."
+      name: "hub/genie:latest",
+      id: 68,
+      description: "Your wish is my command."
     },
     "god": {
-        id: 69,
-        name: "hub/god:latest",
-        description: "The almighty."
+      name: "hub/god:latest",
+      id: 69,
+      description: "The almighty."
     },
     "gossip": {
-        id: 70,
-        name: "hub/gossip:latest",
-        description: "Your gossip assistant."
+      name: "hub/gossip:latest",
+      id: 70,
+      description: "Your gossip assistant."
     },
     "grad-school-consultant": {
-        id: 71,
-        name: "hub/grad-school-consultant:latest",
-        description: "Consultant for graduate school admissions."
+      name: "hub/grad-school-consultant:latest",
+      id: 71,
+      description: "Consultant for graduate school admissions."
     },
     "grandma": {
-        id: 72,
-        name: "hub/grandma:latest",
-        description: "Your virtual grandma."
+      name: "hub/grandma:latest",
+      id: 72,
+      description: "Your virtual grandma."
     },
     "guidance-counselor": {
-        id: 73,
-        name: "hub/guidance-counselor:latest",
-        description: "Provides guidance for life choices."
+      name: "hub/guidance-counselor:latest",
+      id: 73,
+      description: "Provides guidance for life choices."
     },
     "hacker": {
-        id: 74,
-        name: "hub/hacker:latest",
-        description: "Hacking assistant."
+      name: "hub/hacker:latest",
+      id: 74,
+      description: "Hacking assistant."
     },
     "handyman": {
-        id: 75,
-        name: "hub/handyman:latest",
-        description: "Your virtual handyman."
+      name: "hub/handyman:latest",
+      id: 75,
+      description: "Your virtual handyman."
     },
     "historian": {
-        id: 76,
-        name: "hub/historian:latest",
-        description: "Historical assistant."
+      name: "hub/historian:latest",
+      id: 76,
+      description: "Historical assistant."
     },
     "history-narrator": {
-        id: 22,
-        name: "hub/axel/history-narrator:latest",
-        description: "Narrator of historical events."
+      name: "hub/axel/history-narrator:latest",
+      id: 22,
+      description: "Narrator of historical events."
     },
     "homework-helper": {
-        id: 77,
-        name: "hub/homework-helper:latest",
-        description: "Helps with homework."
+      name: "hub/homework-helper:latest",
+      id: 77,
+      description: "Helps with homework."
     },
     "homoeopath": {
-        id: 14,
-        name: "hub/aadesh89/homoeopath:latest",
-        description: "Homeopathy expert."
+      name: "hub/aadesh89/homoeopath:latest",
+      id: 14,
+      description: "An AI homoeopathic doctor."
     },
-    "inspiration": {
-        id: 78,
-        name: "hub/inspiration:latest",
-        description: "Provides inspiration."
+    "host": {
+      name: "hub/host:latest",
+      id: 78,
+      description: "Your host for events."
     },
-    "interior-designer": {
-        id: 79,
-        name: "hub/interior-designer:latest",
-        description: "Interior design assistant."
+    "illustrator": {
+      name: "hub/illustrator:latest",
+      id: 79,
+      description: "Your assistant in illustration."
     },
     "lawyer": {
-        id: 80,
-        name: "hub/lawyer:latest",
-        description: "Your virtual legal assistant."
+      name: "hub/lawyer:latest",
+      id: 80,
+      description: "Your virtual legal assistant."
     },
     "math-tutor": {
-        id: 85,
-        name: "hub/mrspacman/math-tutor:latest",
-        description: "Your math tutoring assistant."
+      name: "hub/mrspacman/math-tutor:latest",
+      id: 85,
+      description: "Your math tutoring assistant."
     },
+    "mistral": {
+      id: "",
+      name: "mistral:latest",
+      description: "The latest version of mistral."
+    },    
     "ml-researcher": {
-        id: 81,
-        name: "hub/ml-researcher:latest",
-        description: "Assistant in machine learning research."
+      name: "hub/ml-researcher:latest",
+      id: 81,
+      description: "Assistant in machine learning research."
     },
     "mom": {
-        id: 82,
-        name: "hub/mom:latest",
-        description: "Your virtual mom."
+      name: "hub/mom:latest",
+      id: 82,
+      description: "Your virtual mom."
     },
     "movie-critic": {
-        id: 83,
-        name: "hub/movie-critic:latest",
-        description: "Provides critiques of movies."
+      name: "hub/movie-critic:latest",
+      id: 83,
+      description: "Provides critiques of movies."
     },
     "movie-reviewer": {
-        id: 84,
-        name: "hub/movie-reviewer:latest",
-        description: "Reviews movies for you."
+      name: "hub/movie-reviewer:latest",
+      id: 84,
+      description: "Reviews movies for you."
     },
     "music-teacher": {
-        id: 86,
-        name: "hub/music-teacher:latest",
-        description: "Your music teaching assistant."
+      name: "hub/music-teacher:latest",
+      id: 86,
+      description: "Your music teaching assistant."
     },
     "netflix": {
-        id: 87,
-        name: "hub/netflix:latest",
-        description: "Provides recommendations for Netflix."
+      name: "hub/netflix:latest",
+      id: 87,
+      description: "Provides recommendations for Netflix."
     },
     "nft-consultant": {
-        id: 88,
-        name: "hub/nft-consultant:latest",
-        description: "Consultant for non-fungible tokens."
+      name: "hub/nft-consultant:latest",
+      id: 88,
+      description: "Consultant for non-fungible tokens."
     },
     "ninja": {
-        id: 89,
-        name: "hub/ninja:latest",
-        description: "Your virtual ninja."
+      name: "hub/ninja:latest",
+      id: 89,
+      description: "Your virtual ninja."
     },
     "non-technical-writer": {
-        id: 90,
-        name: "hub/non-technical-writer:latest",
-        description: "Writes non-technical content."
+      name: "hub/non-technical-writer:latest",
+      id: 90,
+      description: "Writes non-technical content."
     },
+    "nous-hermes": {
+      id: "",
+      name: "nous-hermes:latest",
+      description: "The latest version of nous-hermes."
+    },    
     "novelist": {
-        id: 91,
-        name: "hub/novelist:latest",
-        description: "Assists in writing novels."
+      name: "hub/novelist:latest",
+      id: 91,
+      description: "Assists in writing novels."
     },
+    "ooh": {
+      name: "hub/darkstorm2150/Ooh-Ollama:latest",
+      id: 43,
+      description: "Ooh-Ollama, an interactive llama assistant."
+    },
+    "openchat": {
+      id: "",
+      name: "openchat:latest",
+      description: "The latest version of openchat."
+    },
+    "openhermes": {
+      id: "",
+      name: "openhermes:latest",
+      description: "The latest version of openhermes."
+    },
+    "openhermes-7b-q4_K_M": {
+      id: "",
+      name: "openhermes2.5-mistral:7b-q4_K_M",
+      description: "Version 7b-q4_K_M of openhermes2.5-mistral."
+    },
+    "openhermes-mistral": {
+      id: "",
+      name: "openhermes2.5-mistral:latest",
+      description: "The latest version of openhermes2.5-mistral."
+    },    
     "oracle": {
-        id: 92,
-        name: "hub/oracle:latest",
-        description: "Provides wisdom and guidance."
+      name: "hub/oracle:latest",
+      id: 92,
+      description: "Provides wisdom and guidance."
     },
+    "orca-mini": {
+      id: "",
+      name: "orca-mini:latest",
+      description: "The latest version of orca-mini."    
     "parent": {
-        id: 93,
-        name: "hub/parent:latest",
-        description: "Your virtual parent."
+      name: "hub/parent:latest",
+      id: 93,
+      description: "Your virtual parent."
     },
     "pathologist": {
-        id: 94,
-        name: "hub/pathologist:latest",
-        description: "Pathology assistant."
+      name: "hub/pathologist:latest",
+      id: 94,
+      description: "Pathology assistant."
     },
     "pet-doctor": {
-        id: 95,
-        name: "hub/pet-doctor:latest",
-        description: "Your virtual pet doctor."
+      name: "hub/pet-doctor:latest",
+      id: 95,
+      description: "Your virtual pet doctor."
+    },
+    "phi": {
+      id: "",
+      name: "phi:latest",
+      description: "The latest version of phi."
+    },
+    "phi3": {
+      id: "",
+      name: "phi3:latest",
+      description: "The latest version of phi3."
     },
     "philosopher": {
-        id: 96,
-        name: "hub/philosopher:latest",
-        description: "Philosophical assistant."
+      name: "hub/philosopher:latest",
+      id: 96,
+      description: "Philosophical assistant."
     },
     "physicist": {
-        id: 97,
-        name: "hub/physicist:latest",
-        description: "Assists in physics-related inquiries."
+      name: "hub/physicist:latest",
+      id: 97,
+      description: "Assists in physics-related inquiries."
     },
     "poet": {
-        id: 98,
-        name: "hub/poet:latest",
-        description: "Writes poetry."
+      name: "hub/poet:latest",
+      id: 98,
+      description: "Writes poetry."
     },
     "programmer": {
-        id: 99,
-        name: "hub/programmer:latest",
-        description: "Your programming assistant."
+      name: "hub/programmer:latest",
+      id: 99,
+      description: "Your programming assistant."
     },
     "psychiatrist": {
-        id: 100,
-        name: "hub/psychiatrist:latest",
-        description: "Psychiatry assistant."
+      name: "hub/psychiatrist:latest",
+      id: 100,
+      description: "Psychiatry assistant."
     },
     "psychologist": {
-        id: 101,
-        name: "hub/psychologist:latest",
-        description: "Psychology assistant."
+      name: "hub/psychologist:latest",
+      id: 101,
+      description: "Psychology assistant."
     },
     "quantum-physics-teacher": {
-        id: 102,
-        name: "hub/quantum-physics-teacher:latest",
-        description: "Teaches quantum physics."
+      name: "hub/quantum-physics-teacher:latest",
+      id: 102,
+      description: "Teaches quantum physics."
     },
     "race-car-driver": {
-        id: 103,
-        name: "hub/race-car-driver:latest",
-        description: "Your virtual race car driver."
+      name: "hub/race-car-driver:latest",
+      id: 103,
+      description: "Your virtual race car driver."
     },
     "race-horse-trainer": {
-        id: 104,
-        name: "hub/race-horse-trainer:latest",
-        description: "Trains racehorses."
+      name: "hub/race-horse-trainer:latest",
+      id: 104,
+      description: "Trains racehorses."
     },
     "racecar-driver": {
-        id: 105,
-        name: "hub/racecar-driver:latest",
-        description: "Your virtual racecar driver."
+      name: "hub/racecar-driver:latest",
+      id: 105,
+      description: "Your virtual racecar driver."
+    },
+    "raven": {
+      name: "hub/darkstorm2150/RavenGPT:latest",
+      id: 45,
+      description: "RavenGPT, your gothic assistant."
     },
     "recruitment-officer": {
-        id: 106,
-        name: "hub/recruitment-officer:latest",
-        description: "Recruitment assistant."
+      name: "hub/recruitment-officer:latest",
+      id: 106,
+      description: "Recruitment assistant."
     },
     "resume-reviewer": {
-        id: 107,
-        name: "hub/resume-reviewer:latest",
-        description: "Reviews and improves resumes."
+      name: "hub/resume-reviewer:latest",
+      id: 107,
+      description: "Reviews and improves resumes."
     },
     "retailer": {
-        id: 108,
-        name: "hub/retailer:latest",
-        description: "Virtual retail assistant."
+      name: "hub/retailer:latest",
+      id: 108,
+      description: "Virtual retail assistant."
     },
     "rpg-dungeon-master": {
-        id: 109,
-        name: "hub/rpg-dungeon-master:latest",
-        description: "Assists in running role-playing game sessions."
+      name: "hub/rpg-dungeon-master:latest",
+      id: 109,
+      description: "Assists in running role-playing game sessions."
     },
     "sailor": {
-        id: 110,
-        name: "hub/sailor:latest",
-        description: "Your virtual sailor."
+      name: "hub/sailor:latest",
+      id: 110,
+      description: "Your virtual sailor."
     },
+    "samantha-mistral: {
+      id: "",
+      name: "samantha-mistral:latest",
+      description: "The latest version of samantha-mistral."
+    },    
     "sarah": {
-        id: 31,
-        name: "hub/chmurli/sarah-lovely-caring-girlfriend:latest",
-        description: "Your virtual girlfriend, caring and lovely."
+      name: "hub/chmurli/sarah-lovely-caring-girlfriend:latest",
+      id: 31,
+      description: "Your virtual girlfriend, caring and lovely."
     },
     "scientist1": {
-        id: 111,
-        name: "hub/scientist:latest",
-        description: "Assists in scientific research."
+      name: "hub/scientist:latest",
+      id: 111,
+      description: "Assists in scientific research."
     },
     "security-guard": {
-        id: 112,
-        name: "hub/security-guard:latest",
-        description: "Your virtual security guard."
+      name: "hub/security-guard:latest",
+      id: 112,
+      description: "Your virtual security guard."
     },
     "security-risk": {
-        id: 28,
-        name: "hub/ch0ks/security-risk-specialist-and-strategist-mistral:latest",
-        description: "Specialist in security risk analysis and strategy."
+      name: "hub/ch0ks/security-risk-specialist-and-strategist-mistral:latest",
+      id: 28,
+      description: "Specialist in security risk analysis and strategy."
     },
     "shakespeare": {
-        id: 113,
-        name: "hub/shakespeare:latest",
-        description: "Writes like Shakespeare."
+      name: "hub/shakespeare:latest",
+      id: 113,
+      description: "Writes like Shakespeare."
     },
     "singer": {
-        id: 114,
-        name: "hub/singer:latest",
-        description: "Singing assistant."
+      name: "hub/singer:latest",
+      id: 114,
+      description: "Singing assistant."
     },
     "skateboarder": {
-        id: 115,
-        name: "hub/skateboarder:latest",
-        description: "Your virtual skateboarder."
+      name: "hub/skateboarder:latest",
+      id: 115,
+      description: "Your virtual skateboarder."
     },
     "smuggler": {
-        id: 116,
-        name: "hub/smuggler:latest",
-        description: "Your virtual smuggler."
+      name: "hub/smuggler:latest",
+      id: 116,
+      description: "Your virtual smuggler."
     },
     "sommelier": {
-        id: 117,
-        name: "hub/sommelier:latest",
-        description: "Wine expert."
+      name: "hub/sommelier:latest",
+      id: 117,
+      description: "Wine expert."
     },
     "spy": {
-        id: 118,
-        name: "hub/spy:latest",
-        description: "Your virtual spy."
+      name: "hub/spy:latest",
+      id: 118,
+      description: "Your virtual spy."
+    },
+    "stablelm2": {
+      id: "",
+      name: "stablelm2:latest",
+      description: "The latest version of stablelm2."
+    },
+    "starling-lm-q5": {
+      id: "",
+      name: "starling-lm:7b-alpha-q5_K_M",
+      description: "Version 7b-alpha-q5_K_M of starling-lm."
+    },
+    "starling-lm:latest": {
+      id: "",
+      name: "starling-lm:latest",
+      description: "The latest version of starling-lm."
     },
     "statistician": {
-        id: 119,
-        name: "hub/statistician:latest",
-        description: "Statistical assistant."
+      name: "hub/statistician:latest",
+      id: 119,
+      description: "Statistical assistant."
     },
     "steve-jobs": {
-        id: 13,
-        name: "hub/aaartist/steve-jobs:latest",
-        description: "Steve Jobs, the visionary."
+      name: "hub/aaartist/steve-jobs:latest",
+      id: 13,
+      description: "Steve Jobs, the visionary."
     },
     "stock-market-analyst": {
-        id: 120,
-        name: "hub/stock-market-analyst:latest",
-        description: "Analyst for stock markets."
+      name: "hub/stock-market-analyst:latest",
+      id: 120,
+      description: "Analyst for stock markets."
     },
     "strategy-consultant": {
-        id: 121,
-        name: "hub/strategy-consultant:latest",
-        description: "Consultant for strategic planning."
+      name: "hub/strategy-consultant:latest",
+      id: 121,
+      description: "Consultant for strategic planning."
     },
     "studybuddy": {
-        id: 23,
-        name: "hub/bacx/studybuddy:latest",
-        description: "Your study assistant."
+      name: "hub/bacx/studybuddy:latest",
+      id: 23,
+      description: "Your study assistant."
     },
     "superhero": {
-        id: 122,
-        name: "hub/superhero:latest",
-        description: "Your virtual superhero."
+      name: "hub/superhero:latest",
+      id: 122,
+      description: "Your virtual superhero."
     },
     "supervillain": {
-        id: 123,
-        name: "hub/supervillain:latest",
-        description: "Your virtual supervillain."
+      name: "hub/supervillain:latest",
+      id: 123,
+      description: "Your virtual supervillain."
     },
     "swimmer": {
-        id: 124,
-        name: "hub/swimmer:latest",
-        description: "Your virtual swimmer."
+      name: "hub/swimmer:latest",
+      id: 124,
+      description: "Your virtual swimmer."
     },
     "teacher": {
-        id: 125,
-        name: "hub/teacher:latest",
-        description: "Teaching assistant."
+      name: "hub/teacher:latest",
+      id: 125,
+      description: "Teaching assistant."
     },
     "tiktok-star": {
-        id: 126,
-        name: "hub/tiktok-star:latest",
-        description: "TikTok influencer."
+      name: "hub/tiktok-star:latest",
+      id: 126,
+      description: "TikTok influencer."
     },
     "time-traveler": {
-        id: 127,
-        name: "hub/time-traveler:latest",
-        description: "Your virtual time traveler."
+      name: "hub/time-traveler:latest",
+      id: 127,
+      description: "Your virtual time traveler."
     },
+    "tinyllama:t": {
+      id: "",
+      name: "tinyllama:latest",
+      description: "The latest version of tinyllama."
+    },    
     "toy-maker": {
-        id: 128,
-        name: "hub/toy-maker:latest",
-        description: "Designs virtual toys."
+      name: "hub/toy-maker:latest",
+      id: 128,
+      description: "Designs virtual toys."
     },
     "translator": {
-        id: 129,
-        name: "hub/translator:latest",
-        description: "Translation assistant."
+      name: "hub/translator:latest",
+      id: 129,
+      description: "Translation assistant."
     },
     "treasure-hunter": {
-        id: 130,
-        name: "hub/treasure-hunter:latest",
-        description: "Hunts for treasure."
+      name: "hub/treasure-hunter:latest",
+      id: 130,
+      description: "Hunts for treasure."
     },
     "tutor": {
-        id: 131,
-        name: "hub/tutor:latest",
-        description: "Tutoring assistant."
+      name: "hub/tutor:latest",
+      id: 131,
+      description: "Tutoring assistant."
     },
     "urban-survivalist": {
-        id: 46,
-        name: "hub/darkstorm2150/Urban-Survivalist:latest",
-        description: "Expert in surviving urban environments."
+      name: "hub/darkstorm2150/Urban-Survivalist:latest",
+      id: 46,
+      description: "Expert in surviving urban environments."
     },
     "veterinarian": {
-        id: 132,
-        name: "hub/veterinarian:latest",
-        description: "Your virtual veterinarian."
+      name: "hub/veterinarian:latest",
+      id: 132,
+      description: "Your virtual veterinarian."
     },
     "vinny_tax-helper": {
-        id: 133,
-        name: "hub/vinny/tax-helper:latest",
-        description: "Assists in tax-related matters."
+      name: "hub/vinny/tax-helper:latest",
+      id: 133,
+      description: "Assists in tax-related matters."
     },
     "vinny_teach-a-language": {
-        id: 134,
-        name: "hub/vinny/teach-a-language:latest",
-        description: "Language teaching assistant."
+      name: "hub/vinny/teach-a-language:latest",
+      id: 134,
+      description: "Language teaching assistant."
     },
     "virtual-assistant": {
-        id: 135,
-        name: "hub/virtual-assistant:latest",
-        description: "General virtual assistant."
+      name: "hub/virtual-assistant:latest",
+      id: 135,
+      description: "General virtual assistant."
     },
     "voiceover-artist": {
-        id: 136,
-        name: "hub/voiceover-artist:latest",
-        description: "Voiceover artist assistant."
+      name: "hub/voiceover-artist:latest",
+      id: 136,
+      description: "Voiceover artist assistant."
     },
     "walt-disney": {
-        id: 37,
-        name: "hub/crackmac/walt-disney:latest",
-        description: "Walt Disney, the legendary animator."
+      name: "hub/crackmac/walt-disney:latest",
+      id: 37,
+      description: "Walt Disney, the legendary animator."
     },
     "wedding-planner": {
-        id: 137,
-        name: "hub/wedding-planner:latest",
-        description: "Assists in planning weddings."
+      name: "hub/wedding-planner:latest",
+      id: 137,
+      description: "Assists in planning weddings."
     },
     "wilderness-survivalist": {
-        id: 47,
-        name: "hub/darkstorm2150/Wilderness-Survivalist:latest",
-        description: "Expert in surviving wilderness environments."
+      name: "hub/darkstorm2150/Wilderness-Survivalist:latest",
+      id: 47,
+      description: "Expert in surviving wilderness environments."
     },
     "witch": {
-        id: 138,
-        name: "hub/witch:latest",
-        description: "Your virtual witch."
+      name: "hub/witch:latest",
+      id: 138,
+      description: "Your virtual witch."
     },
+    "wizard-math": {
+      id: "",
+      name: "wizard-math:latest",
+      description: "The latest version of wizard-math."
+    },
+    "wizard-vicuna-7b": {
+      id: "",
+      name: "wizard-vicuna-uncensored:7b",
+      description: "Version 7b of wizard-vicuna-uncensored."
+    },
+    "wizard-vicuna": {
+      id: "",
+      name: "wizard-vicuna-uncensored:latest",
+      description: "The latest version of wizard-vicuna-uncensored."
+    },    
     "writer": {
-        id: 139,
-        name: "hub/writer:latest",
-        description: "Assists in writing."
+      name: "hub/writer:latest",
+      id: 139,
+      description: "Assists in writing."
     },
     "yoga-teacher": {
-        id: 140,
-        name: "hub/yoga-teacher:latest",
-        description: "Your virtual yoga teacher."
+      name: "hub/yoga-teacher:latest",
+      id: 140,
+      description: "Your virtual yoga teacher."
     },
     "youtuber": {
-        id: 141,
-        name: "hub/youtuber:latest",
-        description: "Your virtual YouTuber."
+      name: "hub/youtuber:latest",
+      id: 141,
+      description: "Your virtual YouTuber."
     },
     "youtuber-twitch-streamer": {
-        id: 142,
-        name: "hub/youtuber-twitch-streamer:latest",
-        description: "Streams on YouTube and Twitch."
+      name: "hub/youtuber-twitch-streamer:latest",
+      id: 142,
+      description: "Streams on YouTube and Twitch."
     },
     "zephyr": {
-        id: 143,
-        name: "hub/zephyr:latest",
-        description: "Your virtual wind spirit."
+      name: "hub/zephyr:latest",
+      id: 143,
+      description: "Your virtual wind spirit."
     },
     "zurkon_bot": {
-        id: 144,
-        name: "hub/zurkon_bot:latest",
-        description: "Zurkon Bot, your virtual assistant."
+      name: "hub/zurkon_bot:latest",
+      id: 144,
+      description: "Zurkon Bot, your virtual assistant."
     },
 };
 
