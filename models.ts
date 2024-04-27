@@ -850,9 +850,7 @@ const models = {
   },
   "resume-reviewer": {
     "name": "hub/resume-reviewer:latest",
-    "id": 
-
-107,
+    "id": 107,
     "description": "",
     "Latency": "",
     "Keep / Delete": "",
