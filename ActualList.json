@@ -205,6 +205,142 @@
             }
         },
         {
+            "name": "hub/thepr0m3th3an/ghostwriter-braindump:latest",
+            "model": "hub/thepr0m3th3an/ghostwriter-braindump:latest",
+            "modified_at": "2024-05-06T10:19:18.586859014Z",
+            "size": 4661225540,
+            "digest": "ae12fc1d00c93123acdd13b8cf5ccb1f2ae1492d3200c1f2a99d36ce9777c608",
+            "details": {
+                "parent_model": "",
+                "format": "gguf",
+                "family": "llama",
+                "families": [
+                    "llama"
+                ],
+                "parameter_size": "8B",
+                "quantization_level": "Q4_0"
+            }
+        },
+        {
+            "name": "hub/thepr0m3th3an/ghostwriter-character:latest",
+            "model": "hub/thepr0m3th3an/ghostwriter-character:latest",
+            "modified_at": "2024-05-06T10:19:16.177307832Z",
+            "size": 4661227196,
+            "digest": "1ed10ec9bcc245aef4be9118d1bc7bd2b13f83a52a6bcbbc1bc93918c98f04a0",
+            "details": {
+                "parent_model": "",
+                "format": "gguf",
+                "family": "llama",
+                "families": [
+                    "llama"
+                ],
+                "parameter_size": "8B",
+                "quantization_level": "Q4_0"
+            }
+        },
+        {
+            "name": "hub/thepr0m3th3an/ghostwriter-draftprose:latest",
+            "model": "hub/thepr0m3th3an/ghostwriter-draftprose:latest",
+            "modified_at": "2024-05-06T10:19:12.49724246Z",
+            "size": 4661227774,
+            "digest": "670edc04480475b9a369c07427eb677af06c09a3a97b89501642b9f23b274b32",
+            "details": {
+                "parent_model": "",
+                "format": "gguf",
+                "family": "llama",
+                "families": [
+                    "llama"
+                ],
+                "parameter_size": "8B",
+                "quantization_level": "Q4_0"
+            }
+        },
+        {
+            "name": "hub/thepr0m3th3an/ghostwriter-editor:latest",
+            "model": "hub/thepr0m3th3an/ghostwriter-editor:latest",
+            "modified_at": "2024-05-06T10:19:09.497172862Z",
+            "size": 4661225632,
+            "digest": "e3f9e7f9994948d699ea1384f3a4e43fa3ae5069988a66389742c554c238dc67",
+            "details": {
+                "parent_model": "",
+                "format": "gguf",
+                "family": "llama",
+                "families": [
+                    "llama"
+                ],
+                "parameter_size": "8B",
+                "quantization_level": "Q4_0"
+            }
+        },
+        {
+            "name": "hub/thepr0m3th3an/ghostwriter-finalprose:latest",
+            "model": "hub/thepr0m3th3an/ghostwriter-finalprose:latest",
+            "modified_at": "2024-05-06T10:19:11.277220133Z",
+            "size": 4661226568,
+            "digest": "e15a3be8fc89b52c6b0d4b9e429770b549562ecdb633940826e6618e5c2a3e11",
+            "details": {
+                "parent_model": "",
+                "format": "gguf",
+                "family": "llama",
+                "families": [
+                    "llama"
+                ],
+                "parameter_size": "8B",
+                "quantization_level": "Q4_0"
+            }
+        },
+        {
+            "name": "hub/thepr0m3th3an/ghostwriter-outline:latest",
+            "model": "hub/thepr0m3th3an/ghostwriter-outline:latest",
+            "modified_at": "2024-05-06T10:19:14.977286517Z",
+            "size": 4661225539,
+            "digest": "43e3f840cd377c1c1f28747b496cb33dc7d5b39f57c00c4b4df0135d35bb85af",
+            "details": {
+                "parent_model": "",
+                "format": "gguf",
+                "family": "llama",
+                "families": [
+                    "llama"
+                ],
+                "parameter_size": "8B",
+                "quantization_level": "Q4_0"
+            }
+        },
+        {
+            "name": "hub/thepr0m3th3an/ghostwriter-storybeats:latest",
+            "model": "hub/thepr0m3th3an/ghostwriter-storybeats:latest",
+            "modified_at": "2024-05-06T10:19:13.657263068Z",
+            "size": 4661226071,
+            "digest": "0385469258ea1ede35a41fc94a5b4864354c2abc75e9ae40920735a42ae9ac69",
+            "details": {
+                "parent_model": "",
+                "format": "gguf",
+                "family": "llama",
+                "families": [
+                    "llama"
+                ],
+                "parameter_size": "8B",
+                "quantization_level": "Q4_0"
+            }
+        },
+        {
+            "name": "hub/thepr0m3th3an/ghostwriter-synopsis:latest",
+            "model": "hub/thepr0m3th3an/ghostwriter-synopsis:latest",
+            "modified_at": "2024-05-06T10:19:17.45733057Z",
+            "size": 4661226386,
+            "digest": "9a5544eb549184264bb3e26623717a7cca991c1395c8b40f3f6331804cb62418",
+            "details": {
+                "parent_model": "",
+                "format": "gguf",
+                "family": "llama",
+                "families": [
+                    "llama"
+                ],
+                "parameter_size": "8B",
+                "quantization_level": "Q4_0"
+            }
+        },
+        {
             "name": "hub/zillomab/llama3-uncensored:latest",
             "model": "hub/zillomab/llama3-uncensored:latest",
             "modified_at": "2024-05-06T10:05:17.058910507Z",
