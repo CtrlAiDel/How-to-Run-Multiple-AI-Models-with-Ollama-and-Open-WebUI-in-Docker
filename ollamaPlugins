@@ -301,19 +301,19 @@
         "description": "Starling model for various tasks."
     },
     {
-        "id": 52,
+        "id": 51,
         "name": "gemma-2b",
         "alias": "gemma-2b",
         "description": "Gemma-2b is a family of lightweight, state-of-the-art open models built by Google DeepMind"
     },
     {
-        "id": 53,
+        "id": 52,
         "name": "gemma:latest",
         "alias": "gemma",
         "description": "Gemma-7b is a family of lightweight, state-of-the-art open models built by Google DeepMind."
     },
     {
-        "id": 54,
+        "id": 53,
         "name": "llama2-chinese:latest",
         "alias": "chinese",
         "description": "Llama 2 based model fine tuned to improve Chinese dialogue ability.."
