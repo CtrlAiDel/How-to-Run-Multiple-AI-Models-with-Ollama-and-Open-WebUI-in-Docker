@@ -1,6 +1,55 @@
 {
     "models": [
         {
+            "name": "gemma:latest",
+            "model": "gemma:latest",
+            "modified_at": "2024-05-12T05:14:38.168592551Z",
+            "size": 5011853225,
+            "digest": "a72c7f4d0a15522df81486d13ce432c79e191bda2558d024fbad4362c4f7cbf8",
+            "details": {
+                "parent_model": "",
+                "format": "gguf",
+                "family": "gemma",
+                "families": [
+                    "gemma"
+                ],
+                "parameter_size": "9B",
+                "quantization_level": "Q4_0"
+            }
+        },
+        {
+            "name": "llama2-chinese:latest",
+            "model": "llama2-chinese:latest",
+            "modified_at": "2024-05-12T05:14:28.828411192Z",
+            "size": 3825807497,
+            "digest": "cee11d703eee55b0c3e9bb2a0a043a51625b5395ab4727309cbc647c5aac9c57",
+            "details": {
+                "parent_model": "",
+                "format": "gguf",
+                "family": "llama",
+                "families": null,
+                "parameter_size": "7B",
+                "quantization_level": "Q4_0"
+            }
+        },
+        {
+            "name": "gemma:2b",
+            "model": "gemma:2b",
+            "modified_at": "2024-05-12T05:14:03.918093717Z",
+            "size": 1678456656,
+            "digest": "b50d6c999e592ae4f79acae23b4feaefbdfceaa7cd366df2610e3072c052a160",
+            "details": {
+                "parent_model": "",
+                "format": "gguf",
+                "family": "gemma",
+                "families": [
+                    "gemma"
+                ],
+                "parameter_size": "3B",
+                "quantization_level": "Q4_0"
+            }
+        },
+        {
             "name": "hub/jeff-bezos:latest",
             "model": "hub/jeff-bezos:latest",
             "modified_at": "2024-05-12T04:17:46.403133374Z",
