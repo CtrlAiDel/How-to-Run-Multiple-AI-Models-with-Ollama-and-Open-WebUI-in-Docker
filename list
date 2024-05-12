@@ -1,53 +1,53 @@
-dnd:latest ----> dnd
-dolphin-llama3:latest ----> dolphin-llama3
-dolphin-mistral:7b-v2.6-dpo-laser-q8_0 ----> dolphin-mistral-q8
-dolphin-mistral:latest ----> dolphin-mistral
-gemma-2b:latest ----> gemma-2b
-gemma:latest ----> gemma
-hub/advertiser:latest ----> advertiser
-hub/ai-assisted-doctor:latest ----> ai-doctor
-hub/binx/marketing-expert:latest ----> marketing-expert
-hub/commentariat:latest ----> commentariat
-hub/composer:latest ----> composer
-hub/cyber-security-specialist:latest ----> cyber-security
-hub/dad:latest ----> dad
-hub/dentist:latest ----> dentist
-hub/doctor:latest ----> doctor
-hub/doge:latest ----> doge
-hub/javi/librarian:latest ----> librarian
-hub/jeff-bezos:latest ----> jeff-bezos
-hub/languages/french:latest ----> french
-hub/languages/spanish:latest ----> spanish
-hub/magician:latest ----> magician
-hub/math-teacher:latest ----> math-teacher
-hub/mlemasters2012/stable-diffusion-prompt:latest ----> sd-prompt
-hub/personal-trainer:latest ----> trainer
-hub/plagiarism-checker:latest ----> plagiarism
-hub/rapper:latest ----> rapper
-hub/recipe-maker:latest ----> recipe-maker
-hub/rocketcaptain/twd-text-based-game:latest ----> walking-dead
-hub/ten-tweets:latest ----> ten-tweets
-hub/thepr0m3th3an/ghostwriter-braindump:latest ----> braindump
-hub/thepr0m3th3an/ghostwriter-character:latest ----> character
-hub/thepr0m3th3an/ghostwriter-draftprose:latest ----> draftprose
-hub/thepr0m3th3an/ghostwriter-editor:latest ----> editor
-hub/thepr0m3th3an/ghostwriter-finalprose:latest ----> finalprose
-hub/thepr0m3th3an/ghostwriter-outline:latest ----> outline
-hub/thepr0m3th3an/ghostwriter-storybeats:latest ----> story
-hub/thepr0m3th3an/ghostwriter-storybeats:latest ----> storybeats
-hub/thepr0m3th3an/ghostwriter-synopsis:latest ----> synopsis
-hub/weconnected/drum-sequencer-pro:latest ----> drum
-hub/zillomab/llama3-uncensored:latest ----> llama3-uncensored
-llama2-chinese:latest ----> chinese
-llama2:latest ----> llama2
-llama3-chatqa:latest ----> llama3-chatqa
-llama3:latest ----> llama3
-llava-llama3:latest ----> llava-llama3
-llava-phi3:latest ----> llava-phi3
-mistral:latest ----> mistral
-nous-hermes2:latest ----> nous-hermes2
-nous-hermes:latest ----> nous-hermes
-ollama3-fp16:latest ----> ollama3-fp16
-ollama3:latest ----> ollama3
-openhermes2.5-mistral:latest ----> oh2.5-mistral
-starling-lm:latest ----> starling
+advertiser → hub/advertiser:latest [ID: 5]
+ai-doctor → hub/ai-assisted-doctor:latest [ID: 6]
+braindump → hub/thepr0m3th3an/ghostwriter-braindump:latest [ID: 29]
+character → hub/thepr0m3th3an/ghostwriter-character:latest [ID: 30]
+chinese → llama2-chinese:latest [ID: 53]
+commentariat → hub/commentariat:latest [ID: 8]
+composer → hub/composer:latest [ID: 9]
+cyber-security → hub/cyber-security-specialist:latest [ID: 10]
+dad → hub/dad:latest [ID: 11]
+dentist → hub/dentist:latest [ID: 12]
+dnd → dnd:latest [ID: 1]
+doctor → hub/doctor:latest [ID: 13]
+doge → hub/doge:latest [ID: 14]
+dolphin-llama3 → dolphin-llama3:latest [ID: 2]
+dolphin-mistral → dolphin-mistral:latest [ID: 4]
+dolphin-mistral-q8 → dolphin-mistral:7b-v2.6-dpo-laser-q8_0 [ID: 3]
+draftprose → hub/thepr0m3th3an/ghostwriter-draftprose:latest [ID: 31]
+drum → hub/weconnected/drum-sequencer-pro:latest [ID: 37]
+editor → hub/thepr0m3th3an/ghostwriter-editor:latest [ID: 32]
+finalprose → hub/thepr0m3th3an/ghostwriter-finalprose:latest [ID: 33]
+french → hub/languages/french:latest [ID: 17]
+gemma → gemma:latest [ID: 52]
+gemma-2b → gemma-2b:latest [ID: 51]
+jeff-bezos → hub/jeff-bezos:latest [ID: 16]
+librarian → hub/javi/librarian:latest [ID: 15]
+llama2 → llama2:latest [ID: 39]
+llama3 → llama3:latest [ID: 41]
+llama3-chatqa → llama3-chatqa:latest [ID: 40]
+llama3-uncensored → hub/zillomab/llama3-uncensored:latest [ID: 38]
+llava-llama3 → llava-llama3:latest [ID: 42]
+llava-phi3 → llava-phi3:latest [ID: 43]
+magician → hub/magician:latest [ID: 19]
+marketing-expert → hub/binx/marketing-expert:latest [ID: 7]
+math-teacher → hub/math-teacher:latest [ID: 20]
+mistral → mistral:latest [ID: 44]
+nous-hermes → nous-hermes:latest [ID: 45]
+nous-hermes2 → nous-hermes2:latest [ID: 46]
+oh2.5-mistral → openhermes2.5-mistral:latest [ID: 49]
+ollama3 → ollama.com/library/llama3:8b [ID: 48]
+ollama3-fp16 → ollama.com/library/llama3:8b-instruct-fp16 [ID: 47]
+outline → hub/thepr0m3th3an/ghostwriter-outline:latest [ID: 34]
+plagiarism → hub/plagiarism-checker:latest [ID: 23]
+rapper → hub/rapper:latest [ID: 24]
+recipe-maker → hub/recipe-maker:latest [ID: 25]
+sd-prompt → hub/mlemasters2012/stable-diffusion-prompt:latest [ID: 21]
+spanish → hub/languages/spanish:latest [ID: 18]
+starling → starling-lm:latest [ID: 50]
+story → hub/storyteller:latest [ID: 27]
+storybeats → hub/thepr0m3th3an/ghostwriter-storybeats:latest [ID: 35]
+synopsis → hub/thepr0m3th3an/ghostwriter-synopsis:latest [ID: 36]
+ten-tweets → hub/ten-tweets:latest [ID: 28]
+trainer → hub/personal-trainer:latest [ID: 22]
+walking-dead → hub/rocketcaptain/twd-text-based-game:latest [ID: 26]
