@@ -1,3 +1,5 @@
+**Alias →  LLM or Preprompt Name [ID: #]**
+
 advertiser → hub/advertiser:latest [ID: 5]
 ai-doctor → hub/ai-assisted-doctor:latest [ID: 6]
 braindump → hub/thepr0m3th3an/ghostwriter-braindump:latest [ID: 29]
