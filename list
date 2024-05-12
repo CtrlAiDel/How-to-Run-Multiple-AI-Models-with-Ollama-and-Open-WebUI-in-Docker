@@ -1,51 +1,53 @@
-dnd:latest
-dolphin-llama3:latest
-dolphin-mistral:7b-v2.6-dpo-laser-q8_0
-dolphin-mistral:latest
-hub/advertiser:latest
-hub/ai-assisted-doctor:latest
-hub/binx/marketing-expert:latest
-hub/commentariat:latest
-hub/composer:latest
-hub/cyber-security-specialist:latest
-hub/dad:latest
-hub/dentist:latest
-hub/doctor:latest
-hub/doge:latest
-hub/javi/librarian:latest
-hub/jeff-bezos:latest
-hub/languages/french:latest
-hub/languages/spanish:latest
-hub/magician:latest
-hub/math-teacher:latest
-hub/mlemasters2012/stable-diffusion-prompt:latest
-hub/personal-trainer:latest
-hub/plagiarism-checker:latest
-hub/rapper:latest
-hub/recipe-maker:latest
-hub/rocketcaptain/twd-text-based-game:latest
-hub/storyteller:latest
-hub/ten-tweets:latest
-hub/thepr0m3th3an/ghostwriter-braindump:latest
-hub/thepr0m3th3an/ghostwriter-character:latest
-hub/thepr0m3th3an/ghostwriter-draftprose:latest
-hub/thepr0m3th3an/ghostwriter-editor:latest
-hub/thepr0m3th3an/ghostwriter-finalprose:latest
-hub/thepr0m3th3an/ghostwriter-outline:latest
-hub/thepr0m3th3an/ghostwriter-storybeats:latest
-hub/thepr0m3th3an/ghostwriter-synopsis:latest
-hub/weconnected/drum-sequencer-pro:latest
-hub/zillomab/llama3-uncensored:latest
-llama2:latest
-llama3-chatqa:latest
-llama3:latest
-llava-llama3:latest
-llava-phi3:latest
-mistral:latest
-nous-hermes:latest
-nous-hermes2:latest
-ollama.com/library/llama3:8b-instruct-fp16
-ollama.com/library/llama3:8b
-openchat:latest
-openhermes2.5-mistral:latest
-starling-lm:latest				
+dnd:latest ----> dnd
+dolphin-llama3:latest ----> dolphin-llama3
+dolphin-mistral:7b-v2.6-dpo-laser-q8_0 ----> dolphin-mistral-q8
+dolphin-mistral:latest ----> dolphin-mistral
+gemma-2b:latest ----> gemma-2b
+gemma:latest ----> gemma
+hub/advertiser:latest ----> advertiser
+hub/ai-assisted-doctor:latest ----> ai-doctor
+hub/binx/marketing-expert:latest ----> marketing-expert
+hub/commentariat:latest ----> commentariat
+hub/composer:latest ----> composer
+hub/cyber-security-specialist:latest ----> cyber-security
+hub/dad:latest ----> dad
+hub/dentist:latest ----> dentist
+hub/doctor:latest ----> doctor
+hub/doge:latest ----> doge
+hub/javi/librarian:latest ----> librarian
+hub/jeff-bezos:latest ----> jeff-bezos
+hub/languages/french:latest ----> french
+hub/languages/spanish:latest ----> spanish
+hub/magician:latest ----> magician
+hub/math-teacher:latest ----> math-teacher
+hub/mlemasters2012/stable-diffusion-prompt:latest ----> sd-prompt
+hub/personal-trainer:latest ----> trainer
+hub/plagiarism-checker:latest ----> plagiarism
+hub/rapper:latest ----> rapper
+hub/recipe-maker:latest ----> recipe-maker
+hub/rocketcaptain/twd-text-based-game:latest ----> walking-dead
+hub/ten-tweets:latest ----> ten-tweets
+hub/thepr0m3th3an/ghostwriter-braindump:latest ----> braindump
+hub/thepr0m3th3an/ghostwriter-character:latest ----> character
+hub/thepr0m3th3an/ghostwriter-draftprose:latest ----> draftprose
+hub/thepr0m3th3an/ghostwriter-editor:latest ----> editor
+hub/thepr0m3th3an/ghostwriter-finalprose:latest ----> finalprose
+hub/thepr0m3th3an/ghostwriter-outline:latest ----> outline
+hub/thepr0m3th3an/ghostwriter-storybeats:latest ----> story
+hub/thepr0m3th3an/ghostwriter-storybeats:latest ----> storybeats
+hub/thepr0m3th3an/ghostwriter-synopsis:latest ----> synopsis
+hub/weconnected/drum-sequencer-pro:latest ----> drum
+hub/zillomab/llama3-uncensored:latest ----> llama3-uncensored
+llama2-chinese:latest ----> chinese
+llama2:latest ----> llama2
+llama3-chatqa:latest ----> llama3-chatqa
+llama3:latest ----> llama3
+llava-llama3:latest ----> llava-llama3
+llava-phi3:latest ----> llava-phi3
+mistral:latest ----> mistral
+nous-hermes2:latest ----> nous-hermes2
+nous-hermes:latest ----> nous-hermes
+ollama3-fp16:latest ----> ollama3-fp16
+ollama3:latest ----> ollama3
+openhermes2.5-mistral:latest ----> oh2.5-mistral
+starling-lm:latest ----> starling
