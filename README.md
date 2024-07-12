@@ -137,7 +137,7 @@ With the old containers removed and images updated, you're now ready to reinstal
    ```
    
 
-### **Updating LLMs and Models on Your Device**
+### **Updating every LLM's in one command**
 
 This command allows users to update all large language models (LLMs) and related models on their device. By executing the command, you can ensure that your models are up-to-date with the latest versions, providing improved performance and new features. It simplifies the process, making it easier to maintain and enhance your AI capabilities.
 
