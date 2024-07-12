@@ -137,6 +137,16 @@ With the old containers removed and images updated, you're now ready to reinstal
    ```
    
 
+### **Updating LLMs and Models on Your Device**
+
+This command allows users to update all large language models (LLMs) and related models on their device. By executing the command, you can ensure that your models are up-to-date with the latest versions, providing improved performance and new features. It simplifies the process, making it easier to maintain and enhance your AI capabilities.
+
+```
+ollama list | awk -F: 'NR>1 && !/reviewer/ {system("ollama pull "$1)}'
+```
+
+
+
 ### Locating Ollama Model Files in local, if you need to delete them
 
 - **Accessing Model Files:** Press `Win + R`, type `\\wsl$\docker-desktop-data\data\docker\volumes`, and press Enter to open the location in File Explorer where Docker volumes, including those for Ollama, are stored.
@@ -148,6 +158,10 @@ This guide simplifies the management of Docker resources for the Ollama applicat
 For those looking to delve deeper with Stable Diffusion for AI image generation, note that this requires an even more powerful PC setup. The computational demands are significantly higher, necessitating a high-performance CPU, ample RAM, and a robust GPU. A minimum of 12GB of VRAM on the GPU is recommended.
 
 For a comprehensive guide on setting up Stable Diffusion, refer to this: [YouTube Guide](https://www.youtube.com/watch?v=A0xUnf5302k&pp=ygUXbG9jYWwgaW1hZ2UgIHVuY2Vuc29yZWQ%3D).
+
+### **Omost Tool for Image Generation**
+
+The video showcases "Omost," a new tool that combines large language models and image generation to create realistic images. It generates detailed prompts for each subsection of the image based on the initial prompt, making the process faster. The tool is easy to install, runs via a Gradio app or locally with an Nvidia card, and offers customizable settings. Memory usage issues can be mitigated by enabling high VRAM mode and minor code adjustments. [YouTube Guide](https://www.youtube.com/watch?v=RKxrXkVpPoE)
 
 
 
@@ -163,3 +177,7 @@ This guide aims to consolidate all necessary steps for efficiently setting up **
 
 
 **-WeConnected aka CtrlAiDel**
+
+
+<iframe style="width:100%;height:auto;min-width:600px;min-height:400px;" src="https://star-history.com/embed?secret=#CtrlAiDel/How-to-Run-Multiple-AI-Models-with-Ollama-and-Open-WebUI-in-Docker&Date" frameBorder="0"></iframe>
+
