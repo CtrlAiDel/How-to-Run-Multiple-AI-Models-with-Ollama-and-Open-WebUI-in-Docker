@@ -151,7 +151,17 @@ Pour ceux qui souhaitent approfondir avec Stable Diffusion pour la génération 
 
 Pour un guide complet sur la configuration de Stable Diffusion, référez-vous à ceci : [Guide YouTube](https://www.youtube.com/watch?v=A0xUnf5302k&pp=ygUXbG9jYWwgaW1hZ2UgIHVuY2Vuc29yZWQ%3D).
 
+### **Outil Omost pour la Génération d'Images**
 
+La vidéo présente "Omost", un nouvel outil qui combine de grands modèles de langage et la génération d'images pour créer des images réalistes. Il génère des instructions détaillées pour chaque sous-section de l'image en fonction de l'instruction initiale, ce qui accélère le processus. L'outil est facile à installer, fonctionne via une application Gradio ou localement avec une carte Nvidia, et offre des paramètres personnalisables. Les problèmes liés à l'utilisation de la mémoire peuvent être atténués en activant le mode VRAM élevé et en effectuant de légères ajustements de code. [Guide YouTube](https://www.youtube.com/watch?v=RKxrXkVpPoE)
+
+### **Mise à jour de tous les LLM en une seule commande**
+
+Cette commande permet aux utilisateurs de mettre à jour tous les grands modèles de langage (LLM) et les modèles associés sur leur appareil. En l'exécutant, vous pouvez vous assurer que vos modèles sont à jour avec les dernières versions, offrant ainsi des performances améliorées et de nouvelles fonctionnalités. Elle simplifie le processus, facilitant ainsi la maintenance et l'amélioration de vos capacités en IA.
+
+```
+ollama list | awk -F: 'NR>1 && !/reviewer/ {system("ollama pull "$1)}'
+```
 
 ### **Ressources et crédits**
 
@@ -165,3 +175,8 @@ Ce guide vise à consolider toutes les étapes nécessaires pour configurer effi
 
 
 **-WeConnected alias CtrlAiDel**
+
+
+## L'Histoire des Étoiles
+
+[![Star History Chart](https://api.star-history.com/svg?repos=CtrlAiDel/How-to-Run-Multiple-AI-Models-with-Ollama-and-Open-WebUI-in-Docker&type=Date)](https://star-history.com/#CtrlAiDel/How-to-Run-Multiple-AI-Models-with-Ollama-and-Open-WebUI-in-Docker&Date)
