@@ -155,26 +155,18 @@ Pour un guide complet sur la configuration de Stable Diffusion, référez-vous �
 
 La vidéo présente "Omost", un nouvel outil qui combine de grands modèles de langage et la génération d'images pour créer des images réalistes. Il génère des instructions détaillées pour chaque sous-section de l'image en fonction de l'instruction initiale, ce qui accélère le processus. L'outil est facile à installer, fonctionne via une application Gradio ou localement avec une carte Nvidia, et offre des paramètres personnalisables. Les problèmes liés à l'utilisation de la mémoire peuvent être atténués en activant le mode VRAM élevé et en effectuant de légères ajustements de code. [Guide YouTube](https://www.youtube.com/watch?v=RKxrXkVpPoE)
 
-### **Mise à jour de tous les LLM en une seule commande**
-
-Cette commande permet aux utilisateurs de mettre à jour tous les grands modèles de langage (LLM) et les modèles associés sur leur appareil. En l'exécutant, vous pouvez vous assurer que vos modèles sont à jour avec les dernières versions, offrant ainsi des performances améliorées et de nouvelles fonctionnalités. Elle simplifie le processus, facilitant ainsi la maintenance et l'amélioration de vos capacités en IA.
-
-```
-ollama list | awk -F: 'NR>1 && !/reviewer/ {system("ollama pull "$1)}'
-```
 
 ### **Ressources et crédits**
 
 - **Documentation de l'API Ollama** : [Documentation de l'API Ollama](https://github.com/ollama/ollama/blob/main/docs/api.md).
 - **Documentation de l'interface web Open** : [Documentation de l'interface web Open](https://github.com/open-webui/open-webui).
-- **Créateurs du tutoriel** : WeConnected de CtrlAIdel, avec l'aide de Subie (Développeur).
+- **Créateurs du tutoriel** : We-Llama de CtrlAIdel, avec l'aide de Subie (Développeur).
 - **Chaîne YouTube du rédacteur** : [CtrlAI Del](https://www.youtube.com/@ctrl_ai_del).
 - **GitHub du développeur** : [Subie1](https://github.com/Subie1).
 
 Ce guide vise à consolider toutes les étapes nécessaires pour configurer efficacement **WSL, Docker, Ollama et l'interface web Open**, et naviguer dans diverses fonctionnalités. Il souligne l'importance d'un environnement informatique puissant pour une expérience fluide et productive dans l'utilisation de modèles d'IA pour la génération et l'analyse d'images.
 
-
-**-WeConnected alias CtrlAiDel**
+**-We-Llama alias CtrlAiDel**
 
 
 ## L'Histoire des Étoiles
