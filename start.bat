@@ -10,3 +10,5 @@ color f2
 
 REM Start the open-webui container
 docker start open-webui
+
+pause
