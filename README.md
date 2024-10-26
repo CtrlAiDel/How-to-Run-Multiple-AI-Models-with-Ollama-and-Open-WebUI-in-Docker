@@ -137,16 +137,6 @@ With the old containers removed and images updated, you're now ready to reinstal
    ```
    
 
-### **Updating every LLM's in one command**
-
-This command allows users to update all large language models (LLMs) and related models on their device. By executing the command, you can ensure that your models are up-to-date with the latest versions, providing improved performance and new features. It simplifies the process, making it easier to maintain and enhance your AI capabilities.
-
-```
-ollama list | awk -F: 'NR>1 && !/reviewer/ {system("ollama pull "$1)}'
-```
-
-
-
 ### Locating Ollama Model Files in local, if you need to delete them
 
 - **Accessing Model Files:** Press `Win + R`, type `\\wsl$\docker-desktop-data\data\docker\volumes`, and press Enter to open the location in File Explorer where Docker volumes, including those for Ollama, are stored.
@@ -169,14 +159,14 @@ The video showcases "Omost," a new tool that combines large language models and 
 
 - **Ollama API Documentation**: [Ollama API Documentation](https://github.com/ollama/ollama/blob/main/docs/api.md).
 - **Open Web-User-Interface Documentation**: [Open WebUI Documentation](https://github.com/open-webui/open-webui).
-- **Tutorial Creators**: WeConnected from CtrlAIdel, with assistance from Subie (Developer).
+- **Tutorial Creators**: We-Llama from CtrlAIdel, with the assistance of Subie (Developer).
 - **Writer's YouTube**: [CtrlAI Del](https://www.youtube.com/@ctrl_ai_del).
 - **Developer's GitHub**: [Subie1](https://github.com/Subie1).
 
 This guide aims to consolidate all necessary steps for efficiently setting up **WSL, Docker, Ollama, and Open Web-UI**, and navigating various functionalities. It emphasizes the importance of a powerful computing environment for a smooth and productive experience in leveraging AI models for image generation and analysis.
 
 
-**-WeConnected aka CtrlAiDel**
+**-We-Llama aka CtrlAiDel**
 
 
 ## Star History
