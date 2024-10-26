@@ -1,3 +1,4 @@
+
 @echo off
 
 color 3f
@@ -43,3 +44,5 @@ docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-
 color 3f
 REM Run the Ollama container
 docker run -d --restart always --gpus all -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
+
+pause
