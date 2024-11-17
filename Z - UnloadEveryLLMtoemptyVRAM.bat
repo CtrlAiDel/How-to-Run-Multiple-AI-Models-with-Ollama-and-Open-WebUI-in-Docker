@@ -2,18 +2,18 @@
 
 color 36
 
-REM Step 1: Stop all LLMs within the container
-echo Stopping all LLMs...
-docker exec -it ollama /bin/sh -c "ollama list | awk -F: 'NR>1 && !/reviewer/ {print $1}'" | for /f "delims=" %%i in ('more') do (
+REM Step 1: Retrieve the list of LLMs and stop them
+echo Fetching LLM list...
+docker exec ollama /bin/sh -c "ollama list | awk -F: 'NR>1 && !/reviewer/ {print $1}'" > llm_list.txt
+
+for /f "delims=" %%i in (llm_list.txt) do (
     echo Stopping LLM: %%i
-    docker exec -it ollama /bin/sh -c "ollama stop %%i"
+    docker exec ollama /bin/sh -c "ollama stop %%i"
 )
 
-
-REM Stop the Ollama container first
+REM Stop the Ollama container
 echo Stopping the Ollama container...
 docker stop ollama
-
 
 REM Restart the Ollama container
 echo Restarting the Ollama container...
