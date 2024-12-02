@@ -85,7 +85,7 @@ To ensure a seamless experience in setting up WSL, deploying Docker, and utilizi
 
 4. **Z - UpdatePullLLM.bat**  
    [View or Download](https://github.com/CtrlAiDel/How-to-Run-Multiple-AI-Models-with-Ollama-and-Open-WebUI-in-Docker/blob/main/Z%20-%20UpdatePullLLM.bat)  
-   *Updates the installed AI language models.*
+   *Updates the installed AI language models. Also delete the image that is sometime duplicated for no reason*
 
 5. **Z - UnloadEveryLLMtoemptyVRAM.bat**  
    [View or Download](https://github.com/CtrlAiDel/How-to-Run-Multiple-AI-Models-with-Ollama-and-Open-WebUI-in-Docker/blob/main/Z%20-%20UnloadEveryLLMtoemptyVRAM.bat)  
