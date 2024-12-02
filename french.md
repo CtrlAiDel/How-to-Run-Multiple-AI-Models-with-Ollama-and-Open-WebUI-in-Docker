@@ -85,7 +85,7 @@ Pour garantir une expérience fluide lors de la configuration de WSL, du déploi
 
 4. **Z - UpdatePullLLM.bat**  
    [Voir ou Télécharger](https://github.com/CtrlAiDel/How-to-Run-Multiple-AI-Models-with-Ollama-and-Open-WebUI-in-Docker/blob/main/Z%20-%20UpdatePullLLM.bat)  
-   *Met à jour les modèles de langage IA installés. Supprime aussi les images dupliquées inutilement*
+   *Met à jour les modèles de langage IA installés. Supprime aussi les images dupliquées parfois inutilement*
 
 5. **Z - UnloadEveryLLMtoemptyVRAM.bat**  
    [Voir ou Télécharger](https://github.com/CtrlAiDel/How-to-Run-Multiple-AI-Models-with-Ollama-and-Open-WebUI-in-Docker/blob/main/Z%20-%20UnloadEveryLLMtoemptyVRAM.bat)  
