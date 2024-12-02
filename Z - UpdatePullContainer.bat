@@ -45,4 +45,8 @@ color 3f
 REM Run the Ollama container
 docker run -d --restart always --gpus all -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
 
+color f3
+REM Remove all <none>:<none> images
+for /f "tokens=*" %%i in ('docker images -f "dangling=true" -q') do docker rmi -f %%i
+
 pause
