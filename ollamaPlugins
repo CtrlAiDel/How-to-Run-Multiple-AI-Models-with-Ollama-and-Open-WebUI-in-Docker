@@ -1,4 +1,5 @@
-**// This list is intended for use with a publicly available Discord bot scripted by Izocel, which communicates with the Ollama API via private DM. However, setting up the bot requires a fair amount of work, and you would need to host it yourself.**
+// ** This list is designed for use with the publicly available Discord bot, WhatTheChuckBot, created by Izocel. The bot interacts with the Ollama API via private DM. However, setting up and hosting the bot requires considerable effort, and you will need to handle the hosting yourself.
+
 
 export type AIModel = {
     id: number,
