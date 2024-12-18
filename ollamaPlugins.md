@@ -1,5 +1,4 @@
-// This list is intended for use with a publicly available Discord bot scripted by Izocel, which communicates with the Ollama API via private DM. However, setting up the bot requires a fair amount of work, and you would need to host it yourself.
-
+**// This list is intended for use with a publicly available Discord bot scripted by Izocel, which communicates with the Ollama API via private DM. However, setting up the bot requires a fair amount of work, and you would need to host it yourself.**
 
 export type AIModel = {
     id: number,
